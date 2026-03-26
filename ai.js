@@ -15,9 +15,6 @@
 
 const https = require("https");
 
-const GEMINI_ENDPOINT =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
-
 const MAX_RETRIES  = 3;
 const BASE_DELAY   = 2000; // ms — doubles per retry
 
@@ -319,52 +316,74 @@ function isValidCode(code, task) {
  * @param {string} validationTask - key for isValidCode check
  * @returns {Promise<string>} clean code string
  */
+const MODELS = ["gemini-2.0-flash", "gemini-2.0-flash-001", "gemini-2.5-pro"];
+
 async function callGemini(prompt, apiKey, validationTask = "backend") {
-  const url = `${GEMINI_ENDPOINT}?key=${apiKey}`;
+  for (const model of MODELS) {
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
 
-  const payload = {
-    contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: {
-      temperature:     0.45 + Math.random() * 0.35, // slight variation each run
-      maxOutputTokens: 1500,
-      topP:            0.9,
-    },
-  };
+    console.log(`\n[ai] 🚀 Trying model: ${model}`);
 
-  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
-    try {
-      console.log(`[ai] Gemini call attempt ${attempt}/${MAX_RETRIES}...`);
+    const payload = {
+      contents: [{ parts: [{ text: prompt }] }],
+      generationConfig: {
+        temperature: 0.45 + Math.random() * 0.35,
+        maxOutputTokens: 1500,
+        topP: 0.9,
+      },
+    };
 
-      const { status, body } = await httpsPost(url, payload);
+    for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+      try {
+        console.log(`[ai] ${model} attempt ${attempt}/${MAX_RETRIES}...`);
 
-      if (status !== 200) {
-        const errMsg = body?.error?.message || JSON.stringify(body).slice(0, 200);
-        throw new Error(`API status ${status}: ${errMsg}`);
-      }
+        const { status, body } = await httpsPost(url, payload);
 
-      const raw  = body?.candidates?.[0]?.content?.parts?.[0]?.text;
-      if (!raw)   throw new Error("Empty content in Gemini response");
+        if (status !== 200) {
+          const errMsg =
+            body?.error?.message || JSON.stringify(body).slice(0, 200);
 
-      const code = stripMarkdown(raw);
+          // 👉 If quota / 429 → skip to next model immediately
+          if (status === 429) {
+            console.log(`[ai] ⚠️ Quota hit for ${model}, switching model...`);
+            break;
+          }
 
-      if (!isValidCode(code, validationTask)) {
-        throw new Error(`Output does not look like valid ${validationTask} code (len=${code.length})`);
-      }
+          throw new Error(`API status ${status}: ${errMsg}`);
+        }
 
-      console.log(`[ai] ✓ Got ${code.split("\n").length} lines`);
-      return code;
+        const raw = body?.candidates?.[0]?.content?.parts?.[0]?.text;
+        if (!raw) throw new Error("Empty content in Gemini response");
 
-    } catch (err) {
-      console.error(`[ai] Attempt ${attempt} failed: ${err.message}`);
-      if (attempt < MAX_RETRIES) {
-        const delay = BASE_DELAY * attempt;
-        console.log(`[ai] Retrying in ${delay}ms...`);
-        await sleep(delay);
-      } else {
-        throw new Error(`All ${MAX_RETRIES} Gemini attempts failed. Last: ${err.message}`);
+        const code = stripMarkdown(raw);
+
+        if (!isValidCode(code, validationTask)) {
+          throw new Error(
+            `Invalid ${validationTask} code (len=${code.length})`,
+          );
+        }
+
+        console.log(
+          `[ai] ✅ Success with ${model} (${code.split("\n").length} lines)`,
+        );
+        return code;
+      } catch (err) {
+        console.error(
+          `[ai] ${model} attempt ${attempt} failed: ${err.message}`,
+        );
+
+        if (attempt < MAX_RETRIES) {
+          const delay = BASE_DELAY * attempt;
+          console.log(`[ai] Retrying in ${delay}ms...`);
+          await sleep(delay);
+        } else {
+          console.log(`[ai] ❌ ${model} exhausted, trying next model...`);
+        }
       }
     }
   }
+
+  throw new Error("All Gemini models failed");
 }
 
 // ─── Public Task Functions ────────────────────────────────────────────────────
