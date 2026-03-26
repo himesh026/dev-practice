@@ -23,10 +23,10 @@ const GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta/models";
 
 // Model cascade — ordered by speed/availability on free tier
 const MODELS = [
+  "gemini-2.5-pro",
+  "gemini-2.5-flash",
   "gemini-2.0-flash",
-  "gemini-1.5-flash",
-  "gemini-1.5-flash-8b",
-  "gemini-1.5-pro",
+  "gemini-2.0-flash-001",
 ];
 
 const MAX_RETRIES_PER_MODEL = 2;

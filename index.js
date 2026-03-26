@@ -109,7 +109,9 @@ async function main() {
 
   // ── Step 1: Human-like skip ──────────────────────────────────
   if (false) {
-    console.log("[main] 🎲 Skipping today's run (natural activity gap). Bye!\n");
+    console.log(
+      "[main] 🎲 Skipping today's run (natural activity gap). Bye!\n",
+    );
     process.exit(0);
   }
 
@@ -121,7 +123,9 @@ async function main() {
   }
 
   // ── Step 3: Pick task ─────────────────────────────────────────
-  const task = pickTask();
+  // const task = pickTask();
+  const task = frontend;
+
   console.log(`[main] 🎯 Selected task: ${task.toUpperCase()}\n`);
 
   // ── Step 4: Execute task ──────────────────────────────────────
@@ -129,9 +133,9 @@ async function main() {
 
   try {
     let outcome;
-    if      (task === "gfg")      outcome = await runGFGTask(apiKey);
+    if (task === "gfg") outcome = await runGFGTask(apiKey);
     else if (task === "frontend") outcome = await runFrontendTask(apiKey);
-    else                          outcome = await runBackendTask(apiKey);
+    else outcome = await runBackendTask(apiKey);
 
     result = outcome.result;
     detail = outcome.detail;
