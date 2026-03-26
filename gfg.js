@@ -283,11 +283,13 @@ async function fetchGFGPotd() {
     try {
       const problem = await strategy();
 
-      // Minimal sanity check: need a title and at least a stub of statement
+      // Minimal sanity check: need a title. Statement can be empty —
+      // the AI prompt builder handles missing statement gracefully.
       if (!problem.title || problem.title === "Unknown Problem") {
         throw new Error("Problem title missing or generic");
       }
-      if (problem.statement.length < 10) {
+      // Only reject if statement is present but suspiciously short (truncated)
+      if (problem.statement && problem.statement.length > 0 && problem.statement.length < 10) {
         throw new Error(`Statement too short: "${problem.statement}"`);
       }
 

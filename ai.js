@@ -23,10 +23,10 @@ const GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta/models";
 
 // Model cascade — ordered by speed/availability on free tier
 const MODELS = [
-  "gemini-2.5-pro",
+  "gemini-2.0-flash-lite", // cheapest, highest free-tier RPM
   "gemini-2.5-flash",
-  "gemini-2.0-flash",
-  "gemini-2.0-flash-001",
+  "gemini-2.0-flash", // fast, good quality
+  "gemini-2.0-flash-001", // most capable free-tier option
 ];
 
 const MAX_RETRIES_PER_MODEL = 2;
@@ -57,14 +57,17 @@ const GFG_LANGUAGES = {
 
 function buildGFGPrompt(problem, langKey) {
   const lang = GFG_LANGUAGES[langKey];
+  const statementSection = problem.statement && problem.statement.length > 10
+    ? `Description:\n${problem.statement}`
+    : `(Full problem description unavailable — infer the standard algorithm for "${problem.title}" based on title and tags.)`;
+
   return `You are an expert competitive programmer. Solve this problem in ${lang.name}.
 
 Problem: ${problem.title}
 Difficulty: ${problem.difficulty || "Medium"}
 Tags: ${problem.tags || "DSA"}
 
-Description:
-${problem.statement}
+${statementSection}
 
 ${problem.constraints ? `Constraints:\n${problem.constraints}` : ""}
 ${problem.examples    ? `\nExamples:\n${problem.examples}`    : ""}
