@@ -7,12 +7,7 @@
  * daily quota exhaustion. Switching models instantly hits the same rate limiter.
  * Solution: wait 15 seconds between model switches + longer per-attempt delays.
  *
- * Model cascade order (free tier friendly):
- *   1. gemini-2.0-flash          → fastest, highest free RPM
- *   2. gemini-1.5-flash          → reliable fallback
- *   3. gemini-1.5-flash-8b       → lightweight, usually available
- *   4. gemini-1.5-pro            → slowest but most capable fallback
- * ─────────────────────────────────────────────────────────────────────────────
+ * Model cascade 
  */
 
 "use strict";
@@ -21,12 +16,15 @@ const https = require("https");
 
 const GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta/models";
 
-// Model cascade — ordered by speed/availability on free tier
+// Model cascade — ordered by speed/availability on free tier.
+// Updated 2026-03: gemini-1.5-* fully removed; gemini-2.5-flash is now stable.
+// gemini-2.5-flash tried first: it's the most capable free-tier model and
+// handles quota better than 2.0-flash-lite at low request volumes.
 const MODELS = [
   "gemini-2.0-flash-lite", // cheapest, highest free-tier RPM
   "gemini-2.5-flash",
   "gemini-2.0-flash", // fast, good quality
-  "gemini-2.0-flash-001", // most capable free-tier option
+  "gemini-2.0-flash-001", // most ca
 ];
 
 const MAX_RETRIES_PER_MODEL = 2;
@@ -77,7 +75,8 @@ STRICT RULES:
 - Add concise inline comments explaining key decisions.
 - First comment line: Time complexity, second: Space complexity.
 - ${lang.hint}
-- Code must be complete, correct, and under 80 lines.
+- Code must be complete, correct, and between 30–80 lines. DO NOT output fewer than 30 lines.
+- Include the full working solution, helper functions, and at least one example usage at the bottom.
 - Begin immediately with the code — no preamble.`;
 }
 
@@ -170,7 +169,7 @@ STRICT RULES:
 - PropTypes or JSDoc comments for all props.
 - Inline styles — no external CSS file imports.
 - Named export AND default export at the bottom.
-- Code must be complete, self-contained, and under 100 lines.
+- Code must be complete, self-contained, and between 50–100 lines. DO NOT output fewer than 50 lines.
 - Begin immediately with imports — no preamble.`;
 }
 
@@ -267,7 +266,7 @@ STRICT RULES:
 - JSDoc comments on all exported functions/classes.
 - Use modern ES2022+ syntax (async/await, optional chaining, etc.).
 - CommonJS exports (module.exports).
-- Code must be complete and under 100 lines.
+- Code must be complete, between 50–100 lines. DO NOT output fewer than 50 lines.
 - Begin immediately with requires/imports — no preamble.`;
 }
 
@@ -317,7 +316,9 @@ function stripMarkdown(raw) {
 }
 
 function isValidCode(code, task) {
-  if (!code || code.trim().length < 80) return false;
+  if (!code || code.trim().length < 200) return false;  // raised from 80 — 9-line output was slipping through
+  const lines = code.trim().split("\n").length;
+  if (lines < 15) return false;  // enforce minimum line count regardless of char count
   const markers = {
     gfg_python:     /\bdef \w+|\bclass \w+|\bimport \b/,
     gfg_java:       /\bclass \b|\bpublic \b|\bvoid \b|\bint \b/,
@@ -482,7 +483,9 @@ STRICT RULES:
 - Add concise inline comments.
 - First two comment lines: time complexity and space complexity.
 - ${lang.hint}
-- Under 80 lines. Begin immediately with the code.`;
+- Between 30–80 lines. DO NOT output fewer than 30 lines.
+- Include the full solution plus at least one example/test at the bottom.
+- Begin immediately with the code.`;
 
   console.log(`[ai] Generating fallback DSA (${topic}) in ${lang.name}...`);
   const code = await callGemini(prompt, apiKey, `gfg_${langKey}`);
