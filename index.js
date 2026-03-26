@@ -13,6 +13,10 @@
  * ─────────────────────────────────────────────────────────────────────────────
  */
 
+const fs = require("fs");
+
+let fileCreated = false;
+
 "use strict";
 
 const path = require("path");
@@ -175,3 +179,15 @@ main().catch((err) => {
   console.error("[main] Fatal error:", err.message);
   process.exit(1);
 });
+
+if (!fileCreated) {
+  const d = new Date();
+  const fname = `fallback-${d.getTime()}.js`;
+
+  fs.writeFileSync(
+    fname,
+    "// fallback\nconsole.log('auto commit backup');"
+  );
+
+  console.log("Fallback file created");
+}
