@@ -3,11 +3,15 @@
  * ─────────────────────────────────────────────────────────────────────────────
  * Core Gemini API integration layer.
  *
- * Responsibilities:
- *   • Build task-specific prompts (DSA / frontend / backend)
- *   • Call Gemini 2.0 Flash with retries + exponential backoff
- *   • Strip all markdown formatting from responses
- *   • Validate output looks like real code before returning
+ * FIX 3: Quota errors were caused by RPM (requests-per-minute) limits, not
+ * daily quota exhaustion. Switching models instantly hits the same rate limiter.
+ * Solution: wait 15 seconds between model switches + longer per-attempt delays.
+ *
+ * Model cascade order (free tier friendly):
+ *   1. gemini-2.0-flash          → fastest, highest free RPM
+ *   2. gemini-1.5-flash          → reliable fallback
+ *   3. gemini-1.5-flash-8b       → lightweight, usually available
+ *   4. gemini-1.5-pro            → slowest but most capable fallback
  * ─────────────────────────────────────────────────────────────────────────────
  */
 
@@ -15,36 +19,42 @@
 
 const https = require("https");
 
-const MAX_RETRIES  = 3;
-const BASE_DELAY   = 2000; // ms — doubles per retry
+const GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta/models";
+
+// Model cascade — ordered by speed/availability on free tier
+const MODELS = [
+  "gemini-2.0-flash",
+  "gemini-1.5-flash",
+  "gemini-1.5-flash-8b",
+  "gemini-1.5-pro",
+];
+
+const MAX_RETRIES_PER_MODEL = 2;
+const RETRY_DELAY_MS        = 3000;  // wait between retries on same model
+const MODEL_SWITCH_DELAY_MS = 15000; // FIX: wait before trying next model (RPM cooldown)
 
 // ─── Language config ──────────────────────────────────────────────────────────
 
 const GFG_LANGUAGES = {
   python: {
     name: "Python",
-    ext: "py",
+    ext:  "py",
     hint: "Use clean Pythonic style. No classes unless needed.",
   },
   java: {
     name: "Java",
-    ext: "java",
+    ext:  "java",
     hint: "Wrap logic in a Solution class with a main method for testing.",
   },
   javascript: {
     name: "JavaScript",
-    ext: "js",
+    ext:  "js",
     hint: "Use modern ES2022+ syntax. Arrow functions where appropriate.",
   },
 };
 
-// ─── Prompt Builders ─────────────────────────────────────────────────────────
+// ─── Prompt builders ──────────────────────────────────────────────────────────
 
-/**
- * Builds the prompt for GFG POTD solving.
- * @param {object} problem  - { title, statement, difficulty, tags, examples, constraints }
- * @param {string} langKey  - "python" | "java" | "javascript"
- */
 function buildGFGPrompt(problem, langKey) {
   const lang = GFG_LANGUAGES[langKey];
   return `You are an expert competitive programmer. Solve this problem in ${lang.name}.
@@ -68,76 +78,84 @@ STRICT RULES:
 - Begin immediately with the code — no preamble.`;
 }
 
-/**
- * Randomly picks one of many specific frontend component prompts.
- * Returns the prompt string.
- */
 function buildFrontendPrompt() {
   const components = [
     {
       name: "animated toast notification system",
       details:
-        "A React component that shows slide-in toast messages (success/error/info/warning). Supports auto-dismiss after 3s and manual close. Uses useState + useEffect. Clean minimal styling with CSS-in-JS or inline styles.",
+        "A React component that shows slide-in toast messages (success/error/info/warning). " +
+        "Supports auto-dismiss after 3s and manual close. Uses useState + useEffect. " +
+        "Clean minimal styling with inline styles.",
     },
     {
       name: "dark/light theme toggle with persistence",
       details:
-        "A React hook (useTheme) + toggle button component. Persists preference to localStorage. Applies theme via CSS variables on :root. Smooth transition animation on toggle.",
+        "A React hook (useTheme) + toggle button component. Persists preference to localStorage. " +
+        "Applies theme via CSS variables on :root. Smooth transition animation on toggle.",
     },
     {
       name: "responsive navbar with mobile hamburger menu",
       details:
-        "A React functional component. Collapses to hamburger on mobile. Smooth slide-down animation for mobile menu. Links array passed as props. Active link highlighting.",
+        "A React functional component. Collapses to hamburger on mobile. " +
+        "Smooth slide-down animation for mobile menu. Links array passed as props. Active link highlighting.",
     },
     {
       name: "infinite scroll list component",
       details:
-        "A React component using IntersectionObserver for infinite scroll. Accepts a fetchMore function prop. Shows skeleton loaders while fetching. Handles errors gracefully.",
+        "A React component using IntersectionObserver for infinite scroll. " +
+        "Accepts a fetchMore function prop. Shows skeleton loaders while fetching.",
     },
     {
       name: "file drag-and-drop upload zone",
       details:
-        "A React component with drag-over visual feedback. Accepts file type restrictions via props. Shows file preview for images. Displays file name + size for non-images.",
+        "A React component with drag-over visual feedback. Accepts file type restrictions via props. " +
+        "Shows file preview for images. Displays file name + size for non-images.",
     },
     {
       name: "multi-step form wizard",
       details:
-        "A React multi-step form with step indicators. Validates each step before allowing next. Stores partial data in state. Final step shows summary before submit.",
+        "A React multi-step form with step indicators. Validates each step before allowing next. " +
+        "Stores partial data in state. Final step shows summary before submit.",
     },
     {
       name: "countdown timer component",
       details:
-        "A React countdown timer that accepts a target date prop. Displays days, hours, minutes, seconds with flip-card animation. Calls an onExpire callback prop when done.",
-    },
-    {
-      name: "star rating widget",
-      details:
-        "A React reusable rating component. Hover highlights stars. Supports half-star ratings. Controlled and uncontrolled modes via props. Accessible with ARIA labels.",
+        "A React countdown timer that accepts a target date prop. Displays days, hours, minutes, seconds. " +
+        "Calls an onExpire callback when done.",
     },
     {
       name: "real-time search filter component",
       details:
-        "A React component with debounced search input (300ms). Filters a list passed as prop. Highlights matching text in results. Shows 'No results' state.",
-    },
-    {
-      name: "animated progress stepper",
-      details:
-        "A React step progress indicator. Animated connector line fills as steps complete. Each step has icon, title, optional description. Supports horizontal and vertical layout via prop.",
+        "A React component with debounced search input (300ms). Filters a list passed as prop. " +
+        "Highlights matching text in results. Shows 'No results' state.",
     },
     {
       name: "copy-to-clipboard button with feedback",
       details:
-        "A React component wrapping any content. Clicking copies text to clipboard via navigator.clipboard. Shows a checkmark icon for 2s after copy. Resets back to copy icon.",
+        "A React component that copies text to clipboard via navigator.clipboard. " +
+        "Shows a checkmark icon for 2s after copy. Resets back to copy icon.",
     },
     {
       name: "modal dialog with focus trap",
       details:
-        "A React accessible modal. Traps keyboard focus inside modal. Closes on backdrop click or Escape key. Smooth fade+scale animation. Uses React Portal to append to body.",
+        "A React accessible modal. Traps keyboard focus inside modal. " +
+        "Closes on backdrop click or Escape key. Smooth fade+scale animation. Uses React Portal.",
+    },
+    {
+      name: "star rating widget",
+      details:
+        "A React reusable rating component. Hover highlights stars. Supports half-star ratings. " +
+        "Controlled and uncontrolled modes via props. Accessible with ARIA labels.",
+    },
+    {
+      name: "animated progress stepper",
+      details:
+        "A React step progress indicator. Animated connector line fills as steps complete. " +
+        "Each step has icon, title, optional description. Supports horizontal layout.",
     },
   ];
 
   const chosen = components[Math.floor(Math.random() * components.length)];
-
   return `You are a senior React developer. Create a production-ready React component: ${chosen.name}.
 
 Component requirements:
@@ -145,85 +163,96 @@ ${chosen.details}
 
 STRICT RULES:
 - Output ONLY raw React/JSX code. Zero markdown, zero backticks, zero explanations.
-- Use functional components with hooks only.
-- Modern React 18+ patterns.
+- Use functional components with hooks only (React 18+).
 - PropTypes or JSDoc comments for all props.
-- Inline styles or a styled approach — no external CSS file imports.
+- Inline styles — no external CSS file imports.
 - Named export AND default export at the bottom.
 - Code must be complete, self-contained, and under 100 lines.
-- Begin immediately with imports — no preamble, no file path comment.`;
+- Begin immediately with imports — no preamble.`;
 }
 
-/**
- * Randomly picks one of many specific backend utility prompts.
- * Returns the prompt string.
- */
 function buildBackendPrompt() {
   const utilities = [
     {
       name: "JWT authentication middleware for Express",
       details:
-        "Verifies Bearer token from Authorization header. Decodes payload and attaches to req.user. Returns 401 for missing/expired/invalid token. Supports optional role-based access via allowedRoles array param.",
+        "Verifies Bearer token from Authorization header. Decodes payload and attaches to req.user. " +
+        "Returns 401 for missing/expired/invalid token. Supports optional role-based access.",
     },
     {
       name: "request rate limiter middleware",
       details:
-        "An in-memory rate limiter for Express. Configurable: windowMs, maxRequests, message. Uses a Map to track request counts per IP. Cleans up expired windows automatically.",
+        "An in-memory rate limiter for Express. Configurable: windowMs, maxRequests, message. " +
+        "Uses a Map to track request counts per IP. Cleans up expired windows automatically.",
     },
     {
       name: "async error handler wrapper",
       details:
-        "A higher-order function that wraps async Express route handlers. Catches promise rejections and passes them to next(err). Also includes a global Express error handler middleware with proper HTTP status codes.",
+        "A higher-order function that wraps async Express route handlers. " +
+        "Catches promise rejections and passes them to next(err). " +
+        "Also includes a global Express error handler middleware with proper HTTP status codes.",
     },
     {
-      name: "input validation middleware using Zod",
+      name: "paginated query helper",
       details:
-        "A factory function createValidator(schema) that returns Express middleware. Validates req.body against a Zod schema. Returns structured 400 error with field-level messages on failure.",
-    },
-    {
-      name: "paginated query helper for MongoDB/Mongoose",
-      details:
-        "A utility function paginateQuery(Model, query, options). Accepts page, limit, sort, populate. Returns { data, total, page, totalPages, hasNext, hasPrev }.",
+        "A utility function paginateQuery(Model, query, options). " +
+        "Accepts page, limit, sort. Returns { data, total, page, totalPages, hasNext, hasPrev }.",
     },
     {
       name: "Redis-based cache middleware for Express",
       details:
-        "Middleware factory cacheMiddleware(ttlSeconds). Checks Redis for cached response by URL key. On miss, intercepts res.json to store response before sending. Includes cache invalidation helper.",
-    },
-    {
-      name: "file upload handler with Sharp image processing",
-      details:
-        "An Express route handler for image uploads using multer + sharp. Resizes to max 1200px width. Generates WebP thumbnail at 300px. Returns { original, thumbnail } URLs.",
+        "Middleware factory cacheMiddleware(ttlSeconds). Checks Redis for cached response by URL key. " +
+        "On miss, intercepts res.json to store response before sending. Includes cache invalidation helper.",
     },
     {
       name: "email service module using Nodemailer",
       details:
-        "A clean EmailService class with sendWelcome, sendPasswordReset, sendNotification methods. Uses template strings for HTML emails. Supports retry on transient failures. Environment-configured SMTP.",
+        "A clean EmailService class with sendWelcome, sendPasswordReset, sendNotification methods. " +
+        "Uses template strings for HTML emails. Supports retry on transient failures.",
     },
     {
       name: "CSV parser and database import utility",
       details:
-        "A Node.js utility that reads a CSV file, validates rows against a schema, batches inserts into a database, and reports success/failure counts. Uses streams to handle large files without memory overflow.",
-    },
-    {
-      name: "WebSocket event handler with rooms support",
-      details:
-        "A Socket.io handler module. Manages join/leave room events. Broadcasts messages to room members. Tracks online users per room in a Map. Handles disconnect cleanup.",
+        "A Node.js utility that reads a CSV file, validates rows against a schema, " +
+        "batches inserts, and reports success/failure counts. Uses streams for large files.",
     },
     {
       name: "API response formatter utility",
       details:
-        "A utility module with success(res, data, message, statusCode) and error(res, message, statusCode, errors) functions. Enforces consistent API response shape across the entire app.",
+        "A utility module with success(res, data, message, statusCode) and " +
+        "error(res, message, statusCode, errors) functions. " +
+        "Enforces consistent API response shape across the entire app.",
     },
     {
       name: "environment config validator",
       details:
-        "A startup module that validates all required env variables are present and correctly typed. Throws descriptive errors on startup if any are missing. Exports a typed config object for use throughout the app.",
+        "A startup module that validates all required env variables are present and correctly typed. " +
+        "Throws descriptive errors on startup if any are missing. " +
+        "Exports a typed config object for use throughout the app.",
+    },
+    {
+      name: "WebSocket event handler with rooms support",
+      details:
+        "A Socket.io handler module. Manages join/leave room events. " +
+        "Broadcasts messages to room members. Tracks online users per room in a Map. " +
+        "Handles disconnect cleanup.",
+    },
+    {
+      name: "input validation middleware using schema",
+      details:
+        "A factory function createValidator(schema) that returns Express middleware. " +
+        "Validates req.body against a schema object with type + required rules. " +
+        "Returns structured 400 error with field-level messages on failure.",
+    },
+    {
+      name: "file upload handler with image resizing",
+      details:
+        "An Express route handler for image uploads using multer. " +
+        "Validates file type and size. Renames file with UUID. Returns upload metadata.",
     },
   ];
 
   const chosen = utilities[Math.floor(Math.random() * utilities.length)];
-
   return `You are a senior Node.js backend engineer. Write a production-ready utility: ${chosen.name}.
 
 Requirements:
@@ -236,10 +265,10 @@ STRICT RULES:
 - Use modern ES2022+ syntax (async/await, optional chaining, etc.).
 - CommonJS exports (module.exports).
 - Code must be complete and under 100 lines.
-- Begin immediately with requires/imports — no preamble, no file path comment.`;
+- Begin immediately with requires/imports — no preamble.`;
 }
 
-// ─── HTTP Utilities ───────────────────────────────────────────────────────────
+// ─── HTTP helper ──────────────────────────────────────────────────────────────
 
 function httpsPost(url, payload) {
   return new Promise((resolve, reject) => {
@@ -275,11 +304,8 @@ function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
-// ─── Code Cleaning & Validation ──────────────────────────────────────────────
+// ─── Code cleaning & validation ───────────────────────────────────────────────
 
-/**
- * Strips all markdown code fences and any leading/trailing blank lines.
- */
 function stripMarkdown(raw) {
   return raw
     .replace(/^```[\w+#]*\n?/gim, "")
@@ -287,112 +313,112 @@ function stripMarkdown(raw) {
     .trim();
 }
 
-/**
- * Returns true if the string looks like real code (not an error message or prose).
- */
 function isValidCode(code, task) {
   if (!code || code.trim().length < 80) return false;
-
   const markers = {
     gfg_python:     /\bdef \w+|\bclass \w+|\bimport \b/,
     gfg_java:       /\bclass \b|\bpublic \b|\bvoid \b|\bint \b/,
-    gfg_javascript: /\bfunction\b|\bconst\b|\blet\b|\=>/,
-    frontend:       /import React|from ['"]react['"]|=>|useState|useEffect/i,
+    gfg_javascript: /\bfunction\b|\bconst\b|\blet\b|=>/,
+    frontend:       /import|from\s+['"]react['"]|useState|useEffect|=>/i,
     backend:        /require\(|module\.exports|async\s+function|const\s+\w+\s*=/,
   };
-
-  const key = Object.keys(markers).find((k) => task.startsWith(k.split("_")[0]));
-  const pattern = markers[task] || markers[key] || /\w/;
+  // Try exact task key first, then prefix match
+  const pattern = markers[task] || Object.entries(markers).find(([k]) => task.startsWith(k.split("_")[0]))?.[1] || /\w/;
   return pattern.test(code);
 }
 
-// ─── Main API Call ────────────────────────────────────────────────────────────
+// ─── FIX 3: Core API caller with model cascade + RPM-aware delays ────────────
 
 /**
- * Calls Gemini API with the given prompt, retries on failure.
+ * Calls Gemini API, trying each model in MODELS array.
+ * On quota/rate-limit error, waits MODEL_SWITCH_DELAY_MS before switching.
+ * This handles RPM limits (requests per minute), not just daily quota.
  *
  * @param {string} prompt
  * @param {string} apiKey
- * @param {string} validationTask - key for isValidCode check
+ * @param {string} validationTask
  * @returns {Promise<string>} clean code string
  */
-const MODELS = ["gemini-2.0-flash", "gemini-2.0-flash-001", "gemini-2.5-pro"];
-
 async function callGemini(prompt, apiKey, validationTask = "backend") {
-  for (const model of MODELS) {
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
+  const errors = [];
 
-    console.log(`\n[ai] 🚀 Trying model: ${model}`);
+  for (let modelIdx = 0; modelIdx < MODELS.length; modelIdx++) {
+    const model = MODELS[modelIdx];
+    const url   = `${GEMINI_BASE}/${model}:generateContent?key=${apiKey}`;
 
-    const payload = {
-      contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: {
-        temperature: 0.45 + Math.random() * 0.35,
-        maxOutputTokens: 1500,
-        topP: 0.9,
-      },
-    };
+    console.log(`[ai] 🚀 Trying model: ${model}`);
 
-    for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    for (let attempt = 1; attempt <= MAX_RETRIES_PER_MODEL; attempt++) {
       try {
-        console.log(`[ai] ${model} attempt ${attempt}/${MAX_RETRIES}...`);
+        console.log(`[ai] ${model} attempt ${attempt}/${MAX_RETRIES_PER_MODEL}...`);
+
+        const payload = {
+          contents: [{ parts: [{ text: prompt }] }],
+          generationConfig: {
+            temperature:     0.45 + Math.random() * 0.3,
+            maxOutputTokens: 1500,
+            topP:            0.9,
+          },
+        };
 
         const { status, body } = await httpsPost(url, payload);
 
+        // 429 = rate limited / quota exceeded
+        if (status === 429) {
+          const msg = body?.error?.message || "Rate limited";
+          console.warn(`[ai] ⚠️  Quota/rate limit on ${model}: ${msg}`);
+          // Don't retry same model — break to next model after cooldown
+          errors.push(`${model}: quota/rate limit`);
+          break;
+        }
+
         if (status !== 200) {
-          const errMsg =
-            body?.error?.message || JSON.stringify(body).slice(0, 200);
-
-          // 👉 If quota / 429 → skip to next model immediately
-          if (status === 429) {
-            console.log(`[ai] ⚠️ Quota hit for ${model}, switching model...`);
-            break;
-          }
-
-          throw new Error(`API status ${status}: ${errMsg}`);
+          const msg = body?.error?.message || JSON.stringify(body).slice(0, 150);
+          throw new Error(`HTTP ${status}: ${msg}`);
         }
 
         const raw = body?.candidates?.[0]?.content?.parts?.[0]?.text;
-        if (!raw) throw new Error("Empty content in Gemini response");
+        if (!raw) throw new Error("Empty content in response");
 
         const code = stripMarkdown(raw);
-
         if (!isValidCode(code, validationTask)) {
-          throw new Error(
-            `Invalid ${validationTask} code (len=${code.length})`,
-          );
+          throw new Error(`Output doesn't look like valid ${validationTask} code (len=${code.length})`);
         }
 
-        console.log(
-          `[ai] ✅ Success with ${model} (${code.split("\n").length} lines)`,
-        );
+        console.log(`[ai] ✓ ${model} succeeded — ${code.split("\n").length} lines`);
         return code;
-      } catch (err) {
-        console.error(
-          `[ai] ${model} attempt ${attempt} failed: ${err.message}`,
-        );
 
-        if (attempt < MAX_RETRIES) {
-          const delay = BASE_DELAY * attempt;
-          console.log(`[ai] Retrying in ${delay}ms...`);
-          await sleep(delay);
-        } else {
-          console.log(`[ai] ❌ ${model} exhausted, trying next model...`);
+      } catch (err) {
+        // Don't retry if it was a quota issue (already broke out above)
+        if (err.message?.includes("quota") || err.message?.includes("rate limit")) {
+          errors.push(`${model}: ${err.message}`);
+          break;
+        }
+
+        console.error(`[ai] ${model} attempt ${attempt} failed: ${err.message}`);
+        errors.push(`${model} attempt ${attempt}: ${err.message}`);
+
+        if (attempt < MAX_RETRIES_PER_MODEL) {
+          console.log(`[ai] Retrying in ${RETRY_DELAY_MS}ms...`);
+          await sleep(RETRY_DELAY_MS);
         }
       }
     }
+
+    // Between model switches: wait for RPM window to partially reset
+    if (modelIdx < MODELS.length - 1) {
+      console.log(`[ai] Waiting ${MODEL_SWITCH_DELAY_MS / 1000}s before trying next model (RPM cooldown)...`);
+      await sleep(MODEL_SWITCH_DELAY_MS);
+    }
   }
 
-  throw new Error("All Gemini models failed");
+  throw new Error(`All Gemini models failed:\n  ${errors.join("\n  ")}`);
 }
 
-// ─── Public Task Functions ────────────────────────────────────────────────────
+// ─── Public task functions ────────────────────────────────────────────────────
 
 /**
  * Generates a GFG POTD solution in a random language.
- * @param {object} problem
- * @param {string} apiKey
- * @returns {Promise<{ code, langKey, ext, langName }>}
  */
 async function generateGFGSolution(problem, apiKey) {
   const langKeys = Object.keys(GFG_LANGUAGES);
@@ -407,31 +433,23 @@ async function generateGFGSolution(problem, apiKey) {
 
 /**
  * Generates a frontend React component.
- * @param {string} apiKey
- * @returns {Promise<string>} JSX code
  */
 async function generateFrontendComponent(apiKey) {
   console.log("[ai] Generating frontend component...");
-  const prompt = buildFrontendPrompt();
-  return callGemini(prompt, apiKey, "frontend");
+  return callGemini(buildFrontendPrompt(), apiKey, "frontend");
 }
 
 /**
  * Generates a backend utility/service.
- * @param {string} apiKey
- * @returns {Promise<string>} JS code
  */
 async function generateBackendUtility(apiKey) {
   console.log("[ai] Generating backend utility...");
-  const prompt = buildBackendPrompt();
-  return callGemini(prompt, apiKey, "backend");
+  return callGemini(buildBackendPrompt(), apiKey, "backend");
 }
 
 /**
  * Generates a fallback AI-invented DSA problem + solution
  * (used when GFG fetch fails).
- * @param {string} apiKey
- * @returns {Promise<{ code, langKey, ext, langName, title }>}
  */
 async function generateFallbackDSA(apiKey) {
   const langKeys = Object.keys(GFG_LANGUAGES);
@@ -439,10 +457,18 @@ async function generateFallbackDSA(apiKey) {
   const lang     = GFG_LANGUAGES[langKey];
 
   const topics = [
-    "sliding window maximum", "LRU cache implementation", "word break problem",
-    "coin change with minimum coins", "number of islands (BFS)", "longest palindromic substring",
-    "trapping rain water", "serialize and deserialize binary tree",
-    "find all permutations of a string", "trie implementation with insert and search",
+    "sliding window maximum",
+    "LRU cache implementation",
+    "word break problem",
+    "coin change with minimum coins",
+    "number of islands using BFS",
+    "longest palindromic substring",
+    "trapping rain water",
+    "find all permutations of a string",
+    "trie implementation with insert and search",
+    "maximum subarray sum using Kadane's algorithm",
+    "binary search on rotated sorted array",
+    "merge overlapping intervals",
   ];
   const topic = topics[Math.floor(Math.random() * topics.length)];
 

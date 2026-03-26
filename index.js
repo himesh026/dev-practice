@@ -13,10 +13,9 @@
  * ─────────────────────────────────────────────────────────────────────────────
  */
 
-const fs = require("fs");
-
-let fileCreated = false;
-
+// FIX 2: "use strict" must be the very first statement — not after requires.
+// The original had `const fs = require("fs")` and `let fileCreated = false`
+// before "use strict", which silently violated strict mode scoping.
 "use strict";
 
 const path = require("path");
@@ -25,8 +24,8 @@ const {
   generateFrontendComponent,
   generateBackendUtility,
   generateFallbackDSA,
-}                          = require("./ai");
-const { fetchGFGPotd }     = require("./gfg");
+} = require("./ai");
+const { fetchGFGPotd } = require("./gfg");
 const {
   pickTask,
   writeGFGSolution,
@@ -34,10 +33,10 @@ const {
   writeBackendUtility,
   updateReadme,
   todayDate,
-}                          = require("./generator");
-const { commitAndPush }    = require("./commit");
+} = require("./generator");
+const { commitAndPush } = require("./commit");
 
-// ─── Human-like skip ─────────────────────────────────────────────────────────
+// ─── Human-like skip ──────────────────────────────────────────────────────────
 
 /**
  * Returns true with ~35% probability.
@@ -53,7 +52,6 @@ async function runGFGTask(apiKey) {
   let problem;
   let isFallback = false;
 
-  // Try to fetch real POTD; fall back to AI-generated DSA if GFG is unavailable
   try {
     problem = await fetchGFGPotd();
     console.log(`[main] GFG POTD: "${problem.title}" (${problem.difficulty})`);
@@ -66,14 +64,13 @@ async function runGFGTask(apiKey) {
   let solution;
   if (isFallback) {
     solution = await generateFallbackDSA(apiKey);
-    // Build a synthetic problem object so writeGFGSolution gets what it needs
-    problem  = {
-      title:      solution.title,
-      difficulty: "Medium",
-      tags:       "DSA, Algorithms",
-      statement:  solution.title,
+    problem = {
+      title:       solution.title,
+      difficulty:  "Medium",
+      tags:        "DSA, Algorithms",
+      statement:   solution.title,
       constraints: "",
-      examples:   "",
+      examples:    "",
     };
   } else {
     solution = await generateGFGSolution(problem, apiKey);
@@ -123,11 +120,11 @@ async function main() {
     process.exit(1);
   }
 
-  // ── Step 3: Pick task ────────────────────────────────────────
+  // ── Step 3: Pick task ─────────────────────────────────────────
   const task = pickTask();
   console.log(`[main] 🎯 Selected task: ${task.toUpperCase()}\n`);
 
-  // ── Step 4: Execute task ─────────────────────────────────────
+  // ── Step 4: Execute task ──────────────────────────────────────
   let result, detail;
 
   try {
@@ -141,10 +138,10 @@ async function main() {
   } catch (err) {
     console.error(`[main] ❌ Task failed: ${err.message}`);
     console.log("[main] Exiting without commit (graceful failure).\n");
-    process.exit(0); // Don't mark the Actions job as failed
+    process.exit(0);
   }
 
-  // ── Step 5: Check if a new file was actually written ─────────
+  // ── Step 5: Check if a new file was actually written ──────────
   if (!result?.written) {
     console.log("[main] ℹ️  No new file created — nothing to commit.");
     process.exit(0);
@@ -152,14 +149,14 @@ async function main() {
 
   console.log(`\n[main] ✓ New file: ${result.relativePath}`);
 
-  // ── Step 6: Update README ────────────────────────────────────
+  // ── Step 6: Update README ─────────────────────────────────────
   try {
     updateReadme();
   } catch (err) {
     console.warn(`[main] README update failed (non-fatal): ${err.message}`);
   }
 
-  // ── Step 7: Commit + push ────────────────────────────────────
+  // ── Step 7: Commit + push ─────────────────────────────────────
   const filesToStage = [result.relativePath, "README.md"];
 
   try {
@@ -175,19 +172,18 @@ async function main() {
   }
 }
 
+// FIX 2 (continued): The original had a rogue block AFTER main() that ran
+// unconditionally at module load time:
+//
+//   if (!fileCreated) {
+//     fs.writeFileSync(fname, ...)   ← always ran, even on skip/error
+//   }
+//
+// This caused "Fallback file created" to print before GFG even responded,
+// and committed a garbage file on every single run regardless of outcome.
+// REMOVED entirely — the ai.js fallback DSA logic handles this correctly.
+
 main().catch((err) => {
   console.error("[main] Fatal error:", err.message);
   process.exit(1);
 });
-
-if (!fileCreated) {
-  const d = new Date();
-  const fname = `fallback-${d.getTime()}.js`;
-
-  fs.writeFileSync(
-    fname,
-    "// fallback\nconsole.log('auto commit backup');"
-  );
-
-  console.log("Fallback file created");
-}
