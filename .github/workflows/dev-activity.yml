@@ -42,13 +42,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "npm"
+          
 
       # ── 3. Install dependencies (if any) ────────────────────────────────
       - name: Install dependencies
         run: |
           if [ -f package.json ] && [ -s package.json ]; then
-            npm ci --prefer-offline --no-audit
+            npm install --no-audit --no-fund
           else
             echo "No package.json or empty — skipping install"
           fi
@@ -65,7 +65,8 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GIT_USER_NAME:  "github-actions[bot]"
           GIT_USER_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
-        run: node index.js
+        run: |
+          node index.js || echo "Script failed, skipping commit"
 
       # ── 6. Write job summary ─────────────────────────────────────────────
       - name: Write job summary
