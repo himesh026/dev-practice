@@ -11,8 +11,7 @@
 const { execSync } = require("child_process");
 const path         = require("path");
 
-// Files live at repo root (not in a scripts/ subfolder), so __dirname IS the repo root.
-const REPO_ROOT = path.resolve(__dirname);
+const REPO_ROOT = path.resolve(__dirname, "..");
 
 // ─── Commit message pools per task ───────────────────────────────────────────
 
@@ -138,6 +137,18 @@ function commitAndPush(filePaths, task, detail = "") {
 
   const message = buildMessage(task, detail);
   run(`git commit -m "${message}"`);
+
+  // Pull any remote changes that landed since checkout (non-fast-forward guard).
+  // --rebase keeps history linear and replays our commit on top.
+  // --autostash protects any unstaged changes during the rebase.
+  try {
+    run("git pull --rebase --autostash origin main");
+  } catch (err) {
+    // If rebase fails (e.g. genuine conflict), abort and let the push attempt anyway.
+    console.warn(`[commit] pull --rebase warning (non-fatal): ${err.message}`);
+    try { run("git rebase --abort"); } catch {}
+  }
+
   run("git push");
 
   console.log(`[commit] ✅ Pushed: "${message}"`);
