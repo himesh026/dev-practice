@@ -1,5 +1,5 @@
 /**
- * scripts/commit.js
+ * commit.js
  * ─────────────────────────────────────────────────────────────────────────────
  * Git operations: configure identity, stage files, commit, and push.
  * Designed for GitHub Actions environment with GITHUB_TOKEN authentication.
@@ -11,9 +11,9 @@
 const { execSync } = require("child_process");
 const path         = require("path");
 
-const REPO_ROOT = path.resolve(__dirname, "..");
-
-// ─── Commit message pools per task ───────────────────────────────────────────
+// FIX: Files live at repo root, NOT in a scripts/ subfolder.
+// __dirname is already the repo root — do NOT go up one level with "..".
+const REPO_ROOT = path.resolve(__dirname);
 
 const MESSAGES = {
   gfg: [
@@ -49,20 +49,10 @@ const MESSAGES = {
   ],
 };
 
-/**
- * Builds a realistic commit message for the given task type.
- * Appends a short variation suffix so consecutive identical messages
- * don't appear in git log.
- *
- * @param {string} task - "gfg" | "frontend" | "backend"
- * @param {string} [detail] - optional problem/component name to embed
- * @returns {string}
- */
 function buildMessage(task, detail = "") {
   const pool = MESSAGES[task] || MESSAGES.generic;
   let msg    = pool[Math.floor(Math.random() * pool.length)];
 
-  // Embed problem/component name for GFG commits
   if (task === "gfg" && detail) {
     const clean = detail.replace(/[^a-zA-Z0-9 \-]/g, "").trim().slice(0, 35);
     const gfgSpecific = [
@@ -75,8 +65,6 @@ function buildMessage(task, detail = "") {
 
   return msg;
 }
-
-// ─── Git helpers ──────────────────────────────────────────────────────────────
 
 function run(cmd) {
   console.log(`[commit] $ ${cmd}`);
@@ -95,7 +83,6 @@ function run(cmd) {
   }
 }
 
-/** Configures git identity for the Actions bot. */
 function configureGit() {
   const name  = process.env.GIT_USER_NAME  || "github-actions[bot]";
   const email = process.env.GIT_USER_EMAIL ||
@@ -104,27 +91,16 @@ function configureGit() {
   run(`git config user.email "${email}"`);
 }
 
-/**
- * Stages, commits, and pushes the given files.
- *
- * @param {string[]} filePaths   - repo-relative paths to stage
- * @param {string}   task        - "gfg" | "frontend" | "backend"
- * @param {string}   [detail]    - optional detail for commit message
- * @returns {boolean} true if a commit was pushed
- */
 function commitAndPush(filePaths, task, detail = "") {
   configureGit();
 
-  // Stage each file
   for (const fp of filePaths) {
-    // Accept both absolute and relative paths
     const rel = fp.startsWith(REPO_ROOT)
       ? path.relative(REPO_ROOT, fp)
       : fp;
     run(`git add "${rel}"`);
   }
 
-  // Check if anything is staged
   const status = execSync("git status --porcelain", {
     cwd:      REPO_ROOT,
     encoding: "utf8",
@@ -138,7 +114,7 @@ function commitAndPush(filePaths, task, detail = "") {
   const message = buildMessage(task, detail);
   run(`git commit -m "${message}"`);
 
-  // Push with one retry: if rejected (non-fast-forward), pull --rebase then push again.
+  // Push with one automatic retry on non-fast-forward rejection.
   try {
     run("git push");
   } catch (pushErr) {
