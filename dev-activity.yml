@@ -59,7 +59,11 @@ jobs:
           git remote set-url origin \
             https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
-      # ── 5. Run the automation script ─────────────────────────────────────
+      # ── 5. Pull latest to avoid non-fast-forward push rejections ────────
+      - name: Pull latest commits
+        run: git pull --rebase --autostash origin main
+
+      # ── 6. Run the automation script ─────────────────────────────────────
       - name: Run daily task
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -67,7 +71,7 @@ jobs:
           GIT_USER_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
         run: node index.js
 
-      # ── 6. Write job summary ─────────────────────────────────────────────
+      # ── 7. Write job summary ─────────────────────────────────────────────
       - name: Write job summary
         if: always()
         run: |
