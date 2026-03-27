@@ -108,7 +108,7 @@ async function main() {
   console.log(`${"═".repeat(58)}\n`);
 
   // ── Step 1: Human-like skip ──────────────────────────────────
-  if (false) {
+  if (shouldSkip()) {
     console.log(
       "[main] 🎲 Skipping today's run (natural activity gap). Bye!\n",
     );
