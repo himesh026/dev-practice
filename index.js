@@ -123,8 +123,8 @@ async function main() {
   }
 
   // ── Step 3: Pick task ─────────────────────────────────────────
-  // const task = pickTask();
-  const task = "frontend";
+  const task = pickTask();
+
 
   console.log(`[main] 🎯 Selected task: ${task.toUpperCase()}\n`);
 
