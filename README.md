@@ -1,17 +1,18 @@
 # 👨‍💻 Dev Activity
 
-A portfolio of daily coding practice: DSA problem-solving, React component
-development, and backend utility engineering.
+A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
 ![Last Commit](https://img.shields.io/badge/last%20commit-2026-03-27-blue)
-![Total Files](https://img.shields.io/badge/files-1-orange)
+![Total Files](https://img.shields.io/badge/files-2-orange)
 
 ---
 
 ## 🧩 GFG Problems (DSA Practice)
 
-_Nothing yet._
+| Date | File | Description |
+|------|------|-------------|
+| 2026-03-27 | [`gfg/2026-03-27_chocolates-pickup.js`](./gfg/2026-03-27_chocolates-pickup.js) | Chocolates Pickup |
 
 ## 🎨 Frontend Components
 
@@ -31,7 +32,6 @@ _Nothing yet._
 ├── gfg/         # GeeksForGeeks POTD solutions (Python / Java / JS)
 ├── frontend/    # React components and UI utilities
 ├── backend/     # Node.js services, middleware, and utilities
-└── scripts/     # Automation scripts (internal)
 ```
 
 ## 🔤 Languages & Tech
@@ -43,4 +43,4 @@ _Nothing yet._
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-03-27 06:13:13 UTC*
+*Auto-updated on 2026-03-27 06:35:24 UTC*
