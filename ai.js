@@ -316,9 +316,9 @@ function stripMarkdown(raw) {
 }
 
 function isValidCode(code, task) {
-  if (!code || code.trim().length < 200) return false;  // raised from 80 — 9-line output was slipping through
+  if (!code || code.trim().length < 500) return false;  // raised from 80 — 9-line output was slipping through
   const lines = code.trim().split("\n").length;
-  if (lines < 15) return false;  // enforce minimum line count regardless of char count
+  if (lines < 35) return false;  // enforce minimum line count regardless of char count
   const markers = {
     gfg_python:     /\bdef \w+|\bclass \w+|\bimport \b/,
     gfg_java:       /\bclass \b|\bpublic \b|\bvoid \b|\bint \b/,
