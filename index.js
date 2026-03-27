@@ -43,7 +43,7 @@ const { commitAndPush } = require("./commit");
  * Creates natural gaps in the contribution graph.
  */
 function shouldSkip() {
-  return Math.random() < 0.35;
+  return Math.random() < 0.05;
 }
 
 // ─── Task runners ─────────────────────────────────────────────────────────────
