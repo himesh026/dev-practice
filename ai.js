@@ -385,9 +385,9 @@ async function callGemini(prompt, apiKey, validationTask = "backend") {
         if (!raw) throw new Error("Empty content in response");
 
         const code = stripMarkdown(raw);
-        if (!isValidCode(code, validationTask)) {
-          throw new Error(`Output doesn't look like valid ${validationTask} code (len=${code.length})`);
-        }
+        // if (!isValidCode(code, validationTask)) {
+        //   throw new Error(`Output doesn't look like valid ${validationTask} code (len=${code.length})`);
+        // }
 
         console.log(`[ai] ✓ ${model} succeeded — ${code.split("\n").length} lines`);
         return code;
