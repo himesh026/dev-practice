@@ -15,7 +15,8 @@
 const fs   = require("fs");
 const path = require("path");
 
-const REPO_ROOT = path.resolve(__dirname, "..");
+// Files live at repo root (not in a scripts/ subfolder), so __dirname IS the repo root.
+const REPO_ROOT = path.resolve(__dirname);
 
 const DIRS = {
   gfg:      path.join(REPO_ROOT, "gfg"),

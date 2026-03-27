@@ -11,7 +11,8 @@
 const { execSync } = require("child_process");
 const path         = require("path");
 
-const REPO_ROOT = path.resolve(__dirname, "..");
+// Files live at repo root (not in a scripts/ subfolder), so __dirname IS the repo root.
+const REPO_ROOT = path.resolve(__dirname);
 
 // ─── Commit message pools per task ───────────────────────────────────────────
 
