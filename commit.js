@@ -84,9 +84,9 @@ function run(cmd) {
 }
 
 function configureGit() {
-  const name  = process.env.GIT_USER_NAME  || "github-actions[bot]";
+  const name  = process.env.GIT_USER_NAME  || "himesh026";
   const email = process.env.GIT_USER_EMAIL ||
-    "41898282+github-actions[bot]@users.noreply.github.com";
+    "himeshdhaka616@gmail.com";
   run(`git config user.name  "${name}"`);
   run(`git config user.email "${email}"`);
 }
