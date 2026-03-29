@@ -67,8 +67,8 @@ jobs:
       - name: Run daily task
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GIT_USER_NAME:  "github-actions[bot]"
-          GIT_USER_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
+          GIT_USER_NAME:  "himesh026"
+          GIT_USER_EMAIL: "himeshdhaka616@gmail.com"
         run: node index.js
 
       # ── 7. Write job summary ─────────────────────────────────────────────
