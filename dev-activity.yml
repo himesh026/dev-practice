@@ -35,7 +35,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
 
       # ── 2. Set up Node.js ────────────────────────────────────────────────
       - name: Setup Node.js
@@ -57,7 +57,7 @@ jobs:
       - name: Configure git remote
         run: |
           git remote set-url origin \
-            https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+            https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git
 
       # ── 5. Pull latest to avoid non-fast-forward push rejections ────────
       - name: Pull latest commits
