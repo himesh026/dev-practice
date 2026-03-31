@@ -1,19 +1,21 @@
 /**
  * commit.js
  * ─────────────────────────────────────────────────────────────────────────────
- * Git operations: configure identity, stage files, commit, and push.
- * Designed for GitHub Actions environment with GITHUB_TOKEN authentication.
+ * Creates commits via GitHub REST API instead of git CLI.
+ * API commits with your verified email count toward your contribution graph,
+ * unlike git-based commits made inside GitHub Actions workflows.
  * ─────────────────────────────────────────────────────────────────────────────
  */
 
 "use strict";
 
-const { execSync } = require("child_process");
-const path         = require("path");
+const fs    = require("fs");
+const path  = require("path");
+const https = require("https");
 
-// FIX: Files live at repo root, NOT in a scripts/ subfolder.
-// __dirname is already the repo root — do NOT go up one level with "..".
 const REPO_ROOT = path.resolve(__dirname);
+
+// ─── Commit message pools ─────────────────────────────────────────────────────
 
 const MESSAGES = {
   gfg: [
@@ -66,69 +68,153 @@ function buildMessage(task, detail = "") {
   return msg;
 }
 
-function run(cmd) {
-  console.log(`[commit] $ ${cmd}`);
-  try {
-    const out = execSync(cmd, {
-      cwd:      REPO_ROOT,
-      encoding: "utf8",
-      stdio:    ["pipe", "pipe", "pipe"],
-    });
-    if (out?.trim()) console.log(`[commit]   ${out.trim()}`);
-    return out || "";
-  } catch (err) {
-    const stderr = err.stderr?.trim() || "";
-    const stdout = err.stdout?.trim() || "";
-    throw new Error(`Command failed: ${cmd}\n${stderr || stdout}`);
-  }
-}
+// ─── GitHub API helper ────────────────────────────────────────────────────────
 
-function configureGit() {
-  const name  = process.env.GIT_USER_NAME  || "himesh026";
-  const email = process.env.GIT_USER_EMAIL ||
-    "himeshdhaka616@gmail.com";
-  run(`git config user.name  "${name}"`);
-  run(`git config user.email "${email}"`);
-}
-
-function commitAndPush(filePaths, task, detail = "") {
-  configureGit();
-
-  for (const fp of filePaths) {
-    const rel = fp.startsWith(REPO_ROOT)
-      ? path.relative(REPO_ROOT, fp)
-      : fp;
-    run(`git add "${rel}"`);
-  }
-
-  const status = execSync("git status --porcelain", {
-    cwd:      REPO_ROOT,
-    encoding: "utf8",
+function apiRequest(method, path, body, token) {
+  return new Promise((resolve, reject) => {
+    const payload = body ? JSON.stringify(body) : null;
+    const req = https.request(
+      {
+        hostname: "api.github.com",
+        path,
+        method,
+        headers: {
+          "Authorization":  `Bearer ${token}`,
+          "Accept":         "application/vnd.github+json",
+          "User-Agent":     "dev-practice-automation",
+          "Content-Type":   "application/json",
+          "X-GitHub-Api-Version": "2022-11-28",
+          ...(payload ? { "Content-Length": Buffer.byteLength(payload) } : {}),
+        },
+      },
+      (res) => {
+        let data = "";
+        res.on("data", (c) => (data += c));
+        res.on("end", () => {
+          try {
+            const json = JSON.parse(data);
+            if (res.statusCode >= 400) {
+              reject(new Error(`GitHub API ${res.statusCode}: ${json.message || data}`));
+            } else {
+              resolve(json);
+            }
+          } catch {
+            reject(new Error(`Non-JSON response (${res.statusCode}): ${data.slice(0, 200)}`));
+          }
+        });
+      }
+    );
+    req.on("error", reject);
+    if (payload) req.write(payload);
+    req.end();
   });
+}
 
-  if (!status.trim()) {
-    console.log("[commit] Nothing staged — skipping commit.");
-    return false;
+// ─── Core API commit logic ────────────────────────────────────────────────────
+
+/**
+ * Creates a commit via GitHub API. This counts toward your contribution graph
+ * because it uses your PAT + verified email, not the Actions bot identity.
+ *
+ * Flow:
+ *   1. GET /repos/:owner/:repo/git/ref/heads/main  → get latest commit SHA
+ *   2. GET /repos/:owner/:repo/git/commits/:sha    → get tree SHA
+ *   3. For each file: PUT /repos/:owner/:repo/contents/:path (creates blob + tree entry)
+ *      Actually we use the simpler Contents API which handles tree/blob internally.
+ *   4. The Contents API PUT automatically creates a commit — we just need to
+ *      call it for each file with the correct author identity.
+ */
+async function commitViaAPI(filePaths, message, token, owner, repo, authorName, authorEmail) {
+  // We use the Contents API (PUT /repos/:owner/:repo/contents/:path)
+  // for each file. It creates individual commits per file, but that's fine —
+  // each one counts as a contribution.
+
+  let lastSha = null;
+
+  for (const filePath of filePaths) {
+    const fullPath = path.isAbsolute(filePath)
+      ? filePath
+      : path.join(REPO_ROOT, filePath);
+
+    if (!fs.existsSync(fullPath)) {
+      console.log(`[commit] Skipping missing file: ${filePath}`);
+      continue;
+    }
+
+    const relativePath = path.relative(REPO_ROOT, fullPath).replace(/\\/g, "/");
+    const content      = fs.readFileSync(fullPath);
+    const encoded      = content.toString("base64");
+
+    // Get current file SHA if it exists (required for updates)
+    let existingSha = null;
+    try {
+      const existing = await apiRequest(
+        "GET",
+        `/repos/${owner}/${repo}/contents/${relativePath}`,
+        null,
+        token
+      );
+      existingSha = existing.sha;
+    } catch {
+      // File doesn't exist yet — that's fine, it's a create
+    }
+
+    const body = {
+      message,
+      content: encoded,
+      author: {
+        name:  authorName,
+        email: authorEmail,
+        date:  new Date().toISOString(),
+      },
+      committer: {
+        name:  authorName,
+        email: authorEmail,
+        date:  new Date().toISOString(),
+      },
+      ...(existingSha ? { sha: existingSha } : {}),
+    };
+
+    console.log(`[commit] API: uploading ${relativePath}...`);
+    const result = await apiRequest(
+      "PUT",
+      `/repos/${owner}/${repo}/contents/${relativePath}`,
+      body,
+      token
+    );
+    lastSha = result?.commit?.sha;
+    console.log(`[commit] ✓ ${relativePath} → commit ${lastSha?.slice(0, 7)}`);
   }
+
+  return lastSha;
+}
+
+// ─── Main export ──────────────────────────────────────────────────────────────
+
+async function commitAndPush(filePaths, task, detail = "") {
+  const token       = process.env.PAT_TOKEN || process.env.GITHUB_TOKEN;
+  const owner       = process.env.GITHUB_REPOSITORY_OWNER;
+  const repo        = (process.env.GITHUB_REPOSITORY || "").split("/")[1];
+  const authorName  = process.env.GIT_USER_NAME  || "himesh026";
+  const authorEmail = process.env.GIT_USER_EMAIL || "himeshdhaka616@gmail.com";
+
+  if (!token)  throw new Error("PAT_TOKEN secret is missing — add it in repo Settings → Secrets");
+  if (!owner)  throw new Error("GITHUB_REPOSITORY_OWNER env var missing (set automatically in Actions)");
+  if (!repo)   throw new Error("GITHUB_REPOSITORY env var missing (set automatically in Actions)");
 
   const message = buildMessage(task, detail);
-  run(`git commit -m "${message}"`);
+  console.log(`[commit] Message: "${message}"`);
+  console.log(`[commit] Author:  ${authorName} <${authorEmail}>`);
 
-  // Push with one automatic retry on non-fast-forward rejection.
-  try {
-    run("git push");
-  } catch (pushErr) {
-    if (pushErr.message.includes("rejected") || pushErr.message.includes("non-fast-forward")) {
-      console.log("[commit] Push rejected — pulling remote changes and retrying...");
-      run("git pull --rebase --autostash origin main");
-      run("git push");
-    } else {
-      throw pushErr;
-    }
+  const sha = await commitViaAPI(filePaths, message, token, owner, repo, authorName, authorEmail);
+
+  if (sha) {
+    console.log(`[commit] ✅ Pushed via API: "${message}"`);
+    return true;
   }
 
-  console.log(`[commit] ✅ Pushed: "${message}"`);
-  return true;
+  console.log("[commit] Nothing committed.");
+  return false;
 }
 
 module.exports = { commitAndPush, buildMessage };

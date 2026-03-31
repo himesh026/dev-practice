@@ -43,7 +43,7 @@ const { commitAndPush } = require("./commit");
  * Creates natural gaps in the contribution graph.
  */
 function shouldSkip() {
-  return Math.random() < 0.25;
+  return Math.random() < 0.35;
 }
 
 // ─── Task runners ─────────────────────────────────────────────────────────────
@@ -108,10 +108,8 @@ async function main() {
   console.log(`${"═".repeat(58)}\n`);
 
   // ── Step 1: Human-like skip ──────────────────────────────────
-  if (shouldSkip()) {
-    console.log(
-      "[main] 🎲 Skipping today's run (natural activity gap). Bye!\n",
-    );
+  if (false) {
+    console.log("[main] 🎲 Skipping today's run (natural activity gap). Bye!\n");
     process.exit(0);
   }
 
@@ -124,8 +122,6 @@ async function main() {
 
   // ── Step 3: Pick task ─────────────────────────────────────────
   const task = pickTask();
-
-
   console.log(`[main] 🎯 Selected task: ${task.toUpperCase()}\n`);
 
   // ── Step 4: Execute task ──────────────────────────────────────
@@ -133,9 +129,9 @@ async function main() {
 
   try {
     let outcome;
-    if (task === "gfg") outcome = await runGFGTask(apiKey);
+    if      (task === "gfg")      outcome = await runGFGTask(apiKey);
     else if (task === "frontend") outcome = await runFrontendTask(apiKey);
-    else outcome = await runBackendTask(apiKey);
+    else                          outcome = await runBackendTask(apiKey);
 
     result = outcome.result;
     detail = outcome.detail;
@@ -164,7 +160,7 @@ async function main() {
   const filesToStage = [result.relativePath, "README.md"];
 
   try {
-    const pushed = commitAndPush(filesToStage, task, detail);
+    const pushed = await commitAndPush(filesToStage, task, detail);
     if (pushed) {
       console.log("\n[main] ✅ Done! Contribution recorded.\n");
     } else {

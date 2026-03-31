@@ -4,7 +4,7 @@
 #   • Runs 3× per day at non-round, human-looking times
 #   • Each run has a 35% chance to skip (natural inactivity)
 #   • On an active run, picks ONE task: GFG POTD / Frontend / Backend
-#   • Commits the output only if a new file was created
+#   • Commits via GitHub REST API so commits count toward contribution graph
 # ─────────────────────────────────────────────────────────────────────────────
 
 name: Dev Activity
@@ -18,7 +18,7 @@ on:
     # Evening session  — 20:09 UTC
     - cron: "9 20 * * *"
 
-  # Manual trigger for testing (Actions tab → Run workflow)
+  # Manual trigger for testing
   workflow_dispatch:
 
 jobs:
@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write   # Required to push commits back to the repo
+      contents: write
 
     steps:
       # ── 1. Checkout ──────────────────────────────────────────────────────
@@ -44,7 +44,7 @@ jobs:
           node-version: "20"
           cache: "npm"
 
-      # ── 3. Install dependencies (if any) ────────────────────────────────
+      # ── 3. Install dependencies ──────────────────────────────────────────
       - name: Install dependencies
         run: |
           if [ -f package.json ] && [ -s package.json ]; then
@@ -53,25 +53,18 @@ jobs:
             echo "No package.json or empty — skipping install"
           fi
 
-      # ── 4. Configure git remote with auth token ─────────────────────────
-      - name: Configure git remote
-        run: |
-          git remote set-url origin \
-            https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git
-
-      # ── 5. Pull latest to avoid non-fast-forward push rejections ────────
-      - name: Pull latest commits
-        run: git pull --rebase --autostash origin main
-
-      # ── 6. Run the automation script ─────────────────────────────────────
+      # ── 4. Run the automation script ─────────────────────────────────────
+      # Commits are made via GitHub REST API (not git CLI) so they count
+      # toward the contribution graph with the author's real identity.
       - name: Run daily task
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PAT_TOKEN:      ${{ secrets.PAT_TOKEN }}
           GIT_USER_NAME:  "himesh026"
           GIT_USER_EMAIL: "himeshdhaka616@gmail.com"
         run: node index.js
 
-      # ── 7. Write job summary ─────────────────────────────────────────────
+      # ── 5. Write job summary ─────────────────────────────────────────────
       - name: Write job summary
         if: always()
         run: |
