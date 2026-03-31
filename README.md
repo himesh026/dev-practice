@@ -14,11 +14,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-03-31 | [`gfg/2026-03-31_buy-stock-with-transaction-fee.js`](./gfg/2026-03-31_buy-stock-with-transaction-fee.js) | Buy Stock with Transaction Fee |
 | 2026-03-31 | [`gfg/2026-03-31_buy-stock-with-transaction-fee.py`](./gfg/2026-03-31_buy-stock-with-transaction-fee.py) | Buy Stock with Transaction Fee |
+| 2026-03-31 | [`gfg/2026-03-31_consecutive-1s-not-allowed.js`](./gfg/2026-03-31_consecutive-1s-not-allowed.js) | Consecutive 1's not allowed |
 | 2026-03-29 | [`gfg/2026-03-29_partitions-with-given-difference.py`](./gfg/2026-03-29_partitions-with-given-difference.py) | Partitions with Given Difference |
 | 2026-03-28 | [`gfg/2026-03-28_articulation-point-ii.js`](./gfg/2026-03-28_articulation-point-ii.js) | Articulation Point - II |
 | 2026-03-28 | [`gfg/2026-03-28_articulation-point-ii.py`](./gfg/2026-03-28_articulation-point-ii.py) | Articulation Point - II |
 | 2026-03-27 | [`gfg/2026-03-27_articulation-point-ii.js`](./gfg/2026-03-27_articulation-point-ii.js) | Articulation Point - II |
-| 2026-03-27 | [`gfg/2026-03-27_chocolates-pickup.js`](./gfg/2026-03-27_chocolates-pickup.js) | Chocolates Pickup |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-03-31 14:50:04 UTC*
+*Auto-updated on 2026-03-31 20:53:28 UTC*
