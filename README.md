@@ -4,7 +4,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
 ![Last Commit](https://img.shields.io/badge/last%20commit-2026-03-31-blue)
-![Total Files](https://img.shields.io/badge/files-9-orange)
+![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
 
@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-03-31 | [`gfg/2026-03-31_buy-stock-with-transaction-fee.js`](./gfg/2026-03-31_buy-stock-with-transaction-fee.js) | Buy Stock with Transaction Fee |
 | 2026-03-29 | [`gfg/2026-03-29_partitions-with-given-difference.py`](./gfg/2026-03-29_partitions-with-given-difference.py) | Partitions with Given Difference |
 | 2026-03-28 | [`gfg/2026-03-28_articulation-point-ii.js`](./gfg/2026-03-28_articulation-point-ii.js) | Articulation Point - II |
 | 2026-03-28 | [`gfg/2026-03-28_articulation-point-ii.py`](./gfg/2026-03-28_articulation-point-ii.py) | Articulation Point - II |
@@ -51,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-03-31 09:12:33 UTC*
+*Auto-updated on 2026-03-31 09:20:48 UTC*
