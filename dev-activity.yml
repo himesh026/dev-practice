@@ -1,24 +1,10 @@
-# .github/workflows/dev-activity.yml
-# ─────────────────────────────────────────────────────────────────────────────
-# Simulates a real developer's daily workflow:
-#   • Runs 3× per day at non-round, human-looking times
-#   • Each run has a 35% chance to skip (natural inactivity)
-#   • On an active run, picks ONE task: GFG POTD / Frontend / Backend
-#   • Commits via GitHub REST API so commits count toward contribution graph
-# ─────────────────────────────────────────────────────────────────────────────
-
 name: Dev Activity
 
 on:
   schedule:
-    # Morning session  — 08:22 UTC
     - cron: "22 8 * * *"
-    # Afternoon session — 13:47 UTC
     - cron: "47 13 * * *"
-    # Evening session  — 20:09 UTC
     - cron: "9 20 * * *"
-
-  # Manual trigger for testing
   workflow_dispatch:
 
 jobs:
@@ -30,21 +16,18 @@ jobs:
       contents: write
 
     steps:
-      # ── 1. Checkout ──────────────────────────────────────────────────────
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.PAT_TOKEN }}
 
-      # ── 2. Set up Node.js ────────────────────────────────────────────────
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: "npm"
 
-      # ── 3. Install dependencies ──────────────────────────────────────────
       - name: Install dependencies
         run: |
           if [ -f package.json ] && [ -s package.json ]; then
@@ -53,9 +36,18 @@ jobs:
             echo "No package.json or empty — skipping install"
           fi
 
-      # ── 4. Run the automation script ─────────────────────────────────────
-      # Commits are made via GitHub REST API (not git CLI) so they count
-      # toward the contribution graph with the author's real identity.
+      # Debug: confirm token reaches Node
+      - name: Debug token
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          if [ -z "$PAT_TOKEN" ]; then
+            echo "ERROR: PAT_TOKEN is empty in shell"
+          else
+            echo "OK: PAT_TOKEN is set in shell (length=${#PAT_TOKEN})"
+          fi
+          node -e "console.log('Node PAT_TOKEN:', process.env.PAT_TOKEN ? 'SET len=' + process.env.PAT_TOKEN.length : 'UNDEFINED')"
+
       - name: Run daily task
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -64,15 +56,12 @@ jobs:
           GIT_USER_EMAIL: "himeshdhaka616@gmail.com"
         run: node index.js
 
-      # ── 5. Write job summary ─────────────────────────────────────────────
       - name: Write job summary
         if: always()
         run: |
           echo "## Dev Activity Run" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Field | Value |" >> $GITHUB_STEP_SUMMARY
           echo "|-------|-------|" >> $GITHUB_STEP_SUMMARY
           echo "| Date | $(date -u '+%Y-%m-%d') |" >> $GITHUB_STEP_SUMMARY
           echo "| Time | $(date -u '+%H:%M UTC') |" >> $GITHUB_STEP_SUMMARY
-          echo "| Trigger | ${{ github.event_name }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Status | ${{ job.status }} |" >> $GITHUB_STEP_SUMMARY
