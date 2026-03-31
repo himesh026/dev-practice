@@ -1,24 +1,10 @@
-# .github/workflows/dev-activity.yml
-# ─────────────────────────────────────────────────────────────────────────────
-# Simulates a real developer's daily workflow:
-#   • Runs 3× per day at non-round, human-looking times
-#   • Each run has a 35% chance to skip (natural inactivity)
-#   • On an active run, picks ONE task: GFG POTD / Frontend / Backend
-#   • Commits the output only if a new file was created
-# ─────────────────────────────────────────────────────────────────────────────
-
 name: Dev Activity
 
 on:
   schedule:
-    # Morning session  — 08:22 UTC
     - cron: "22 8 * * *"
-    # Afternoon session — 13:47 UTC
     - cron: "47 13 * * *"
-    # Evening session  — 20:09 UTC
     - cron: "9 20 * * *"
-
-  # Manual trigger for testing (Actions tab → Run workflow)
   workflow_dispatch:
 
 jobs:
@@ -27,24 +13,20 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write   # Required to push commits back to the repo
+      contents: write
 
     steps:
-      # ── 1. Checkout ──────────────────────────────────────────────────────
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
 
-      # ── 2. Set up Node.js ────────────────────────────────────────────────
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          
 
-      # ── 3. Install dependencies (if any) ────────────────────────────────
       - name: Install dependencies
         run: |
           if [ -f package.json ] && [ -s package.json ]; then
@@ -53,27 +35,18 @@ jobs:
             echo "No package.json or empty — skipping install"
           fi
 
-      # ── 4. Configure git remote with auth token ─────────────────────────
-      - name: Configure git remote
-        run: |
-          git remote set-url origin \
-            https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-
-      # ── 5. Run the automation script ─────────────────────────────────────
       - name: Run daily task
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GIT_USER_NAME:  "github-actions[bot]"
-          GIT_USER_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
-        run: |
-          node index.js || echo "Script failed, skipping commit"
+          PAT_TOKEN:      ${{ secrets.PAT_TOKEN }}
+          GIT_USER_NAME:  "himesh026"
+          GIT_USER_EMAIL: "himeshdhaka616@gmail.com"
+        run: node index.js
 
-      # ── 6. Write job summary ─────────────────────────────────────────────
       - name: Write job summary
         if: always()
         run: |
           echo "## Dev Activity Run" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Field | Value |" >> $GITHUB_STEP_SUMMARY
           echo "|-------|-------|" >> $GITHUB_STEP_SUMMARY
           echo "| Date | $(date -u '+%Y-%m-%d') |" >> $GITHUB_STEP_SUMMARY
