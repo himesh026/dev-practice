@@ -17,11 +17,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-03-31 | [`gfg/2026-03-31_buy-stock-with-transaction-fee.py`](./gfg/2026-03-31_buy-stock-with-transaction-fee.py) | Buy Stock with Transaction Fee |
 | 2026-03-31 | [`gfg/2026-03-31_consecutive-1s-not-allowed.js`](./gfg/2026-03-31_consecutive-1s-not-allowed.js) | Consecutive 1's not allowed |
 | 2026-03-29 | [`gfg/2026-03-29_partitions-with-given-difference.py`](./gfg/2026-03-29_partitions-with-given-difference.py) | Partitions with Given Difference |
-| 2026-03-28 | [`gfg/2026-03-28_articulation-point-ii.js`](./gfg/2026-03-28_articulation-point-ii.js) | Articulation Point - II |
 
 ## 🎨 Frontend Components
 
-_Nothing yet._
+| Date | File | Description |
+|------|------|-------------|
+| 2026-04-02 | [`frontend/2026-04-02_component.jsx`](./frontend/2026-04-02_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -51,4 +52,4 @@ _Nothing yet._
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-04-02 09:17:28 UTC*
+*Auto-updated on 2026-04-02 14:42:43 UTC*
