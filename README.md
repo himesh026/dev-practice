@@ -12,11 +12,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-04-03 | [`gfg/2026-04-03_print-diagonally.java`](./gfg/2026-04-03_print-diagonally.java) | Print Diagonally |
 | 2026-04-01 | [`gfg/2026-04-01_consecutive-1s-not-allowed.py`](./gfg/2026-04-01_consecutive-1s-not-allowed.py) | Consecutive 1's not allowed |
 | 2026-03-31 | [`gfg/2026-03-31_buy-stock-with-transaction-fee.js`](./gfg/2026-03-31_buy-stock-with-transaction-fee.js) | Buy Stock with Transaction Fee |
 | 2026-03-31 | [`gfg/2026-03-31_buy-stock-with-transaction-fee.py`](./gfg/2026-03-31_buy-stock-with-transaction-fee.py) | Buy Stock with Transaction Fee |
 | 2026-03-31 | [`gfg/2026-03-31_consecutive-1s-not-allowed.js`](./gfg/2026-03-31_consecutive-1s-not-allowed.js) | Consecutive 1's not allowed |
-| 2026-03-29 | [`gfg/2026-03-29_partitions-with-given-difference.py`](./gfg/2026-03-29_partitions-with-given-difference.py) | Partitions with Given Difference |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-04-03 09:12:00 UTC*
+*Auto-updated on 2026-04-03 14:28:49 UTC*
