@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-04-06 | [`gfg/2026-04-06_huffman-encoding.java`](./gfg/2026-04-06_huffman-encoding.java) | Huffman Encoding |
 | 2026-04-05 | [`gfg/2026-04-05_target-sum.java`](./gfg/2026-04-05_target-sum.java) | Target Sum |
 | 2026-04-03 | [`gfg/2026-04-03_print-diagonally.java`](./gfg/2026-04-03_print-diagonally.java) | Print Diagonally |
 
@@ -23,7 +24,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-04-05 | [`frontend/2026-04-05_component.jsx`](./frontend/2026-04-05_component.jsx) | React Component |
 | 2026-04-04 | [`frontend/2026-04-04_component.jsx`](./frontend/2026-04-04_component.jsx) | React Component |
 | 2026-04-03 | [`frontend/2026-04-03_component.jsx`](./frontend/2026-04-03_component.jsx) | React Component |
-| 2026-04-02 | [`frontend/2026-04-02_component.jsx`](./frontend/2026-04-02_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-04-06 09:43:35 UTC*
+*Auto-updated on 2026-04-06 14:36:01 UTC*
