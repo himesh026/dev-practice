@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-04-07-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-04-08-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-04-08 | [`gfg/2026-04-08_segregate-0s-and-1s.java`](./gfg/2026-04-08_segregate-0s-and-1s.java) | Segregate 0s and 1s |
 | 2026-04-06 | [`gfg/2026-04-06_huffman-encoding.java`](./gfg/2026-04-06_huffman-encoding.java) | Huffman Encoding |
 | 2026-04-06 | [`gfg/2026-04-06_stable-marriage-problem.java`](./gfg/2026-04-06_stable-marriage-problem.java) | Stable Marriage Problem |
 | 2026-04-05 | [`gfg/2026-04-05_target-sum.java`](./gfg/2026-04-05_target-sum.java) | Target Sum |
@@ -23,7 +24,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-04-07 | [`frontend/2026-04-07_component.jsx`](./frontend/2026-04-07_component.jsx) | React Component |
 | 2026-04-06 | [`frontend/2026-04-06_component.jsx`](./frontend/2026-04-06_component.jsx) | React Component |
 | 2026-04-05 | [`frontend/2026-04-05_component.jsx`](./frontend/2026-04-05_component.jsx) | React Component |
-| 2026-04-04 | [`frontend/2026-04-04_component.jsx`](./frontend/2026-04-04_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-04-07 20:59:05 UTC*
+*Auto-updated on 2026-04-08 09:37:03 UTC*
