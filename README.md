@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-04-08 | [`gfg/2026-04-08_intersection-of-two-sorted-arrays.java`](./gfg/2026-04-08_intersection-of-two-sorted-arrays.java) | Intersection of Two Sorted Arrays |
 | 2026-04-08 | [`gfg/2026-04-08_segregate-0s-and-1s.java`](./gfg/2026-04-08_segregate-0s-and-1s.java) | Segregate 0s and 1s |
 | 2026-04-06 | [`gfg/2026-04-06_huffman-encoding.java`](./gfg/2026-04-06_huffman-encoding.java) | Huffman Encoding |
 | 2026-04-06 | [`gfg/2026-04-06_stable-marriage-problem.java`](./gfg/2026-04-06_stable-marriage-problem.java) | Stable Marriage Problem |
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-04-07 | [`backend/2026-04-07_service.js`](./backend/2026-04-07_service.js) | Backend Utility |
 | 2026-04-05 | [`backend/2026-04-05_service.js`](./backend/2026-04-05_service.js) | Backend Utility |
-| 2026-04-04 | [`backend/2026-04-04_service.js`](./backend/2026-04-04_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-04-08 09:37:03 UTC*
+*Auto-updated on 2026-04-08 20:56:46 UTC*
