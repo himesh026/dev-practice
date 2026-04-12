@@ -12,10 +12,10 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-04-12 | [`gfg/2026-04-12_toeplitz-matrix.js`](./gfg/2026-04-12_toeplitz-matrix.js) | Toeplitz matrix |
 | 2026-04-11 | [`gfg/2026-04-11_count-increasing-subarrays.java`](./gfg/2026-04-11_count-increasing-subarrays.java) | Count increasing Subarrays |
 | 2026-04-08 | [`gfg/2026-04-08_intersection-of-two-sorted-arrays.java`](./gfg/2026-04-08_intersection-of-two-sorted-arrays.java) | Intersection of Two Sorted Arrays |
 | 2026-04-08 | [`gfg/2026-04-08_segregate-0s-and-1s.java`](./gfg/2026-04-08_segregate-0s-and-1s.java) | Segregate 0s and 1s |
-| 2026-04-06 | [`gfg/2026-04-06_huffman-encoding.java`](./gfg/2026-04-06_huffman-encoding.java) | Huffman Encoding |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-04-12 09:07:49 UTC*
+*Auto-updated on 2026-04-12 14:26:56 UTC*
