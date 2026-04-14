@@ -14,10 +14,10 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-04-14 | [`gfg/2026-04-14_remove-spaces.java`](./gfg/2026-04-14_remove-spaces.java) | Remove Spaces |
 | 2026-04-14 | [`gfg/2026-04-14_remove-spaces.js`](./gfg/2026-04-14_remove-spaces.js) | Remove Spaces |
+| 2026-04-14 | [`gfg/2026-04-14_urlify-a-given-string.py`](./gfg/2026-04-14_urlify-a-given-string.py) | URLify a given string |
 | 2026-04-12 | [`gfg/2026-04-12_toeplitz-matrix.js`](./gfg/2026-04-12_toeplitz-matrix.js) | Toeplitz matrix |
 | 2026-04-11 | [`gfg/2026-04-11_count-increasing-subarrays.java`](./gfg/2026-04-11_count-increasing-subarrays.java) | Count increasing Subarrays |
 | 2026-04-08 | [`gfg/2026-04-08_intersection-of-two-sorted-arrays.java`](./gfg/2026-04-08_intersection-of-two-sorted-arrays.java) | Intersection of Two Sorted Arrays |
-| 2026-04-08 | [`gfg/2026-04-08_segregate-0s-and-1s.java`](./gfg/2026-04-08_segregate-0s-and-1s.java) | Segregate 0s and 1s |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-04-14 15:04:31 UTC*
+*Auto-updated on 2026-04-14 21:03:39 UTC*
