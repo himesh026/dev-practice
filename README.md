@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-04-15-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-04-16-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,11 +12,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-04-16 | [`gfg/2026-04-16_implement-atoi.py`](./gfg/2026-04-16_implement-atoi.py) | Implement Atoi |
 | 2026-04-14 | [`gfg/2026-04-14_remove-spaces.java`](./gfg/2026-04-14_remove-spaces.java) | Remove Spaces |
 | 2026-04-14 | [`gfg/2026-04-14_remove-spaces.js`](./gfg/2026-04-14_remove-spaces.js) | Remove Spaces |
 | 2026-04-14 | [`gfg/2026-04-14_urlify-a-given-string.py`](./gfg/2026-04-14_urlify-a-given-string.py) | URLify a given string |
 | 2026-04-12 | [`gfg/2026-04-12_toeplitz-matrix.js`](./gfg/2026-04-12_toeplitz-matrix.js) | Toeplitz matrix |
-| 2026-04-11 | [`gfg/2026-04-11_count-increasing-subarrays.java`](./gfg/2026-04-11_count-increasing-subarrays.java) | Count increasing Subarrays |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-04-15 14:57:02 UTC*
+*Auto-updated on 2026-04-16 09:51:54 UTC*
