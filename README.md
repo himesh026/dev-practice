@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-04-18-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-04-19-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,12 +12,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-04-19 | [`gfg/2026-04-19_check-for-power.py`](./gfg/2026-04-19_check-for-power.py) | Check for Power |
 | 2026-04-17 | [`gfg/2026-04-17_anagram-palindrome.java`](./gfg/2026-04-17_anagram-palindrome.java) | Anagram Palindrome |
 | 2026-04-16 | [`gfg/2026-04-16_implement-atoi.js`](./gfg/2026-04-16_implement-atoi.js) | Implement Atoi |
 | 2026-04-16 | [`gfg/2026-04-16_implement-atoi.py`](./gfg/2026-04-16_implement-atoi.py) | Implement Atoi |
 | 2026-04-14 | [`gfg/2026-04-14_remove-spaces.java`](./gfg/2026-04-14_remove-spaces.java) | Remove Spaces |
 | 2026-04-14 | [`gfg/2026-04-14_remove-spaces.js`](./gfg/2026-04-14_remove-spaces.js) | Remove Spaces |
-| 2026-04-14 | [`gfg/2026-04-14_urlify-a-given-string.py`](./gfg/2026-04-14_urlify-a-given-string.py) | URLify a given string |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-04-18 20:49:13 UTC*
+*Auto-updated on 2026-04-19 09:09:19 UTC*
