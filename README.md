@@ -12,9 +12,9 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-04-26 | [`gfg/2026-04-26_smallest-window-containing-0-1-and-2.java`](./gfg/2026-04-26_smallest-window-containing-0-1-and-2.java) | Smallest window containing 0, 1 and 2 |
 | 2026-04-22 | [`gfg/2026-04-22_two-equal-sum-subarrays.py`](./gfg/2026-04-22_two-equal-sum-subarrays.py) | Two Equal Sum Subarrays |
 | 2026-04-21 | [`gfg/2026-04-21_two-water-jug-problem.py`](./gfg/2026-04-21_two-water-jug-problem.py) | Two water Jug problem |
-| 2026-04-20 | [`gfg/2026-04-20_count-derangements.js`](./gfg/2026-04-20_count-derangements.js) | Count Derangements |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-04-26 09:16:03 UTC*
+*Auto-updated on 2026-04-26 20:52:49 UTC*
