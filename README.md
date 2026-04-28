@@ -14,7 +14,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-04-28 | [`gfg/2026-04-28_longest-repeating-character-replacement.py`](./gfg/2026-04-28_longest-repeating-character-replacement.py) | Longest Repeating Character Replacement |
 | 2026-04-26 | [`gfg/2026-04-26_smallest-window-containing-0-1-and-2.java`](./gfg/2026-04-26_smallest-window-containing-0-1-and-2.java) | Smallest window containing 0, 1 and 2 |
-| 2026-04-22 | [`gfg/2026-04-22_two-equal-sum-subarrays.py`](./gfg/2026-04-22_two-equal-sum-subarrays.py) | Two Equal Sum Subarrays |
 
 ## 🎨 Frontend Components
 
@@ -29,6 +28,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-04-28 | [`backend/2026-04-28_service.js`](./backend/2026-04-28_service.js) | Backend Utility |
 | 2026-04-27 | [`backend/2026-04-27_service.js`](./backend/2026-04-27_service.js) | Backend Utility |
 | 2026-04-25 | [`backend/2026-04-25_service.js`](./backend/2026-04-25_service.js) | Backend Utility |
 | 2026-04-24 | [`backend/2026-04-24_service.js`](./backend/2026-04-24_service.js) | Backend Utility |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-04-28 10:26:32 UTC*
+*Auto-updated on 2026-04-28 16:02:33 UTC*
