@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-04-30-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-05-01-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -14,7 +14,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-04-30 | [`gfg/2026-04-30_check-if-an-array-is-max-heap.js`](./gfg/2026-04-30_check-if-an-array-is-max-heap.js) | Check if an Array is Max Heap |
 | 2026-04-28 | [`gfg/2026-04-28_longest-repeating-character-replacement.py`](./gfg/2026-04-28_longest-repeating-character-replacement.py) | Longest Repeating Character Replacement |
-| 2026-04-26 | [`gfg/2026-04-26_smallest-window-containing-0-1-and-2.java`](./gfg/2026-04-26_smallest-window-containing-0-1-and-2.java) | Smallest window containing 0, 1 and 2 |
 
 ## 🎨 Frontend Components
 
@@ -28,6 +27,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-05-01 | [`backend/2026-05-01_service.js`](./backend/2026-05-01_service.js) | Backend Utility |
 | 2026-04-30 | [`backend/2026-04-30_service.js`](./backend/2026-04-30_service.js) | Backend Utility |
 | 2026-04-29 | [`backend/2026-04-29_service.js`](./backend/2026-04-29_service.js) | Backend Utility |
 | 2026-04-28 | [`backend/2026-04-28_service.js`](./backend/2026-04-28_service.js) | Backend Utility |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-04-30 15:29:32 UTC*
+*Auto-updated on 2026-05-01 09:59:22 UTC*
