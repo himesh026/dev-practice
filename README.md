@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-05-01-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-05-02-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-05-02 | [`gfg/2026-05-02_position-of-the-set-bit.java`](./gfg/2026-05-02_position-of-the-set-bit.java) | Position of the Set Bit |
 | 2026-04-30 | [`gfg/2026-04-30_check-if-an-array-is-max-heap.js`](./gfg/2026-04-30_check-if-an-array-is-max-heap.js) | Check if an Array is Max Heap |
 | 2026-04-28 | [`gfg/2026-04-28_longest-repeating-character-replacement.py`](./gfg/2026-04-28_longest-repeating-character-replacement.py) | Longest Repeating Character Replacement |
 
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-04-30 | [`backend/2026-04-30_service.js`](./backend/2026-04-30_service.js) | Backend Utility |
 | 2026-04-29 | [`backend/2026-04-29_service.js`](./backend/2026-04-29_service.js) | Backend Utility |
 | 2026-04-28 | [`backend/2026-04-28_service.js`](./backend/2026-04-28_service.js) | Backend Utility |
-| 2026-04-27 | [`backend/2026-04-27_service.js`](./backend/2026-04-27_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-01 21:03:57 UTC*
+*Auto-updated on 2026-05-02 09:35:33 UTC*
