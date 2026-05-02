@@ -13,8 +13,8 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-05-02 | [`gfg/2026-05-02_position-of-the-set-bit.java`](./gfg/2026-05-02_position-of-the-set-bit.java) | Position of the Set Bit |
+| 2026-05-02 | [`gfg/2026-05-02_position-of-the-set-bit.py`](./gfg/2026-05-02_position-of-the-set-bit.py) | Position of the Set Bit |
 | 2026-04-30 | [`gfg/2026-04-30_check-if-an-array-is-max-heap.js`](./gfg/2026-04-30_check-if-an-array-is-max-heap.js) | Check if an Array is Max Heap |
-| 2026-04-28 | [`gfg/2026-04-28_longest-repeating-character-replacement.py`](./gfg/2026-04-28_longest-repeating-character-replacement.py) | Longest Repeating Character Replacement |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-02 09:35:33 UTC*
+*Auto-updated on 2026-05-02 14:34:52 UTC*
