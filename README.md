@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-05-03 | [`gfg/2026-05-03_sort-by-set-bit-count.js`](./gfg/2026-05-03_sort-by-set-bit-count.js) | Sort by Set Bit Count |
 | 2026-05-02 | [`gfg/2026-05-02_position-of-the-set-bit.java`](./gfg/2026-05-02_position-of-the-set-bit.java) | Position of the Set Bit |
 | 2026-05-02 | [`gfg/2026-05-02_position-of-the-set-bit.py`](./gfg/2026-05-02_position-of-the-set-bit.py) | Position of the Set Bit |
 | 2026-05-02 | [`gfg/2026-05-02_sort-by-set-bit-count.py`](./gfg/2026-05-02_sort-by-set-bit-count.py) | Sort by Set Bit Count |
@@ -22,7 +23,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-05-01 | [`frontend/2026-05-01_component.jsx`](./frontend/2026-05-01_component.jsx) | React Component |
-| 2026-04-29 | [`frontend/2026-04-29_component.jsx`](./frontend/2026-04-29_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-03 09:40:57 UTC*
+*Auto-updated on 2026-05-03 14:34:57 UTC*
