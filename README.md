@@ -13,10 +13,10 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-05-07 | [`gfg/2026-05-07_check-if-subtree.js`](./gfg/2026-05-07_check-if-subtree.js) | Check if subtree |
+| 2026-05-07 | [`gfg/2026-05-07_remove-invalid-parentheses.py`](./gfg/2026-05-07_remove-invalid-parentheses.py) | Remove Invalid Parentheses |
 | 2026-05-03 | [`gfg/2026-05-03_sort-by-set-bit-count.js`](./gfg/2026-05-03_sort-by-set-bit-count.js) | Sort by Set Bit Count |
 | 2026-05-02 | [`gfg/2026-05-02_position-of-the-set-bit.java`](./gfg/2026-05-02_position-of-the-set-bit.java) | Position of the Set Bit |
 | 2026-05-02 | [`gfg/2026-05-02_position-of-the-set-bit.py`](./gfg/2026-05-02_position-of-the-set-bit.py) | Position of the Set Bit |
-| 2026-05-02 | [`gfg/2026-05-02_sort-by-set-bit-count.py`](./gfg/2026-05-02_sort-by-set-bit-count.py) | Sort by Set Bit Count |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-07 15:55:11 UTC*
+*Auto-updated on 2026-05-07 21:11:55 UTC*
