@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-05-06-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-05-07-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-05-07 | [`gfg/2026-05-07_check-if-subtree.js`](./gfg/2026-05-07_check-if-subtree.js) | Check if subtree |
 | 2026-05-03 | [`gfg/2026-05-03_sort-by-set-bit-count.js`](./gfg/2026-05-03_sort-by-set-bit-count.js) | Sort by Set Bit Count |
 | 2026-05-02 | [`gfg/2026-05-02_position-of-the-set-bit.java`](./gfg/2026-05-02_position-of-the-set-bit.java) | Position of the Set Bit |
 | 2026-05-02 | [`gfg/2026-05-02_position-of-the-set-bit.py`](./gfg/2026-05-02_position-of-the-set-bit.py) | Position of the Set Bit |
@@ -23,7 +24,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-05-06 | [`frontend/2026-05-06_component.jsx`](./frontend/2026-05-06_component.jsx) | React Component |
 | 2026-05-04 | [`frontend/2026-05-04_component.jsx`](./frontend/2026-05-04_component.jsx) | React Component |
-| 2026-05-01 | [`frontend/2026-05-01_component.jsx`](./frontend/2026-05-01_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-06 21:18:28 UTC*
+*Auto-updated on 2026-05-07 10:36:32 UTC*
