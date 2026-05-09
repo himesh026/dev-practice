@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-05-08-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-05-09-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,10 +12,10 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-05-09 | [`gfg/2026-05-09_count-spanning-trees-in-a-graph.py`](./gfg/2026-05-09_count-spanning-trees-in-a-graph.py) | Count Spanning Trees in a Graph |
 | 2026-05-07 | [`gfg/2026-05-07_check-if-subtree.js`](./gfg/2026-05-07_check-if-subtree.js) | Check if subtree |
 | 2026-05-07 | [`gfg/2026-05-07_remove-invalid-parentheses.py`](./gfg/2026-05-07_remove-invalid-parentheses.py) | Remove Invalid Parentheses |
 | 2026-05-03 | [`gfg/2026-05-03_sort-by-set-bit-count.js`](./gfg/2026-05-03_sort-by-set-bit-count.js) | Sort by Set Bit Count |
-| 2026-05-02 | [`gfg/2026-05-02_position-of-the-set-bit.java`](./gfg/2026-05-02_position-of-the-set-bit.java) | Position of the Set Bit |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-08 09:57:17 UTC*
+*Auto-updated on 2026-05-09 09:46:05 UTC*
