@@ -15,12 +15,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-05-09 | [`gfg/2026-05-09_count-spanning-trees-in-a-graph.py`](./gfg/2026-05-09_count-spanning-trees-in-a-graph.py) | Count Spanning Trees in a Graph |
 | 2026-05-07 | [`gfg/2026-05-07_check-if-subtree.js`](./gfg/2026-05-07_check-if-subtree.js) | Check if subtree |
 | 2026-05-07 | [`gfg/2026-05-07_remove-invalid-parentheses.py`](./gfg/2026-05-07_remove-invalid-parentheses.py) | Remove Invalid Parentheses |
-| 2026-05-03 | [`gfg/2026-05-03_sort-by-set-bit-count.js`](./gfg/2026-05-03_sort-by-set-bit-count.js) | Sort by Set Bit Count |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-05-09 | [`frontend/2026-05-09_component.jsx`](./frontend/2026-05-09_component.jsx) | React Component |
 | 2026-05-08 | [`frontend/2026-05-08_component.jsx`](./frontend/2026-05-08_component.jsx) | React Component |
 | 2026-05-07 | [`frontend/2026-05-07_component.jsx`](./frontend/2026-05-07_component.jsx) | React Component |
 | 2026-05-06 | [`frontend/2026-05-06_component.jsx`](./frontend/2026-05-06_component.jsx) | React Component |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-09 09:46:05 UTC*
+*Auto-updated on 2026-05-09 14:37:42 UTC*
