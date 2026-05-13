@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-05-12-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-05-13-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,11 +12,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-05-13 | [`gfg/2026-05-13_mother-vertex.java`](./gfg/2026-05-13_mother-vertex.java) | Mother Vertex |
 | 2026-05-12 | [`gfg/2026-05-12_range-lcm-queries.py`](./gfg/2026-05-12_range-lcm-queries.py) | Range LCM Queries |
 | 2026-05-11 | [`gfg/2026-05-11_palindrome-pairs.py`](./gfg/2026-05-11_palindrome-pairs.py) | Palindrome Pairs |
 | 2026-05-10 | [`gfg/2026-05-10_max-profit-from-two-machines.py`](./gfg/2026-05-10_max-profit-from-two-machines.py) | Max Profit from Two Machines |
 | 2026-05-10 | [`gfg/2026-05-10_palindrome-pairs.py`](./gfg/2026-05-10_palindrome-pairs.py) | Palindrome Pairs |
-| 2026-05-09 | [`gfg/2026-05-09_count-spanning-trees-in-a-graph.py`](./gfg/2026-05-09_count-spanning-trees-in-a-graph.py) | Count Spanning Trees in a Graph |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-12 21:25:23 UTC*
+*Auto-updated on 2026-05-13 10:46:06 UTC*
