@@ -13,6 +13,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-05-13 | [`gfg/2026-05-13_mother-vertex.java`](./gfg/2026-05-13_mother-vertex.java) | Mother Vertex |
+| 2026-05-13 | [`gfg/2026-05-13_mother-vertex.js`](./gfg/2026-05-13_mother-vertex.js) | Mother Vertex |
 | 2026-05-12 | [`gfg/2026-05-12_range-lcm-queries.py`](./gfg/2026-05-12_range-lcm-queries.py) | Range LCM Queries |
 | 2026-05-11 | [`gfg/2026-05-11_palindrome-pairs.py`](./gfg/2026-05-11_palindrome-pairs.py) | Palindrome Pairs |
 | 2026-05-10 | [`gfg/2026-05-10_max-profit-from-two-machines.py`](./gfg/2026-05-10_max-profit-from-two-machines.py) | Max Profit from Two Machines |
@@ -23,7 +24,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-05-12 | [`frontend/2026-05-12_component.jsx`](./frontend/2026-05-12_component.jsx) | React Component |
-| 2026-05-09 | [`frontend/2026-05-09_component.jsx`](./frontend/2026-05-09_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-13 10:46:06 UTC*
+*Auto-updated on 2026-05-13 16:10:03 UTC*
