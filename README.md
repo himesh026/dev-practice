@@ -17,12 +17,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-05-13 | [`gfg/2026-05-13_mother-vertex.java`](./gfg/2026-05-13_mother-vertex.java) | Mother Vertex |
 | 2026-05-13 | [`gfg/2026-05-13_mother-vertex.js`](./gfg/2026-05-13_mother-vertex.js) | Mother Vertex |
 | 2026-05-12 | [`gfg/2026-05-12_range-lcm-queries.py`](./gfg/2026-05-12_range-lcm-queries.py) | Range LCM Queries |
-| 2026-05-11 | [`gfg/2026-05-11_palindrome-pairs.py`](./gfg/2026-05-11_palindrome-pairs.py) | Palindrome Pairs |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-05-14 | [`frontend/2026-05-14_component.jsx`](./frontend/2026-05-14_component.jsx) | React Component |
 | 2026-05-13 | [`frontend/2026-05-13_component.jsx`](./frontend/2026-05-13_component.jsx) | React Component |
 | 2026-05-12 | [`frontend/2026-05-12_component.jsx`](./frontend/2026-05-12_component.jsx) | React Component |
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-14 15:59:45 UTC*
+*Auto-updated on 2026-05-14 21:17:58 UTC*
