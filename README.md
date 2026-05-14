@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-05-14 | [`gfg/2026-05-14_search-for-subarray.java`](./gfg/2026-05-14_search-for-subarray.java) | Search for Subarray |
 | 2026-05-14 | [`gfg/2026-05-14_search-for-subarray.js`](./gfg/2026-05-14_search-for-subarray.js) | Search for Subarray |
 | 2026-05-13 | [`gfg/2026-05-13_mother-vertex.java`](./gfg/2026-05-13_mother-vertex.java) | Mother Vertex |
 | 2026-05-13 | [`gfg/2026-05-13_mother-vertex.js`](./gfg/2026-05-13_mother-vertex.js) | Mother Vertex |
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-05-12 | [`backend/2026-05-12_service.js`](./backend/2026-05-12_service.js) | Backend Utility |
 | 2026-05-11 | [`backend/2026-05-11_service.js`](./backend/2026-05-11_service.js) | Backend Utility |
-| 2026-05-10 | [`backend/2026-05-10_service.js`](./backend/2026-05-10_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-14 10:36:56 UTC*
+*Auto-updated on 2026-05-14 15:59:45 UTC*
