@@ -12,11 +12,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-05-15 | [`gfg/2026-05-15_special-keyboard.java`](./gfg/2026-05-15_special-keyboard.java) | Special Keyboard |
 | 2026-05-14 | [`gfg/2026-05-14_search-for-subarray.java`](./gfg/2026-05-14_search-for-subarray.java) | Search for Subarray |
 | 2026-05-14 | [`gfg/2026-05-14_search-for-subarray.js`](./gfg/2026-05-14_search-for-subarray.js) | Search for Subarray |
 | 2026-05-13 | [`gfg/2026-05-13_mother-vertex.java`](./gfg/2026-05-13_mother-vertex.java) | Mother Vertex |
 | 2026-05-13 | [`gfg/2026-05-13_mother-vertex.js`](./gfg/2026-05-13_mother-vertex.js) | Mother Vertex |
-| 2026-05-12 | [`gfg/2026-05-12_range-lcm-queries.py`](./gfg/2026-05-12_range-lcm-queries.py) | Range LCM Queries |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-15 10:39:58 UTC*
+*Auto-updated on 2026-05-15 15:51:41 UTC*
