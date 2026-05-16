@@ -12,12 +12,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-05-16 | [`gfg/2026-05-16_make-the-array-beautiful.js`](./gfg/2026-05-16_make-the-array-beautiful.js) | Make the array beautiful |
 | 2026-05-16 | [`gfg/2026-05-16_not-a-subset-sum.py`](./gfg/2026-05-16_not-a-subset-sum.py) | Not a subset sum |
 | 2026-05-15 | [`gfg/2026-05-15_special-keyboard.java`](./gfg/2026-05-15_special-keyboard.java) | Special Keyboard |
 | 2026-05-14 | [`gfg/2026-05-14_search-for-subarray.java`](./gfg/2026-05-14_search-for-subarray.java) | Search for Subarray |
 | 2026-05-14 | [`gfg/2026-05-14_search-for-subarray.js`](./gfg/2026-05-14_search-for-subarray.js) | Search for Subarray |
 | 2026-05-13 | [`gfg/2026-05-13_mother-vertex.java`](./gfg/2026-05-13_mother-vertex.java) | Mother Vertex |
-| 2026-05-13 | [`gfg/2026-05-13_mother-vertex.js`](./gfg/2026-05-13_mother-vertex.js) | Mother Vertex |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-16 14:43:22 UTC*
+*Auto-updated on 2026-05-16 21:00:04 UTC*
