@@ -25,12 +25,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-05-16 | [`frontend/2026-05-16_component.jsx`](./frontend/2026-05-16_component.jsx) | React Component |
 | 2026-05-14 | [`frontend/2026-05-14_component.jsx`](./frontend/2026-05-14_component.jsx) | React Component |
-| 2026-05-13 | [`frontend/2026-05-13_component.jsx`](./frontend/2026-05-13_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-05-17 | [`backend/2026-05-17_service.js`](./backend/2026-05-17_service.js) | Backend Utility |
 | 2026-05-15 | [`backend/2026-05-15_service.js`](./backend/2026-05-15_service.js) | Backend Utility |
 
 ---
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-17 10:00:59 UTC*
+*Auto-updated on 2026-05-17 14:46:05 UTC*
