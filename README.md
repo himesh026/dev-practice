@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-05-16-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-05-17-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,12 +12,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-05-17 | [`gfg/2026-05-17_make-the-array-beautiful.java`](./gfg/2026-05-17_make-the-array-beautiful.java) | Make the array beautiful |
 | 2026-05-16 | [`gfg/2026-05-16_make-the-array-beautiful.js`](./gfg/2026-05-16_make-the-array-beautiful.js) | Make the array beautiful |
 | 2026-05-16 | [`gfg/2026-05-16_not-a-subset-sum.py`](./gfg/2026-05-16_not-a-subset-sum.py) | Not a subset sum |
 | 2026-05-15 | [`gfg/2026-05-15_special-keyboard.java`](./gfg/2026-05-15_special-keyboard.java) | Special Keyboard |
 | 2026-05-14 | [`gfg/2026-05-14_search-for-subarray.java`](./gfg/2026-05-14_search-for-subarray.java) | Search for Subarray |
 | 2026-05-14 | [`gfg/2026-05-14_search-for-subarray.js`](./gfg/2026-05-14_search-for-subarray.js) | Search for Subarray |
-| 2026-05-13 | [`gfg/2026-05-13_mother-vertex.java`](./gfg/2026-05-13_mother-vertex.java) | Mother Vertex |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-16 21:00:04 UTC*
+*Auto-updated on 2026-05-17 10:00:59 UTC*
