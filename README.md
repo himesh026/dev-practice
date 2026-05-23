@@ -13,12 +13,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-05-23 | [`gfg/2026-05-23_transform-to-sum-tree.java`](./gfg/2026-05-23_transform-to-sum-tree.java) | Transform to Sum Tree |
+| 2026-05-23 | [`gfg/2026-05-23_transform-to-sum-tree.js`](./gfg/2026-05-23_transform-to-sum-tree.js) | Transform to Sum Tree |
 | 2026-05-22 | [`gfg/2026-05-22_transform-to-sum-tree.js`](./gfg/2026-05-22_transform-to-sum-tree.js) | Transform to Sum Tree |
 | 2026-05-21 | [`gfg/2026-05-21_1s-surrounded-by-0s.js`](./gfg/2026-05-21_1s-surrounded-by-0s.js) | 1s Surrounded by 0s |
 | 2026-05-21 | [`gfg/2026-05-21_check-if-all-bits-set.js`](./gfg/2026-05-21_check-if-all-bits-set.js) | Check if All Bits Set |
 | 2026-05-20 | [`gfg/2026-05-20_product-pair.js`](./gfg/2026-05-20_product-pair.js) | Product Pair |
 | 2026-05-19 | [`gfg/2026-05-19_minimum-multiplications-to-reach-end.js`](./gfg/2026-05-19_minimum-multiplications-to-reach-end.js) | Minimum Multiplications to reach End |
-| 2026-05-19 | [`gfg/2026-05-19_product-pair.py`](./gfg/2026-05-19_product-pair.py) | Product Pair |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-23 10:07:50 UTC*
+*Auto-updated on 2026-05-23 14:50:05 UTC*
