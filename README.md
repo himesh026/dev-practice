@@ -12,11 +12,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-05-24 | [`gfg/2026-05-24_elements-in-the-range.java`](./gfg/2026-05-24_elements-in-the-range.java) | Elements in the Range |
 | 2026-05-23 | [`gfg/2026-05-23_transform-to-sum-tree.java`](./gfg/2026-05-23_transform-to-sum-tree.java) | Transform to Sum Tree |
 | 2026-05-23 | [`gfg/2026-05-23_transform-to-sum-tree.js`](./gfg/2026-05-23_transform-to-sum-tree.js) | Transform to Sum Tree |
 | 2026-05-22 | [`gfg/2026-05-22_transform-to-sum-tree.js`](./gfg/2026-05-22_transform-to-sum-tree.js) | Transform to Sum Tree |
 | 2026-05-21 | [`gfg/2026-05-21_1s-surrounded-by-0s.js`](./gfg/2026-05-21_1s-surrounded-by-0s.js) | 1s Surrounded by 0s |
-| 2026-05-21 | [`gfg/2026-05-21_check-if-all-bits-set.js`](./gfg/2026-05-21_check-if-all-bits-set.js) | Check if All Bits Set |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-24 14:52:07 UTC*
+*Auto-updated on 2026-05-24 21:07:01 UTC*
