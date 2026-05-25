@@ -13,6 +13,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-05-25 | [`gfg/2026-05-25_elements-in-the-range.java`](./gfg/2026-05-25_elements-in-the-range.java) | Elements in the Range |
+| 2026-05-25 | [`gfg/2026-05-25_elements-in-the-range.js`](./gfg/2026-05-25_elements-in-the-range.js) | Elements in the Range |
 | 2026-05-24 | [`gfg/2026-05-24_elements-in-the-range.java`](./gfg/2026-05-24_elements-in-the-range.java) | Elements in the Range |
 | 2026-05-23 | [`gfg/2026-05-23_transform-to-sum-tree.java`](./gfg/2026-05-23_transform-to-sum-tree.java) | Transform to Sum Tree |
 | 2026-05-23 | [`gfg/2026-05-23_transform-to-sum-tree.js`](./gfg/2026-05-23_transform-to-sum-tree.js) | Transform to Sum Tree |
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-05-24 | [`backend/2026-05-24_service.js`](./backend/2026-05-24_service.js) | Backend Utility |
 | 2026-05-22 | [`backend/2026-05-22_service.js`](./backend/2026-05-22_service.js) | Backend Utility |
-| 2026-05-21 | [`backend/2026-05-21_service.js`](./backend/2026-05-21_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-25 12:01:03 UTC*
+*Auto-updated on 2026-05-25 16:09:04 UTC*
