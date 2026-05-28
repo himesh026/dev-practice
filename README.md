@@ -16,7 +16,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-05-25 | [`gfg/2026-05-25_elements-in-the-range.java`](./gfg/2026-05-25_elements-in-the-range.java) | Elements in the Range |
 | 2026-05-25 | [`gfg/2026-05-25_elements-in-the-range.js`](./gfg/2026-05-25_elements-in-the-range.js) | Elements in the Range |
 | 2026-05-25 | [`gfg/2026-05-25_minimum-toogles-to-partition.java`](./gfg/2026-05-25_minimum-toogles-to-partition.java) | Minimum Toogles to partition |
-| 2026-05-24 | [`gfg/2026-05-24_elements-in-the-range.java`](./gfg/2026-05-24_elements-in-the-range.java) | Elements in the Range |
 
 ## 🎨 Frontend Components
 
@@ -30,6 +29,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-05-28 | [`backend/2026-05-28_service.js`](./backend/2026-05-28_service.js) | Backend Utility |
 | 2026-05-26 | [`backend/2026-05-26_service.js`](./backend/2026-05-26_service.js) | Backend Utility |
 | 2026-05-24 | [`backend/2026-05-24_service.js`](./backend/2026-05-24_service.js) | Backend Utility |
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-28 11:52:35 UTC*
+*Auto-updated on 2026-05-28 22:02:02 UTC*
