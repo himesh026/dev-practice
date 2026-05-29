@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-05-29 | [`gfg/2026-05-29_count-sorted-digit-groupings.js`](./gfg/2026-05-29_count-sorted-digit-groupings.js) | Count Sorted Digit Groupings |
 | 2026-05-27 | [`gfg/2026-05-27_vertical-sum.js`](./gfg/2026-05-27_vertical-sum.js) | Vertical Sum |
 | 2026-05-25 | [`gfg/2026-05-25_elements-in-the-range.java`](./gfg/2026-05-25_elements-in-the-range.java) | Elements in the Range |
 | 2026-05-25 | [`gfg/2026-05-25_elements-in-the-range.js`](./gfg/2026-05-25_elements-in-the-range.js) | Elements in the Range |
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-05-28 | [`backend/2026-05-28_service.js`](./backend/2026-05-28_service.js) | Backend Utility |
 | 2026-05-26 | [`backend/2026-05-26_service.js`](./backend/2026-05-26_service.js) | Backend Utility |
-| 2026-05-24 | [`backend/2026-05-24_service.js`](./backend/2026-05-24_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-29 11:42:24 UTC*
+*Auto-updated on 2026-05-29 17:02:31 UTC*
