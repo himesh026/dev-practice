@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-05-29-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-05-30-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -16,12 +16,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-05-27 | [`gfg/2026-05-27_vertical-sum.js`](./gfg/2026-05-27_vertical-sum.js) | Vertical Sum |
 | 2026-05-25 | [`gfg/2026-05-25_elements-in-the-range.java`](./gfg/2026-05-25_elements-in-the-range.java) | Elements in the Range |
 | 2026-05-25 | [`gfg/2026-05-25_elements-in-the-range.js`](./gfg/2026-05-25_elements-in-the-range.js) | Elements in the Range |
-| 2026-05-25 | [`gfg/2026-05-25_minimum-toogles-to-partition.java`](./gfg/2026-05-25_minimum-toogles-to-partition.java) | Minimum Toogles to partition |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-05-30 | [`frontend/2026-05-30_component.jsx`](./frontend/2026-05-30_component.jsx) | React Component |
 | 2026-05-29 | [`frontend/2026-05-29_component.jsx`](./frontend/2026-05-29_component.jsx) | React Component |
 | 2026-05-28 | [`frontend/2026-05-28_component.jsx`](./frontend/2026-05-28_component.jsx) | React Component |
 | 2026-05-27 | [`frontend/2026-05-27_component.jsx`](./frontend/2026-05-27_component.jsx) | React Component |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-29 17:02:31 UTC*
+*Auto-updated on 2026-05-30 10:19:14 UTC*
