@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-05-30-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-05-31-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,10 +12,10 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-05-31 | [`gfg/2026-05-31_express-as-consecutive-number-sum.py`](./gfg/2026-05-31_express-as-consecutive-number-sum.py) | Express as Consecutive Number Sum |
 | 2026-05-30 | [`gfg/2026-05-30_replace-with-xor-of-adjacent.py`](./gfg/2026-05-30_replace-with-xor-of-adjacent.py) | Replace with XOR of Adjacent |
 | 2026-05-29 | [`gfg/2026-05-29_count-sorted-digit-groupings.js`](./gfg/2026-05-29_count-sorted-digit-groupings.js) | Count Sorted Digit Groupings |
 | 2026-05-27 | [`gfg/2026-05-27_vertical-sum.js`](./gfg/2026-05-27_vertical-sum.js) | Vertical Sum |
-| 2026-05-25 | [`gfg/2026-05-25_elements-in-the-range.java`](./gfg/2026-05-25_elements-in-the-range.java) | Elements in the Range |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-05-30 14:55:38 UTC*
+*Auto-updated on 2026-05-31 10:26:17 UTC*
