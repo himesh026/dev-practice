@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-01-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-02-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -15,12 +15,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-06-01 | [`gfg/2026-06-01_pairs-with-certain-difference.js`](./gfg/2026-06-01_pairs-with-certain-difference.js) | Pairs with certain difference |
 | 2026-05-31 | [`gfg/2026-05-31_express-as-consecutive-number-sum.py`](./gfg/2026-05-31_express-as-consecutive-number-sum.py) | Express as Consecutive Number Sum |
 | 2026-05-30 | [`gfg/2026-05-30_replace-with-xor-of-adjacent.py`](./gfg/2026-05-30_replace-with-xor-of-adjacent.py) | Replace with XOR of Adjacent |
-| 2026-05-29 | [`gfg/2026-05-29_count-sorted-digit-groupings.js`](./gfg/2026-05-29_count-sorted-digit-groupings.js) | Count Sorted Digit Groupings |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-02 | [`frontend/2026-06-02_component.jsx`](./frontend/2026-06-02_component.jsx) | React Component |
 | 2026-06-01 | [`frontend/2026-06-01_component.jsx`](./frontend/2026-06-01_component.jsx) | React Component |
 | 2026-05-31 | [`frontend/2026-05-31_component.jsx`](./frontend/2026-05-31_component.jsx) | React Component |
 | 2026-05-30 | [`frontend/2026-05-30_component.jsx`](./frontend/2026-05-30_component.jsx) | React Component |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-01 22:34:56 UTC*
+*Auto-updated on 2026-06-02 12:16:03 UTC*
