@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-03-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-04-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-04 | [`gfg/2026-06-04_substring-with-max-zero-one-diff.java`](./gfg/2026-06-04_substring-with-max-zero-one-diff.java) | Substring with Max Zero-One Diff |
 | 2026-06-03 | [`gfg/2026-06-03_subarray-frequency-count-queries.py`](./gfg/2026-06-03_subarray-frequency-count-queries.py) | Subarray Frequency Count Queries |
 | 2026-06-01 | [`gfg/2026-06-01_pairs-with-certain-difference.js`](./gfg/2026-06-01_pairs-with-certain-difference.js) | Pairs with certain difference |
 
@@ -22,7 +23,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-06-03 | [`frontend/2026-06-03_component.jsx`](./frontend/2026-06-03_component.jsx) | React Component |
 | 2026-06-02 | [`frontend/2026-06-02_component.jsx`](./frontend/2026-06-02_component.jsx) | React Component |
 | 2026-06-01 | [`frontend/2026-06-01_component.jsx`](./frontend/2026-06-01_component.jsx) | React Component |
-| 2026-05-31 | [`frontend/2026-05-31_component.jsx`](./frontend/2026-05-31_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-03 22:31:02 UTC*
+*Auto-updated on 2026-06-04 11:26:33 UTC*
