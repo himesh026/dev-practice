@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-05-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-06-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-06 | [`gfg/2026-06-06_non-attacking-black-and-white-knights.js`](./gfg/2026-06-06_non-attacking-black-and-white-knights.js) | Non-Attacking Black and White Knights |
 | 2026-06-04 | [`gfg/2026-06-04_substring-with-max-zero-one-diff.java`](./gfg/2026-06-04_substring-with-max-zero-one-diff.java) | Substring with Max Zero-One Diff |
 | 2026-06-03 | [`gfg/2026-06-03_subarray-frequency-count-queries.py`](./gfg/2026-06-03_subarray-frequency-count-queries.py) | Subarray Frequency Count Queries |
 
@@ -21,7 +22,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-06-03 | [`frontend/2026-06-03_component.jsx`](./frontend/2026-06-03_component.jsx) | React Component |
 | 2026-06-02 | [`frontend/2026-06-02_component.jsx`](./frontend/2026-06-02_component.jsx) | React Component |
-| 2026-06-01 | [`frontend/2026-06-01_component.jsx`](./frontend/2026-06-01_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-05 11:38:06 UTC*
+*Auto-updated on 2026-06-06 10:24:09 UTC*
