@@ -12,10 +12,10 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-07 | [`gfg/2026-06-07_delete-nodes-with-greater-on-right.js`](./gfg/2026-06-07_delete-nodes-with-greater-on-right.js) | Delete Nodes with Greater on Right |
 | 2026-06-07 | [`gfg/2026-06-07_finding-profession.js`](./gfg/2026-06-07_finding-profession.js) | Finding Profession |
 | 2026-06-06 | [`gfg/2026-06-06_non-attacking-black-and-white-knights.js`](./gfg/2026-06-06_non-attacking-black-and-white-knights.js) | Non-Attacking Black and White Knights |
 | 2026-06-04 | [`gfg/2026-06-04_substring-with-max-zero-one-diff.java`](./gfg/2026-06-04_substring-with-max-zero-one-diff.java) | Substring with Max Zero-One Diff |
-| 2026-06-03 | [`gfg/2026-06-03_subarray-frequency-count-queries.py`](./gfg/2026-06-03_subarray-frequency-count-queries.py) | Subarray Frequency Count Queries |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-07 15:14:08 UTC*
+*Auto-updated on 2026-06-07 21:20:55 UTC*
