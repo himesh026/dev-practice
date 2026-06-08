@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-08 | [`gfg/2026-06-08_delete-nodes-with-greater-on-right.js`](./gfg/2026-06-08_delete-nodes-with-greater-on-right.js) | Delete Nodes with Greater on Right |
 | 2026-06-07 | [`gfg/2026-06-07_delete-nodes-with-greater-on-right.js`](./gfg/2026-06-07_delete-nodes-with-greater-on-right.js) | Delete Nodes with Greater on Right |
 | 2026-06-07 | [`gfg/2026-06-07_finding-profession.js`](./gfg/2026-06-07_finding-profession.js) | Finding Profession |
 | 2026-06-06 | [`gfg/2026-06-06_non-attacking-black-and-white-knights.js`](./gfg/2026-06-06_non-attacking-black-and-white-knights.js) | Non-Attacking Black and White Knights |
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-06-07 | [`backend/2026-06-07_service.js`](./backend/2026-06-07_service.js) | Backend Utility |
 | 2026-06-05 | [`backend/2026-06-05_service.js`](./backend/2026-06-05_service.js) | Backend Utility |
 | 2026-06-04 | [`backend/2026-06-04_service.js`](./backend/2026-06-04_service.js) | Backend Utility |
-| 2026-06-03 | [`backend/2026-06-03_service.js`](./backend/2026-06-03_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-08 12:42:47 UTC*
+*Auto-updated on 2026-06-08 16:58:25 UTC*
