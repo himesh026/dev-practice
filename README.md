@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-08-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-09-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -16,12 +16,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-06-07 | [`gfg/2026-06-07_delete-nodes-with-greater-on-right.js`](./gfg/2026-06-07_delete-nodes-with-greater-on-right.js) | Delete Nodes with Greater on Right |
 | 2026-06-07 | [`gfg/2026-06-07_finding-profession.js`](./gfg/2026-06-07_finding-profession.js) | Finding Profession |
 | 2026-06-06 | [`gfg/2026-06-06_non-attacking-black-and-white-knights.js`](./gfg/2026-06-06_non-attacking-black-and-white-knights.js) | Non-Attacking Black and White Knights |
-| 2026-06-04 | [`gfg/2026-06-04_substring-with-max-zero-one-diff.java`](./gfg/2026-06-04_substring-with-max-zero-one-diff.java) | Substring with Max Zero-One Diff |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-09 | [`frontend/2026-06-09_component.jsx`](./frontend/2026-06-09_component.jsx) | React Component |
 | 2026-06-08 | [`frontend/2026-06-08_component.jsx`](./frontend/2026-06-08_component.jsx) | React Component |
 | 2026-06-06 | [`frontend/2026-06-06_component.jsx`](./frontend/2026-06-06_component.jsx) | React Component |
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-08 16:58:25 UTC*
+*Auto-updated on 2026-06-09 11:32:25 UTC*
