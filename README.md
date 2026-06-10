@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-09-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-10-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,11 +12,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-10 | [`gfg/2026-06-10_binary-searchable-count.py`](./gfg/2026-06-10_binary-searchable-count.py) | Binary Searchable Count |
 | 2026-06-09 | [`gfg/2026-06-09_binary-searchable-count.java`](./gfg/2026-06-09_binary-searchable-count.java) | Binary Searchable Count |
 | 2026-06-08 | [`gfg/2026-06-08_delete-nodes-with-greater-on-right.js`](./gfg/2026-06-08_delete-nodes-with-greater-on-right.js) | Delete Nodes with Greater on Right |
 | 2026-06-07 | [`gfg/2026-06-07_delete-nodes-with-greater-on-right.js`](./gfg/2026-06-07_delete-nodes-with-greater-on-right.js) | Delete Nodes with Greater on Right |
 | 2026-06-07 | [`gfg/2026-06-07_finding-profession.js`](./gfg/2026-06-07_finding-profession.js) | Finding Profession |
-| 2026-06-06 | [`gfg/2026-06-06_non-attacking-black-and-white-knights.js`](./gfg/2026-06-06_non-attacking-black-and-white-knights.js) | Non-Attacking Black and White Knights |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-09 21:56:01 UTC*
+*Auto-updated on 2026-06-10 16:49:05 UTC*
