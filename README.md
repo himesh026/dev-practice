@@ -16,12 +16,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-06-10 | [`gfg/2026-06-10_equal-point-in-brackets.py`](./gfg/2026-06-10_equal-point-in-brackets.py) | Equal Point in Brackets |
 | 2026-06-09 | [`gfg/2026-06-09_binary-searchable-count.java`](./gfg/2026-06-09_binary-searchable-count.java) | Binary Searchable Count |
 | 2026-06-08 | [`gfg/2026-06-08_delete-nodes-with-greater-on-right.js`](./gfg/2026-06-08_delete-nodes-with-greater-on-right.js) | Delete Nodes with Greater on Right |
-| 2026-06-07 | [`gfg/2026-06-07_delete-nodes-with-greater-on-right.js`](./gfg/2026-06-07_delete-nodes-with-greater-on-right.js) | Delete Nodes with Greater on Right |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-11 | [`frontend/2026-06-11_component.jsx`](./frontend/2026-06-11_component.jsx) | React Component |
 | 2026-06-09 | [`frontend/2026-06-09_component.jsx`](./frontend/2026-06-09_component.jsx) | React Component |
 | 2026-06-08 | [`frontend/2026-06-08_component.jsx`](./frontend/2026-06-08_component.jsx) | React Component |
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-11 12:19:12 UTC*
+*Auto-updated on 2026-06-11 17:27:10 UTC*
