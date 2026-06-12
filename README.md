@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-11-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-12-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-12 | [`gfg/2026-06-12_check-repeated-substring-with-k-replacem.py`](./gfg/2026-06-12_check-repeated-substring-with-k-replacem.py) | Check Repeated Substring with K Replacements |
 | 2026-06-10 | [`gfg/2026-06-10_binary-searchable-count.py`](./gfg/2026-06-10_binary-searchable-count.py) | Binary Searchable Count |
 | 2026-06-10 | [`gfg/2026-06-10_equal-point-in-brackets.py`](./gfg/2026-06-10_equal-point-in-brackets.py) | Equal Point in Brackets |
 | 2026-06-09 | [`gfg/2026-06-09_binary-searchable-count.java`](./gfg/2026-06-09_binary-searchable-count.java) | Binary Searchable Count |
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-06-11 | [`backend/2026-06-11_service.js`](./backend/2026-06-11_service.js) | Backend Utility |
 | 2026-06-09 | [`backend/2026-06-09_service.js`](./backend/2026-06-09_service.js) | Backend Utility |
-| 2026-06-07 | [`backend/2026-06-07_service.js`](./backend/2026-06-07_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-11 17:27:10 UTC*
+*Auto-updated on 2026-06-12 11:54:29 UTC*
