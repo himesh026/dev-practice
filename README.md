@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-14-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-15-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -15,12 +15,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-06-14 | [`gfg/2026-06-14_minimum-cost-to-fill-given-weight-in-a-b.java`](./gfg/2026-06-14_minimum-cost-to-fill-given-weight-in-a-b.java) | Minimum cost to fill given weight in a bag |
 | 2026-06-13 | [`gfg/2026-06-13_exit-point-in-a-matrix.js`](./gfg/2026-06-13_exit-point-in-a-matrix.js) | Exit Point in a Matrix |
 | 2026-06-12 | [`gfg/2026-06-12_check-repeated-substring-with-k-replacem.py`](./gfg/2026-06-12_check-repeated-substring-with-k-replacem.py) | Check Repeated Substring with K Replacements |
-| 2026-06-10 | [`gfg/2026-06-10_binary-searchable-count.py`](./gfg/2026-06-10_binary-searchable-count.py) | Binary Searchable Count |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-15 | [`frontend/2026-06-15_component.jsx`](./frontend/2026-06-15_component.jsx) | React Component |
 | 2026-06-14 | [`frontend/2026-06-14_component.jsx`](./frontend/2026-06-14_component.jsx) | React Component |
 | 2026-06-12 | [`frontend/2026-06-12_component.jsx`](./frontend/2026-06-12_component.jsx) | React Component |
 | 2026-06-11 | [`frontend/2026-06-11_component.jsx`](./frontend/2026-06-11_component.jsx) | React Component |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-14 21:22:51 UTC*
+*Auto-updated on 2026-06-15 14:38:09 UTC*
