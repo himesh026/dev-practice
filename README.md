@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-15 | [`gfg/2026-06-15_minimum-cost-to-fill-given-weight.js`](./gfg/2026-06-15_minimum-cost-to-fill-given-weight.js) | Minimum Cost to Fill Given Weight |
 | 2026-06-14 | [`gfg/2026-06-14_minimum-cost-to-fill-given-weight-in-a-b.java`](./gfg/2026-06-14_minimum-cost-to-fill-given-weight-in-a-b.java) | Minimum cost to fill given weight in a bag |
 | 2026-06-13 | [`gfg/2026-06-13_exit-point-in-a-matrix.js`](./gfg/2026-06-13_exit-point-in-a-matrix.js) | Exit Point in a Matrix |
 | 2026-06-12 | [`gfg/2026-06-12_check-repeated-substring-with-k-replacem.py`](./gfg/2026-06-12_check-repeated-substring-with-k-replacem.py) | Check Repeated Substring with K Replacements |
@@ -23,7 +24,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-06-15 | [`frontend/2026-06-15_component.jsx`](./frontend/2026-06-15_component.jsx) | React Component |
 | 2026-06-14 | [`frontend/2026-06-14_component.jsx`](./frontend/2026-06-14_component.jsx) | React Component |
 | 2026-06-12 | [`frontend/2026-06-12_component.jsx`](./frontend/2026-06-12_component.jsx) | React Component |
-| 2026-06-11 | [`frontend/2026-06-11_component.jsx`](./frontend/2026-06-11_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-15 14:38:09 UTC*
+*Auto-updated on 2026-06-15 18:17:49 UTC*
