@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-16-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-17-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -14,12 +14,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-06-15 | [`gfg/2026-06-15_minimum-cost-to-fill-given-weight.js`](./gfg/2026-06-15_minimum-cost-to-fill-given-weight.js) | Minimum Cost to Fill Given Weight |
 | 2026-06-14 | [`gfg/2026-06-14_minimum-cost-to-fill-given-weight-in-a-b.java`](./gfg/2026-06-14_minimum-cost-to-fill-given-weight-in-a-b.java) | Minimum cost to fill given weight in a bag |
-| 2026-06-13 | [`gfg/2026-06-13_exit-point-in-a-matrix.js`](./gfg/2026-06-13_exit-point-in-a-matrix.js) | Exit Point in a Matrix |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-17 | [`frontend/2026-06-17_component.jsx`](./frontend/2026-06-17_component.jsx) | React Component |
 | 2026-06-16 | [`frontend/2026-06-16_component.jsx`](./frontend/2026-06-16_component.jsx) | React Component |
 | 2026-06-15 | [`frontend/2026-06-15_component.jsx`](./frontend/2026-06-15_component.jsx) | React Component |
 | 2026-06-14 | [`frontend/2026-06-14_component.jsx`](./frontend/2026-06-14_component.jsx) | React Component |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-16 18:21:38 UTC*
+*Auto-updated on 2026-06-17 12:31:36 UTC*
