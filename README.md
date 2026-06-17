@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-17 | [`gfg/2026-06-17_coverage-of-all-zeros-in-a-binary-matrix.js`](./gfg/2026-06-17_coverage-of-all-zeros-in-a-binary-matrix.js) | Coverage of all Zeros in a Binary Matrix |
 | 2026-06-15 | [`gfg/2026-06-15_minimum-cost-to-fill-given-weight.js`](./gfg/2026-06-15_minimum-cost-to-fill-given-weight.js) | Minimum Cost to Fill Given Weight |
 | 2026-06-14 | [`gfg/2026-06-14_minimum-cost-to-fill-given-weight-in-a-b.java`](./gfg/2026-06-14_minimum-cost-to-fill-given-weight-in-a-b.java) | Minimum cost to fill given weight in a bag |
 
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-06-16 | [`backend/2026-06-16_service.js`](./backend/2026-06-16_service.js) | Backend Utility |
 | 2026-06-15 | [`backend/2026-06-15_service.js`](./backend/2026-06-15_service.js) | Backend Utility |
 | 2026-06-14 | [`backend/2026-06-14_service.js`](./backend/2026-06-14_service.js) | Backend Utility |
-| 2026-06-13 | [`backend/2026-06-13_service.js`](./backend/2026-06-13_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-17 12:31:36 UTC*
+*Auto-updated on 2026-06-17 22:08:22 UTC*
