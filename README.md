@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-18-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-19-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,9 +12,9 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-19 | [`gfg/2026-06-19_equalize-all-prefix-sums.js`](./gfg/2026-06-19_equalize-all-prefix-sums.js) | Equalize All Prefix Sums |
 | 2026-06-18 | [`gfg/2026-06-18_coverage-of-all-zeros-in-a-binary-matrix.java`](./gfg/2026-06-18_coverage-of-all-zeros-in-a-binary-matrix.java) | Coverage of all Zeros in a Binary Matrix |
 | 2026-06-17 | [`gfg/2026-06-17_coverage-of-all-zeros-in-a-binary-matrix.js`](./gfg/2026-06-17_coverage-of-all-zeros-in-a-binary-matrix.js) | Coverage of all Zeros in a Binary Matrix |
-| 2026-06-15 | [`gfg/2026-06-15_minimum-cost-to-fill-given-weight.js`](./gfg/2026-06-15_minimum-cost-to-fill-given-weight.js) | Minimum Cost to Fill Given Weight |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-18 22:22:07 UTC*
+*Auto-updated on 2026-06-19 12:20:16 UTC*
