@@ -16,12 +16,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-06-19 | [`gfg/2026-06-19_equalize-all-prefix-sums.java`](./gfg/2026-06-19_equalize-all-prefix-sums.java) | Equalize All Prefix Sums |
 | 2026-06-19 | [`gfg/2026-06-19_equalize-all-prefix-sums.js`](./gfg/2026-06-19_equalize-all-prefix-sums.js) | Equalize All Prefix Sums |
 | 2026-06-18 | [`gfg/2026-06-18_coverage-of-all-zeros-in-a-binary-matrix.java`](./gfg/2026-06-18_coverage-of-all-zeros-in-a-binary-matrix.java) | Coverage of all Zeros in a Binary Matrix |
-| 2026-06-17 | [`gfg/2026-06-17_coverage-of-all-zeros-in-a-binary-matrix.js`](./gfg/2026-06-17_coverage-of-all-zeros-in-a-binary-matrix.js) | Coverage of all Zeros in a Binary Matrix |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-20 | [`frontend/2026-06-20_component.jsx`](./frontend/2026-06-20_component.jsx) | React Component |
 | 2026-06-18 | [`frontend/2026-06-18_component.jsx`](./frontend/2026-06-18_component.jsx) | React Component |
 | 2026-06-17 | [`frontend/2026-06-17_component.jsx`](./frontend/2026-06-17_component.jsx) | React Component |
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-20 15:25:19 UTC*
+*Auto-updated on 2026-06-20 21:25:18 UTC*
