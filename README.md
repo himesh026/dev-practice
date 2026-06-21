@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-20-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-21-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-21 | [`gfg/2026-06-21_choose-and-swap.java`](./gfg/2026-06-21_choose-and-swap.java) | Choose and Swap |
 | 2026-06-20 | [`gfg/2026-06-20_last-digit-of-ab.java`](./gfg/2026-06-20_last-digit-of-ab.java) | Last Digit of a^b |
 | 2026-06-19 | [`gfg/2026-06-19_equalize-all-prefix-sums.java`](./gfg/2026-06-19_equalize-all-prefix-sums.java) | Equalize All Prefix Sums |
 | 2026-06-19 | [`gfg/2026-06-19_equalize-all-prefix-sums.js`](./gfg/2026-06-19_equalize-all-prefix-sums.js) | Equalize All Prefix Sums |
@@ -23,7 +24,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-06-20 | [`frontend/2026-06-20_component.jsx`](./frontend/2026-06-20_component.jsx) | React Component |
 | 2026-06-18 | [`frontend/2026-06-18_component.jsx`](./frontend/2026-06-18_component.jsx) | React Component |
-| 2026-06-17 | [`frontend/2026-06-17_component.jsx`](./frontend/2026-06-17_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-20 21:25:18 UTC*
+*Auto-updated on 2026-06-21 11:25:54 UTC*
