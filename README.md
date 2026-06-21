@@ -16,7 +16,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-06-20 | [`gfg/2026-06-20_last-digit-of-ab.java`](./gfg/2026-06-20_last-digit-of-ab.java) | Last Digit of a^b |
 | 2026-06-19 | [`gfg/2026-06-19_equalize-all-prefix-sums.java`](./gfg/2026-06-19_equalize-all-prefix-sums.java) | Equalize All Prefix Sums |
 | 2026-06-19 | [`gfg/2026-06-19_equalize-all-prefix-sums.js`](./gfg/2026-06-19_equalize-all-prefix-sums.js) | Equalize All Prefix Sums |
-| 2026-06-18 | [`gfg/2026-06-18_coverage-of-all-zeros-in-a-binary-matrix.java`](./gfg/2026-06-18_coverage-of-all-zeros-in-a-binary-matrix.java) | Coverage of all Zeros in a Binary Matrix |
 
 ## 🎨 Frontend Components
 
@@ -29,6 +28,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-21 | [`backend/2026-06-21_service.js`](./backend/2026-06-21_service.js) | Backend Utility |
 | 2026-06-20 | [`backend/2026-06-20_service.js`](./backend/2026-06-20_service.js) | Backend Utility |
 | 2026-06-19 | [`backend/2026-06-19_service.js`](./backend/2026-06-19_service.js) | Backend Utility |
 | 2026-06-18 | [`backend/2026-06-18_service.js`](./backend/2026-06-18_service.js) | Backend Utility |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-21 11:25:54 UTC*
+*Auto-updated on 2026-06-21 21:23:52 UTC*
