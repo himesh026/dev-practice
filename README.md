@@ -12,9 +12,9 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-23 | [`gfg/2026-06-23_rat-maze-with-multiple-jumps.js`](./gfg/2026-06-23_rat-maze-with-multiple-jumps.js) | Rat Maze With Multiple Jumps |
 | 2026-06-21 | [`gfg/2026-06-21_choose-and-swap.java`](./gfg/2026-06-21_choose-and-swap.java) | Choose and Swap |
 | 2026-06-20 | [`gfg/2026-06-20_last-digit-of-ab.java`](./gfg/2026-06-20_last-digit-of-ab.java) | Last Digit of a^b |
-| 2026-06-19 | [`gfg/2026-06-19_equalize-all-prefix-sums.java`](./gfg/2026-06-19_equalize-all-prefix-sums.java) | Equalize All Prefix Sums |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-23 11:32:49 UTC*
+*Auto-updated on 2026-06-23 21:48:13 UTC*
