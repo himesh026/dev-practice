@@ -15,12 +15,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-06-24 | [`gfg/2026-06-24_rat-maze-with-multiple-jumps.py`](./gfg/2026-06-24_rat-maze-with-multiple-jumps.py) | Rat Maze With Multiple Jumps |
 | 2026-06-23 | [`gfg/2026-06-23_rat-maze-with-multiple-jumps.js`](./gfg/2026-06-23_rat-maze-with-multiple-jumps.js) | Rat Maze With Multiple Jumps |
 | 2026-06-21 | [`gfg/2026-06-21_choose-and-swap.java`](./gfg/2026-06-21_choose-and-swap.java) | Choose and Swap |
-| 2026-06-20 | [`gfg/2026-06-20_last-digit-of-ab.java`](./gfg/2026-06-20_last-digit-of-ab.java) | Last Digit of a^b |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-24 | [`frontend/2026-06-24_component.jsx`](./frontend/2026-06-24_component.jsx) | React Component |
 | 2026-06-23 | [`frontend/2026-06-23_component.jsx`](./frontend/2026-06-23_component.jsx) | React Component |
 | 2026-06-22 | [`frontend/2026-06-22_component.jsx`](./frontend/2026-06-22_component.jsx) | React Component |
 | 2026-06-20 | [`frontend/2026-06-20_component.jsx`](./frontend/2026-06-20_component.jsx) | React Component |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-24 11:18:55 UTC*
+*Auto-updated on 2026-06-24 21:39:31 UTC*
