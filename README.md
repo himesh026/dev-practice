@@ -12,10 +12,10 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-25 | [`gfg/2026-06-25_count-matching-subsequences.py`](./gfg/2026-06-25_count-matching-subsequences.py) | Count Matching Subsequences |
 | 2026-06-25 | [`gfg/2026-06-25_n-digit-numbers-with-increasing-digits.py`](./gfg/2026-06-25_n-digit-numbers-with-increasing-digits.py) | N-Digit Numbers with Increasing Digits |
 | 2026-06-24 | [`gfg/2026-06-24_rat-maze-with-multiple-jumps.py`](./gfg/2026-06-24_rat-maze-with-multiple-jumps.py) | Rat Maze With Multiple Jumps |
 | 2026-06-23 | [`gfg/2026-06-23_rat-maze-with-multiple-jumps.js`](./gfg/2026-06-23_rat-maze-with-multiple-jumps.js) | Rat Maze With Multiple Jumps |
-| 2026-06-21 | [`gfg/2026-06-21_choose-and-swap.java`](./gfg/2026-06-21_choose-and-swap.java) | Choose and Swap |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-25 16:10:04 UTC*
+*Auto-updated on 2026-06-25 21:49:43 UTC*
