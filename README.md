@@ -17,12 +17,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-06-26 | [`gfg/2026-06-26_count-matching-subsequences.py`](./gfg/2026-06-26_count-matching-subsequences.py) | Count Matching Subsequences |
 | 2026-06-25 | [`gfg/2026-06-25_count-matching-subsequences.py`](./gfg/2026-06-25_count-matching-subsequences.py) | Count Matching Subsequences |
 | 2026-06-25 | [`gfg/2026-06-25_n-digit-numbers-with-increasing-digits.py`](./gfg/2026-06-25_n-digit-numbers-with-increasing-digits.py) | N-Digit Numbers with Increasing Digits |
-| 2026-06-24 | [`gfg/2026-06-24_rat-maze-with-multiple-jumps.py`](./gfg/2026-06-24_rat-maze-with-multiple-jumps.py) | Rat Maze With Multiple Jumps |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-28 | [`frontend/2026-06-28_component.jsx`](./frontend/2026-06-28_component.jsx) | React Component |
 | 2026-06-24 | [`frontend/2026-06-24_component.jsx`](./frontend/2026-06-24_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-28 10:36:31 UTC*
+*Auto-updated on 2026-06-28 15:06:26 UTC*
