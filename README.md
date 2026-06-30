@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-29-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-06-30-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-06-30 | [`gfg/2026-06-30_minimum-insert-and-delete-to-convert.py`](./gfg/2026-06-30_minimum-insert-and-delete-to-convert.py) | Minimum Insert and Delete to Convert |
 | 2026-06-29 | [`gfg/2026-06-29_max-dot-product-with-0-insertions.py`](./gfg/2026-06-29_max-dot-product-with-0-insertions.py) | Max Dot Product with 0 Insertions |
 | 2026-06-28 | [`gfg/2026-06-28_k-times-appearing-adjacent-two-1s.py`](./gfg/2026-06-28_k-times-appearing-adjacent-two-1s.py) | k Times Appearing Adjacent Two 1's |
 | 2026-06-28 | [`gfg/2026-06-28_max-dot-product-with-0-insertions.py`](./gfg/2026-06-28_max-dot-product-with-0-insertions.py) | Max Dot Product with 0 Insertions |
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-06-29 | [`backend/2026-06-29_service.js`](./backend/2026-06-29_service.js) | Backend Utility |
 | 2026-06-27 | [`backend/2026-06-27_service.js`](./backend/2026-06-27_service.js) | Backend Utility |
 | 2026-06-26 | [`backend/2026-06-26_service.js`](./backend/2026-06-26_service.js) | Backend Utility |
-| 2026-06-25 | [`backend/2026-06-25_service.js`](./backend/2026-06-25_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-06-29 16:46:52 UTC*
+*Auto-updated on 2026-06-30 11:22:53 UTC*
