@@ -18,12 +18,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-06-30 | [`gfg/2026-06-30_max-sum-subarray-by-removing-at-most-one.java`](./gfg/2026-06-30_max-sum-subarray-by-removing-at-most-one.java) | Max sum subarray by removing at most one element |
 | 2026-06-30 | [`gfg/2026-06-30_minimum-insert-and-delete-to-convert.java`](./gfg/2026-06-30_minimum-insert-and-delete-to-convert.java) | Minimum Insert and Delete to Convert |
 | 2026-06-30 | [`gfg/2026-06-30_minimum-insert-and-delete-to-convert.py`](./gfg/2026-06-30_minimum-insert-and-delete-to-convert.py) | Minimum Insert and Delete to Convert |
-| 2026-06-29 | [`gfg/2026-06-29_max-dot-product-with-0-insertions.py`](./gfg/2026-06-29_max-dot-product-with-0-insertions.py) | Max Dot Product with 0 Insertions |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-02 | [`frontend/2026-07-02_component.jsx`](./frontend/2026-07-02_component.jsx) | React Component |
 | 2026-07-01 | [`frontend/2026-07-01_component.jsx`](./frontend/2026-07-01_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-02 15:56:00 UTC*
+*Auto-updated on 2026-07-02 21:18:37 UTC*
