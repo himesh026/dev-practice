@@ -17,7 +17,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-07-01 | [`gfg/2026-07-01_check-subset-sum-divisible-by-k.js`](./gfg/2026-07-01_check-subset-sum-divisible-by-k.js) | Check Subset sum divisible by k |
 | 2026-07-01 | [`gfg/2026-07-01_max-subarray-sum-by-removing-at-most-one.py`](./gfg/2026-07-01_max-subarray-sum-by-removing-at-most-one.py) | Max Subarray Sum by Removing At Most One |
 | 2026-06-30 | [`gfg/2026-06-30_max-sum-subarray-by-removing-at-most-one.java`](./gfg/2026-06-30_max-sum-subarray-by-removing-at-most-one.java) | Max sum subarray by removing at most one element |
-| 2026-06-30 | [`gfg/2026-06-30_minimum-insert-and-delete-to-convert.java`](./gfg/2026-06-30_minimum-insert-and-delete-to-convert.java) | Minimum Insert and Delete to Convert |
 
 ## 🎨 Frontend Components
 
@@ -31,6 +30,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-03 | [`backend/2026-07-03_service.js`](./backend/2026-07-03_service.js) | Backend Utility |
 | 2026-07-02 | [`backend/2026-07-02_service.js`](./backend/2026-07-02_service.js) | Backend Utility |
 
 ---
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-03 15:44:11 UTC*
+*Auto-updated on 2026-07-03 21:17:25 UTC*
