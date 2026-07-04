@@ -15,12 +15,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-07-03 | [`gfg/2026-07-03_ways-to-increase-lcs-by-one.py`](./gfg/2026-07-03_ways-to-increase-lcs-by-one.py) | Ways to Increase LCS by One |
 | 2026-07-02 | [`gfg/2026-07-02_check-subset-sum-divisible-by-k.java`](./gfg/2026-07-02_check-subset-sum-divisible-by-k.java) | Check Subset sum divisible by k |
 | 2026-07-01 | [`gfg/2026-07-01_check-subset-sum-divisible-by-k.js`](./gfg/2026-07-01_check-subset-sum-divisible-by-k.js) | Check Subset sum divisible by k |
-| 2026-07-01 | [`gfg/2026-07-01_max-subarray-sum-by-removing-at-most-one.py`](./gfg/2026-07-01_max-subarray-sum-by-removing-at-most-one.py) | Max Subarray Sum by Removing At Most One |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-04 | [`frontend/2026-07-04_component.jsx`](./frontend/2026-07-04_component.jsx) | React Component |
 | 2026-07-03 | [`frontend/2026-07-03_component.jsx`](./frontend/2026-07-03_component.jsx) | React Component |
 | 2026-07-02 | [`frontend/2026-07-02_component.jsx`](./frontend/2026-07-02_component.jsx) | React Component |
 | 2026-07-01 | [`frontend/2026-07-01_component.jsx`](./frontend/2026-07-01_component.jsx) | React Component |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-04 10:27:42 UTC*
+*Auto-updated on 2026-07-04 14:52:31 UTC*
