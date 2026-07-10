@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-10 | [`gfg/2026-07-10_longest-possible-route-in-a-matrix-with.js`](./gfg/2026-07-10_longest-possible-route-in-a-matrix-with.js) | Longest Possible Route in a Matrix with Hurdles |
 | 2026-07-10 | [`gfg/2026-07-10_ways-to-express-as-sum-of-consecutives.js`](./gfg/2026-07-10_ways-to-express-as-sum-of-consecutives.js) | Ways to Express as Sum of Consecutives |
 | 2026-07-09 | [`gfg/2026-07-09_count-pairs-divisible-by-k.py`](./gfg/2026-07-09_count-pairs-divisible-by-k.py) | Count Pairs Divisible By K |
 | 2026-07-08 | [`gfg/2026-07-08_count-pairs-divisible-by-k.java`](./gfg/2026-07-08_count-pairs-divisible-by-k.java) | Count Pairs Divisible By K |
@@ -23,7 +24,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-07-10 | [`frontend/2026-07-10_component.jsx`](./frontend/2026-07-10_component.jsx) | React Component |
 | 2026-07-09 | [`frontend/2026-07-09_component.jsx`](./frontend/2026-07-09_component.jsx) | React Component |
-| 2026-07-07 | [`frontend/2026-07-07_component.jsx`](./frontend/2026-07-07_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-10 16:07:05 UTC*
+*Auto-updated on 2026-07-10 21:14:43 UTC*
