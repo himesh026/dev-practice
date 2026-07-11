@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-10-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-11-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-11 | [`gfg/2026-07-11_longest-possible-route-in-a-matrix-with.js`](./gfg/2026-07-11_longest-possible-route-in-a-matrix-with.js) | Longest Possible Route in a Matrix with Hurdles |
 | 2026-07-10 | [`gfg/2026-07-10_longest-possible-route-in-a-matrix-with.js`](./gfg/2026-07-10_longest-possible-route-in-a-matrix-with.js) | Longest Possible Route in a Matrix with Hurdles |
 | 2026-07-10 | [`gfg/2026-07-10_ways-to-express-as-sum-of-consecutives.js`](./gfg/2026-07-10_ways-to-express-as-sum-of-consecutives.js) | Ways to Express as Sum of Consecutives |
 | 2026-07-09 | [`gfg/2026-07-09_count-pairs-divisible-by-k.py`](./gfg/2026-07-09_count-pairs-divisible-by-k.py) | Count Pairs Divisible By K |
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-07-09 | [`backend/2026-07-09_service.js`](./backend/2026-07-09_service.js) | Backend Utility |
 | 2026-07-08 | [`backend/2026-07-08_service.js`](./backend/2026-07-08_service.js) | Backend Utility |
-| 2026-07-07 | [`backend/2026-07-07_service.js`](./backend/2026-07-07_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-10 21:14:43 UTC*
+*Auto-updated on 2026-07-11 09:50:36 UTC*
