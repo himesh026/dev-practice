@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-14 | [`gfg/2026-07-14_longest-bitonic-subarray.py`](./gfg/2026-07-14_longest-bitonic-subarray.py) | Longest Bitonic Subarray |
 | 2026-07-14 | [`gfg/2026-07-14_smallest-non-zero-number.java`](./gfg/2026-07-14_smallest-non-zero-number.java) | Smallest Non-Zero Number |
 | 2026-07-12 | [`gfg/2026-07-12_max-amount-by-selling-k-tickets.js`](./gfg/2026-07-12_max-amount-by-selling-k-tickets.js) | Max Amount by Selling K Tickets |
 | 2026-07-12 | [`gfg/2026-07-12_max-amount-by-selling-k-tickets.py`](./gfg/2026-07-12_max-amount-by-selling-k-tickets.py) | Max Amount by Selling K Tickets |
@@ -24,7 +25,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-07-14 | [`frontend/2026-07-14_component.jsx`](./frontend/2026-07-14_component.jsx) | React Component |
 | 2026-07-13 | [`frontend/2026-07-13_component.jsx`](./frontend/2026-07-13_component.jsx) | React Component |
-| 2026-07-10 | [`frontend/2026-07-10_component.jsx`](./frontend/2026-07-10_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-14 15:11:19 UTC*
+*Auto-updated on 2026-07-14 21:08:28 UTC*
