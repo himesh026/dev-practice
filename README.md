@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-14-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-15-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,12 +12,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-15 | [`gfg/2026-07-15_longest-bitonic-subarray.py`](./gfg/2026-07-15_longest-bitonic-subarray.py) | Longest Bitonic Subarray |
 | 2026-07-14 | [`gfg/2026-07-14_longest-bitonic-subarray.py`](./gfg/2026-07-14_longest-bitonic-subarray.py) | Longest Bitonic Subarray |
 | 2026-07-14 | [`gfg/2026-07-14_smallest-non-zero-number.java`](./gfg/2026-07-14_smallest-non-zero-number.java) | Smallest Non-Zero Number |
 | 2026-07-12 | [`gfg/2026-07-12_max-amount-by-selling-k-tickets.js`](./gfg/2026-07-12_max-amount-by-selling-k-tickets.js) | Max Amount by Selling K Tickets |
 | 2026-07-12 | [`gfg/2026-07-12_max-amount-by-selling-k-tickets.py`](./gfg/2026-07-12_max-amount-by-selling-k-tickets.py) | Max Amount by Selling K Tickets |
 | 2026-07-11 | [`gfg/2026-07-11_longest-possible-route-in-a-matrix-with.js`](./gfg/2026-07-11_longest-possible-route-in-a-matrix-with.js) | Longest Possible Route in a Matrix with Hurdles |
-| 2026-07-11 | [`gfg/2026-07-11_max-amount-by-selling-k-tickets.py`](./gfg/2026-07-11_max-amount-by-selling-k-tickets.py) | Max Amount by Selling K Tickets |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-14 21:08:28 UTC*
+*Auto-updated on 2026-07-15 10:16:43 UTC*
