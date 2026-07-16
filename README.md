@@ -12,11 +12,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-16 | [`gfg/2026-07-16_max-absolute-diff-of-two-subarrays.js`](./gfg/2026-07-16_max-absolute-diff-of-two-subarrays.js) | Max Absolute Diff of Two Subarrays |
 | 2026-07-15 | [`gfg/2026-07-15_longest-bitonic-subarray.py`](./gfg/2026-07-15_longest-bitonic-subarray.py) | Longest Bitonic Subarray |
 | 2026-07-14 | [`gfg/2026-07-14_longest-bitonic-subarray.py`](./gfg/2026-07-14_longest-bitonic-subarray.py) | Longest Bitonic Subarray |
 | 2026-07-14 | [`gfg/2026-07-14_smallest-non-zero-number.java`](./gfg/2026-07-14_smallest-non-zero-number.java) | Smallest Non-Zero Number |
 | 2026-07-12 | [`gfg/2026-07-12_max-amount-by-selling-k-tickets.js`](./gfg/2026-07-12_max-amount-by-selling-k-tickets.js) | Max Amount by Selling K Tickets |
-| 2026-07-12 | [`gfg/2026-07-12_max-amount-by-selling-k-tickets.py`](./gfg/2026-07-12_max-amount-by-selling-k-tickets.py) | Max Amount by Selling K Tickets |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-16 10:21:57 UTC*
+*Auto-updated on 2026-07-16 21:11:52 UTC*
