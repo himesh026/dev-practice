@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-16-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-17-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -16,12 +16,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-07-15 | [`gfg/2026-07-15_longest-bitonic-subarray.py`](./gfg/2026-07-15_longest-bitonic-subarray.py) | Longest Bitonic Subarray |
 | 2026-07-14 | [`gfg/2026-07-14_longest-bitonic-subarray.py`](./gfg/2026-07-14_longest-bitonic-subarray.py) | Longest Bitonic Subarray |
 | 2026-07-14 | [`gfg/2026-07-14_smallest-non-zero-number.java`](./gfg/2026-07-14_smallest-non-zero-number.java) | Smallest Non-Zero Number |
-| 2026-07-12 | [`gfg/2026-07-12_max-amount-by-selling-k-tickets.js`](./gfg/2026-07-12_max-amount-by-selling-k-tickets.js) | Max Amount by Selling K Tickets |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-17 | [`frontend/2026-07-17_component.jsx`](./frontend/2026-07-17_component.jsx) | React Component |
 | 2026-07-16 | [`frontend/2026-07-16_component.jsx`](./frontend/2026-07-16_component.jsx) | React Component |
 | 2026-07-14 | [`frontend/2026-07-14_component.jsx`](./frontend/2026-07-14_component.jsx) | React Component |
 | 2026-07-13 | [`frontend/2026-07-13_component.jsx`](./frontend/2026-07-13_component.jsx) | React Component |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-16 21:11:52 UTC*
+*Auto-updated on 2026-07-17 10:13:09 UTC*
