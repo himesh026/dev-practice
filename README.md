@@ -13,9 +13,9 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-07-19 | [`gfg/2026-07-19_mountain-subarray-queries.js`](./gfg/2026-07-19_mountain-subarray-queries.js) | Mountain Subarray Queries |
+| 2026-07-19 | [`gfg/2026-07-19_mountain-subarray-queries.py`](./gfg/2026-07-19_mountain-subarray-queries.py) | Mountain Subarray Queries |
 | 2026-07-16 | [`gfg/2026-07-16_max-absolute-diff-of-two-subarrays.js`](./gfg/2026-07-16_max-absolute-diff-of-two-subarrays.js) | Max Absolute Diff of Two Subarrays |
 | 2026-07-15 | [`gfg/2026-07-15_longest-bitonic-subarray.py`](./gfg/2026-07-15_longest-bitonic-subarray.py) | Longest Bitonic Subarray |
-| 2026-07-14 | [`gfg/2026-07-14_longest-bitonic-subarray.py`](./gfg/2026-07-14_longest-bitonic-subarray.py) | Longest Bitonic Subarray |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-19 10:01:58 UTC*
+*Auto-updated on 2026-07-19 14:41:19 UTC*
