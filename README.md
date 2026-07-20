@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-19-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-20-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,10 +12,10 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-20 | [`gfg/2026-07-20_shortest-unique-prefix-for-every-word.js`](./gfg/2026-07-20_shortest-unique-prefix-for-every-word.js) | Shortest Unique Prefix for Every Word |
 | 2026-07-19 | [`gfg/2026-07-19_mountain-subarray-queries.js`](./gfg/2026-07-19_mountain-subarray-queries.js) | Mountain Subarray Queries |
 | 2026-07-19 | [`gfg/2026-07-19_mountain-subarray-queries.py`](./gfg/2026-07-19_mountain-subarray-queries.py) | Mountain Subarray Queries |
 | 2026-07-16 | [`gfg/2026-07-16_max-absolute-diff-of-two-subarrays.js`](./gfg/2026-07-16_max-absolute-diff-of-two-subarrays.js) | Max Absolute Diff of Two Subarrays |
-| 2026-07-15 | [`gfg/2026-07-15_longest-bitonic-subarray.py`](./gfg/2026-07-15_longest-bitonic-subarray.py) | Longest Bitonic Subarray |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-19 21:02:13 UTC*
+*Auto-updated on 2026-07-20 11:15:51 UTC*
