@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-20 | [`gfg/2026-07-20_maximum-reachable-index-difference.py`](./gfg/2026-07-20_maximum-reachable-index-difference.py) | Maximum Reachable Index Difference |
 | 2026-07-20 | [`gfg/2026-07-20_shortest-unique-prefix-for-every-word.js`](./gfg/2026-07-20_shortest-unique-prefix-for-every-word.js) | Shortest Unique Prefix for Every Word |
 | 2026-07-19 | [`gfg/2026-07-19_mountain-subarray-queries.js`](./gfg/2026-07-19_mountain-subarray-queries.js) | Mountain Subarray Queries |
 | 2026-07-19 | [`gfg/2026-07-19_mountain-subarray-queries.py`](./gfg/2026-07-19_mountain-subarray-queries.py) | Mountain Subarray Queries |
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-07-19 | [`backend/2026-07-19_service.js`](./backend/2026-07-19_service.js) | Backend Utility |
 | 2026-07-18 | [`backend/2026-07-18_service.js`](./backend/2026-07-18_service.js) | Backend Utility |
 | 2026-07-17 | [`backend/2026-07-17_service.js`](./backend/2026-07-17_service.js) | Backend Utility |
-| 2026-07-15 | [`backend/2026-07-15_service.js`](./backend/2026-07-15_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-20 11:15:51 UTC*
+*Auto-updated on 2026-07-20 21:18:31 UTC*
