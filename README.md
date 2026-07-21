@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-20-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-21-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,11 +12,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-21 | [`gfg/2026-07-21_maximum-reachable-index-difference.js`](./gfg/2026-07-21_maximum-reachable-index-difference.js) | Maximum Reachable Index Difference |
 | 2026-07-20 | [`gfg/2026-07-20_maximum-reachable-index-difference.py`](./gfg/2026-07-20_maximum-reachable-index-difference.py) | Maximum Reachable Index Difference |
 | 2026-07-20 | [`gfg/2026-07-20_shortest-unique-prefix-for-every-word.js`](./gfg/2026-07-20_shortest-unique-prefix-for-every-word.js) | Shortest Unique Prefix for Every Word |
 | 2026-07-19 | [`gfg/2026-07-19_mountain-subarray-queries.js`](./gfg/2026-07-19_mountain-subarray-queries.js) | Mountain Subarray Queries |
 | 2026-07-19 | [`gfg/2026-07-19_mountain-subarray-queries.py`](./gfg/2026-07-19_mountain-subarray-queries.py) | Mountain Subarray Queries |
-| 2026-07-16 | [`gfg/2026-07-16_max-absolute-diff-of-two-subarrays.js`](./gfg/2026-07-16_max-absolute-diff-of-two-subarrays.js) | Max Absolute Diff of Two Subarrays |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-20 21:18:31 UTC*
+*Auto-updated on 2026-07-21 10:34:43 UTC*
