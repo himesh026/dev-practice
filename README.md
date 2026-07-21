@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-21 | [`gfg/2026-07-21_maximum-reachable-index-difference.java`](./gfg/2026-07-21_maximum-reachable-index-difference.java) | Maximum Reachable Index Difference |
 | 2026-07-21 | [`gfg/2026-07-21_maximum-reachable-index-difference.js`](./gfg/2026-07-21_maximum-reachable-index-difference.js) | Maximum Reachable Index Difference |
 | 2026-07-20 | [`gfg/2026-07-20_maximum-reachable-index-difference.py`](./gfg/2026-07-20_maximum-reachable-index-difference.py) | Maximum Reachable Index Difference |
 | 2026-07-20 | [`gfg/2026-07-20_shortest-unique-prefix-for-every-word.js`](./gfg/2026-07-20_shortest-unique-prefix-for-every-word.js) | Shortest Unique Prefix for Every Word |
@@ -23,7 +24,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-07-17 | [`frontend/2026-07-17_component.jsx`](./frontend/2026-07-17_component.jsx) | React Component |
-| 2026-07-16 | [`frontend/2026-07-16_component.jsx`](./frontend/2026-07-16_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-21 10:34:43 UTC*
+*Auto-updated on 2026-07-21 15:25:34 UTC*
