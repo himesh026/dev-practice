@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-21-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-22-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-22 | [`gfg/2026-07-22_minimum-deletions-to-make-sorted.java`](./gfg/2026-07-22_minimum-deletions-to-make-sorted.java) | Minimum Deletions to Make Sorted |
 | 2026-07-21 | [`gfg/2026-07-21_maximum-reachable-index-difference.java`](./gfg/2026-07-21_maximum-reachable-index-difference.java) | Maximum Reachable Index Difference |
 | 2026-07-21 | [`gfg/2026-07-21_maximum-reachable-index-difference.js`](./gfg/2026-07-21_maximum-reachable-index-difference.js) | Maximum Reachable Index Difference |
 | 2026-07-21 | [`gfg/2026-07-21_minimum-deletions-to-make-sorted.java`](./gfg/2026-07-21_minimum-deletions-to-make-sorted.java) | Minimum Deletions to Make Sorted |
@@ -30,7 +31,6 @@ _Nothing yet._
 |------|------|-------------|
 | 2026-07-19 | [`backend/2026-07-19_service.js`](./backend/2026-07-19_service.js) | Backend Utility |
 | 2026-07-18 | [`backend/2026-07-18_service.js`](./backend/2026-07-18_service.js) | Backend Utility |
-| 2026-07-17 | [`backend/2026-07-17_service.js`](./backend/2026-07-17_service.js) | Backend Utility |
 
 ---
 
@@ -51,4 +51,4 @@ _Nothing yet._
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-21 21:20:22 UTC*
+*Auto-updated on 2026-07-22 10:35:06 UTC*
