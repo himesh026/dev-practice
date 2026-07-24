@@ -12,13 +12,13 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-24 | [`gfg/2026-07-24_max-sum-square-sub-matrix-of-size-k.js`](./gfg/2026-07-24_max-sum-square-sub-matrix-of-size-k.js) | Max Sum Square Sub-Matrix of Size k |
 | 2026-07-23 | [`gfg/2026-07-23_check-preorder-of-bst.java`](./gfg/2026-07-23_check-preorder-of-bst.java) | Check Preorder of BST |
 | 2026-07-23 | [`gfg/2026-07-23_check-preorder-of-bst.js`](./gfg/2026-07-23_check-preorder-of-bst.js) | Check Preorder of BST |
 | 2026-07-22 | [`gfg/2026-07-22_minimum-deletions-to-make-sorted.java`](./gfg/2026-07-22_minimum-deletions-to-make-sorted.java) | Minimum Deletions to Make Sorted |
 | 2026-07-21 | [`gfg/2026-07-21_maximum-reachable-index-difference.java`](./gfg/2026-07-21_maximum-reachable-index-difference.java) | Maximum Reachable Index Difference |
 | 2026-07-21 | [`gfg/2026-07-21_maximum-reachable-index-difference.js`](./gfg/2026-07-21_maximum-reachable-index-difference.js) | Maximum Reachable Index Difference |
 | 2026-07-21 | [`gfg/2026-07-21_minimum-deletions-to-make-sorted.java`](./gfg/2026-07-21_minimum-deletions-to-make-sorted.java) | Minimum Deletions to Make Sorted |
-| 2026-07-20 | [`gfg/2026-07-20_maximum-reachable-index-difference.py`](./gfg/2026-07-20_maximum-reachable-index-difference.py) | Maximum Reachable Index Difference |
 
 ## 🎨 Frontend Components
 
@@ -51,4 +51,4 @@ _Nothing yet._
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-24 10:29:53 UTC*
+*Auto-updated on 2026-07-24 21:13:58 UTC*
