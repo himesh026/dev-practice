@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-23-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-24-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -19,12 +19,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-07-21 | [`gfg/2026-07-21_maximum-reachable-index-difference.js`](./gfg/2026-07-21_maximum-reachable-index-difference.js) | Maximum Reachable Index Difference |
 | 2026-07-21 | [`gfg/2026-07-21_minimum-deletions-to-make-sorted.java`](./gfg/2026-07-21_minimum-deletions-to-make-sorted.java) | Minimum Deletions to Make Sorted |
 | 2026-07-20 | [`gfg/2026-07-20_maximum-reachable-index-difference.py`](./gfg/2026-07-20_maximum-reachable-index-difference.py) | Maximum Reachable Index Difference |
-| 2026-07-20 | [`gfg/2026-07-20_shortest-unique-prefix-for-every-word.js`](./gfg/2026-07-20_shortest-unique-prefix-for-every-word.js) | Shortest Unique Prefix for Every Word |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-24 | [`frontend/2026-07-24_component.jsx`](./frontend/2026-07-24_component.jsx) | React Component |
 | 2026-07-23 | [`frontend/2026-07-23_component.jsx`](./frontend/2026-07-23_component.jsx) | React Component |
 | 2026-07-22 | [`frontend/2026-07-22_component.jsx`](./frontend/2026-07-22_component.jsx) | React Component |
 
@@ -51,4 +51,4 @@ _Nothing yet._
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-23 21:15:44 UTC*
+*Auto-updated on 2026-07-24 10:29:53 UTC*
