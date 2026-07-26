@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-26 | [`gfg/2026-07-26_complete-binary-tree-traversal-with-arra.py`](./gfg/2026-07-26_complete-binary-tree-traversal-with-arra.py) | Complete Binary Tree Traversal with Array Input |
 | 2026-07-25 | [`gfg/2026-07-25_complete-binary-tree-traversal-with-arra.js`](./gfg/2026-07-25_complete-binary-tree-traversal-with-arra.js) | Complete Binary Tree Traversal with Array Input |
 | 2026-07-25 | [`gfg/2026-07-25_max-sum-square-sub-matrix-of-size-k.java`](./gfg/2026-07-25_max-sum-square-sub-matrix-of-size-k.java) | Max Sum Square Sub-Matrix of Size k |
 | 2026-07-25 | [`gfg/2026-07-25_max-sum-square-sub-matrix-of-size-k.py`](./gfg/2026-07-25_max-sum-square-sub-matrix-of-size-k.py) | Max Sum Square Sub-Matrix of Size k |
@@ -25,7 +26,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-07-24 | [`frontend/2026-07-24_component.jsx`](./frontend/2026-07-24_component.jsx) | React Component |
 | 2026-07-23 | [`frontend/2026-07-23_component.jsx`](./frontend/2026-07-23_component.jsx) | React Component |
-| 2026-07-22 | [`frontend/2026-07-22_component.jsx`](./frontend/2026-07-22_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-26 10:14:16 UTC*
+*Auto-updated on 2026-07-26 14:51:21 UTC*
