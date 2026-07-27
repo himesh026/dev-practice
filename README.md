@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-26-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-27-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,13 +12,13 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-27 | [`gfg/2026-07-27_construct-a-full-binary-tree.py`](./gfg/2026-07-27_construct-a-full-binary-tree.py) | Construct a Full Binary Tree |
 | 2026-07-26 | [`gfg/2026-07-26_complete-binary-tree-traversal-with-arra.py`](./gfg/2026-07-26_complete-binary-tree-traversal-with-arra.py) | Complete Binary Tree Traversal with Array Input |
 | 2026-07-26 | [`gfg/2026-07-26_construct-a-full-binary-tree.py`](./gfg/2026-07-26_construct-a-full-binary-tree.py) | Construct a Full Binary Tree |
 | 2026-07-25 | [`gfg/2026-07-25_complete-binary-tree-traversal-with-arra.js`](./gfg/2026-07-25_complete-binary-tree-traversal-with-arra.js) | Complete Binary Tree Traversal with Array Input |
 | 2026-07-25 | [`gfg/2026-07-25_max-sum-square-sub-matrix-of-size-k.java`](./gfg/2026-07-25_max-sum-square-sub-matrix-of-size-k.java) | Max Sum Square Sub-Matrix of Size k |
 | 2026-07-25 | [`gfg/2026-07-25_max-sum-square-sub-matrix-of-size-k.py`](./gfg/2026-07-25_max-sum-square-sub-matrix-of-size-k.py) | Max Sum Square Sub-Matrix of Size k |
 | 2026-07-24 | [`gfg/2026-07-24_max-sum-square-sub-matrix-of-size-k.js`](./gfg/2026-07-24_max-sum-square-sub-matrix-of-size-k.js) | Max Sum Square Sub-Matrix of Size k |
-| 2026-07-23 | [`gfg/2026-07-23_check-preorder-of-bst.java`](./gfg/2026-07-23_check-preorder-of-bst.java) | Check Preorder of BST |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-26 21:06:34 UTC*
+*Auto-updated on 2026-07-27 11:43:42 UTC*
