@@ -12,13 +12,13 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-28 | [`gfg/2026-07-28_shortest-path-in-1-2-graph.py`](./gfg/2026-07-28_shortest-path-in-1-2-graph.py) | Shortest Path in 1-2 Graph |
 | 2026-07-27 | [`gfg/2026-07-27_construct-a-full-binary-tree.java`](./gfg/2026-07-27_construct-a-full-binary-tree.java) | Construct a Full Binary Tree |
 | 2026-07-27 | [`gfg/2026-07-27_construct-a-full-binary-tree.py`](./gfg/2026-07-27_construct-a-full-binary-tree.py) | Construct a Full Binary Tree |
 | 2026-07-26 | [`gfg/2026-07-26_complete-binary-tree-traversal-with-arra.py`](./gfg/2026-07-26_complete-binary-tree-traversal-with-arra.py) | Complete Binary Tree Traversal with Array Input |
 | 2026-07-26 | [`gfg/2026-07-26_construct-a-full-binary-tree.py`](./gfg/2026-07-26_construct-a-full-binary-tree.py) | Construct a Full Binary Tree |
 | 2026-07-25 | [`gfg/2026-07-25_complete-binary-tree-traversal-with-arra.js`](./gfg/2026-07-25_complete-binary-tree-traversal-with-arra.js) | Complete Binary Tree Traversal with Array Input |
 | 2026-07-25 | [`gfg/2026-07-25_max-sum-square-sub-matrix-of-size-k.java`](./gfg/2026-07-25_max-sum-square-sub-matrix-of-size-k.java) | Max Sum Square Sub-Matrix of Size k |
-| 2026-07-25 | [`gfg/2026-07-25_max-sum-square-sub-matrix-of-size-k.py`](./gfg/2026-07-25_max-sum-square-sub-matrix-of-size-k.py) | Max Sum Square Sub-Matrix of Size k |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-28 10:46:19 UTC*
+*Auto-updated on 2026-07-28 15:54:08 UTC*
