@@ -17,12 +17,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-07-28 | [`gfg/2026-07-28_shortest-path-in-1-2-graph.py`](./gfg/2026-07-28_shortest-path-in-1-2-graph.py) | Shortest Path in 1-2 Graph |
 | 2026-07-27 | [`gfg/2026-07-27_construct-a-full-binary-tree.java`](./gfg/2026-07-27_construct-a-full-binary-tree.java) | Construct a Full Binary Tree |
 | 2026-07-27 | [`gfg/2026-07-27_construct-a-full-binary-tree.py`](./gfg/2026-07-27_construct-a-full-binary-tree.py) | Construct a Full Binary Tree |
-| 2026-07-26 | [`gfg/2026-07-26_complete-binary-tree-traversal-with-arra.py`](./gfg/2026-07-26_complete-binary-tree-traversal-with-arra.py) | Complete Binary Tree Traversal with Array Input |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-29 | [`frontend/2026-07-29_component.jsx`](./frontend/2026-07-29_component.jsx) | React Component |
 | 2026-07-28 | [`frontend/2026-07-28_component.jsx`](./frontend/2026-07-28_component.jsx) | React Component |
 | 2026-07-27 | [`frontend/2026-07-27_component.jsx`](./frontend/2026-07-27_component.jsx) | React Component |
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-29 15:35:55 UTC*
+*Auto-updated on 2026-07-29 21:06:55 UTC*
