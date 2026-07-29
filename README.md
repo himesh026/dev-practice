@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-28-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-29-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,12 +12,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-29 | [`gfg/2026-07-29_split-array-into-minimum-subsets.js`](./gfg/2026-07-29_split-array-into-minimum-subsets.js) | Split Array into Minimum Subsets |
 | 2026-07-28 | [`gfg/2026-07-28_shortest-path-in-1-2-graph.py`](./gfg/2026-07-28_shortest-path-in-1-2-graph.py) | Shortest Path in 1-2 Graph |
 | 2026-07-27 | [`gfg/2026-07-27_construct-a-full-binary-tree.java`](./gfg/2026-07-27_construct-a-full-binary-tree.java) | Construct a Full Binary Tree |
 | 2026-07-27 | [`gfg/2026-07-27_construct-a-full-binary-tree.py`](./gfg/2026-07-27_construct-a-full-binary-tree.py) | Construct a Full Binary Tree |
 | 2026-07-26 | [`gfg/2026-07-26_complete-binary-tree-traversal-with-arra.py`](./gfg/2026-07-26_complete-binary-tree-traversal-with-arra.py) | Complete Binary Tree Traversal with Array Input |
 | 2026-07-26 | [`gfg/2026-07-26_construct-a-full-binary-tree.py`](./gfg/2026-07-26_construct-a-full-binary-tree.py) | Construct a Full Binary Tree |
-| 2026-07-25 | [`gfg/2026-07-25_complete-binary-tree-traversal-with-arra.js`](./gfg/2026-07-25_complete-binary-tree-traversal-with-arra.js) | Complete Binary Tree Traversal with Array Input |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-28 21:16:35 UTC*
+*Auto-updated on 2026-07-29 10:58:08 UTC*
