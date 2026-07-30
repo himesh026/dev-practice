@@ -12,11 +12,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-30 | [`gfg/2026-07-30_subsets-with-products-of-distinct-primes.java`](./gfg/2026-07-30_subsets-with-products-of-distinct-primes.java) | Subsets with Products of Distinct Primes |
 | 2026-07-29 | [`gfg/2026-07-29_split-array-into-minimum-subsets.java`](./gfg/2026-07-29_split-array-into-minimum-subsets.java) | Split Array into Minimum Subsets |
 | 2026-07-29 | [`gfg/2026-07-29_split-array-into-minimum-subsets.js`](./gfg/2026-07-29_split-array-into-minimum-subsets.js) | Split Array into Minimum Subsets |
 | 2026-07-28 | [`gfg/2026-07-28_shortest-path-in-1-2-graph.py`](./gfg/2026-07-28_shortest-path-in-1-2-graph.py) | Shortest Path in 1-2 Graph |
 | 2026-07-27 | [`gfg/2026-07-27_construct-a-full-binary-tree.java`](./gfg/2026-07-27_construct-a-full-binary-tree.java) | Construct a Full Binary Tree |
-| 2026-07-27 | [`gfg/2026-07-27_construct-a-full-binary-tree.py`](./gfg/2026-07-27_construct-a-full-binary-tree.py) | Construct a Full Binary Tree |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-30 10:35:03 UTC*
+*Auto-updated on 2026-07-30 21:19:16 UTC*
