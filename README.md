@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-30-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-07-31-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -16,12 +16,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-07-29 | [`gfg/2026-07-29_split-array-into-minimum-subsets.java`](./gfg/2026-07-29_split-array-into-minimum-subsets.java) | Split Array into Minimum Subsets |
 | 2026-07-29 | [`gfg/2026-07-29_split-array-into-minimum-subsets.js`](./gfg/2026-07-29_split-array-into-minimum-subsets.js) | Split Array into Minimum Subsets |
 | 2026-07-28 | [`gfg/2026-07-28_shortest-path-in-1-2-graph.py`](./gfg/2026-07-28_shortest-path-in-1-2-graph.py) | Shortest Path in 1-2 Graph |
-| 2026-07-27 | [`gfg/2026-07-27_construct-a-full-binary-tree.java`](./gfg/2026-07-27_construct-a-full-binary-tree.java) | Construct a Full Binary Tree |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-31 | [`frontend/2026-07-31_component.jsx`](./frontend/2026-07-31_component.jsx) | React Component |
 | 2026-07-29 | [`frontend/2026-07-29_component.jsx`](./frontend/2026-07-29_component.jsx) | React Component |
 | 2026-07-28 | [`frontend/2026-07-28_component.jsx`](./frontend/2026-07-28_component.jsx) | React Component |
 | 2026-07-27 | [`frontend/2026-07-27_component.jsx`](./frontend/2026-07-27_component.jsx) | React Component |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-30 21:19:16 UTC*
+*Auto-updated on 2026-07-31 11:01:24 UTC*
