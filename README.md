@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-07-31 | [`gfg/2026-07-31_subsets-with-products-of-distinct-primes.py`](./gfg/2026-07-31_subsets-with-products-of-distinct-primes.py) | Subsets with Products of Distinct Primes |
 | 2026-07-30 | [`gfg/2026-07-30_subsets-with-products-of-distinct-primes.java`](./gfg/2026-07-30_subsets-with-products-of-distinct-primes.java) | Subsets with Products of Distinct Primes |
 | 2026-07-29 | [`gfg/2026-07-29_split-array-into-minimum-subsets.java`](./gfg/2026-07-29_split-array-into-minimum-subsets.java) | Split Array into Minimum Subsets |
 | 2026-07-29 | [`gfg/2026-07-29_split-array-into-minimum-subsets.js`](./gfg/2026-07-29_split-array-into-minimum-subsets.js) | Split Array into Minimum Subsets |
@@ -24,7 +25,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-07-31 | [`frontend/2026-07-31_component.jsx`](./frontend/2026-07-31_component.jsx) | React Component |
 | 2026-07-29 | [`frontend/2026-07-29_component.jsx`](./frontend/2026-07-29_component.jsx) | React Component |
 | 2026-07-28 | [`frontend/2026-07-28_component.jsx`](./frontend/2026-07-28_component.jsx) | React Component |
-| 2026-07-27 | [`frontend/2026-07-27_component.jsx`](./frontend/2026-07-27_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-07-31 11:01:24 UTC*
+*Auto-updated on 2026-07-31 15:49:08 UTC*
