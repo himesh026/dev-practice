@@ -17,12 +17,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-08-02 | [`gfg/2026-08-02_max-sum-subarray-of-size-at-least-k.js`](./gfg/2026-08-02_max-sum-subarray-of-size-at-least-k.js) | Max Sum Subarray of Size at least K |
 | 2026-08-01 | [`gfg/2026-08-01_max-after-m-range-increments.py`](./gfg/2026-08-01_max-after-m-range-increments.py) | Max After m Range Increments |
 | 2026-07-31 | [`gfg/2026-07-31_max-after-m-range-increments.java`](./gfg/2026-07-31_max-after-m-range-increments.java) | Max After m Range Increments |
-| 2026-07-31 | [`gfg/2026-07-31_subsets-with-products-of-distinct-primes.py`](./gfg/2026-07-31_subsets-with-products-of-distinct-primes.py) | Subsets with Products of Distinct Primes |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-08-03 | [`frontend/2026-08-03_component.jsx`](./frontend/2026-08-03_component.jsx) | React Component |
 | 2026-08-01 | [`frontend/2026-08-01_component.jsx`](./frontend/2026-08-01_component.jsx) | React Component |
 | 2026-07-31 | [`frontend/2026-07-31_component.jsx`](./frontend/2026-07-31_component.jsx) | React Component |
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-03 16:08:22 UTC*
+*Auto-updated on 2026-08-03 21:14:27 UTC*
