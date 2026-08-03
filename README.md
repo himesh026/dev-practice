@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-08-03 | [`gfg/2026-08-03_max-sum-subarray-of-size-at-least-k.java`](./gfg/2026-08-03_max-sum-subarray-of-size-at-least-k.java) | Max Sum Subarray of Size at least K |
 | 2026-08-03 | [`gfg/2026-08-03_max-sum-subarray-of-size-at-least-k.py`](./gfg/2026-08-03_max-sum-subarray-of-size-at-least-k.py) | Max Sum Subarray of Size at least K |
 | 2026-08-02 | [`gfg/2026-08-02_max-sum-subarray-of-size-at-least-k.js`](./gfg/2026-08-02_max-sum-subarray-of-size-at-least-k.js) | Max Sum Subarray of Size at least K |
 | 2026-08-01 | [`gfg/2026-08-01_max-after-m-range-increments.py`](./gfg/2026-08-01_max-after-m-range-increments.py) | Max After m Range Increments |
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-08-02 | [`backend/2026-08-02_service.js`](./backend/2026-08-02_service.js) | Backend Utility |
 | 2026-08-01 | [`backend/2026-08-01_service.js`](./backend/2026-08-01_service.js) | Backend Utility |
-| 2026-07-30 | [`backend/2026-07-30_service.js`](./backend/2026-07-30_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-03 11:48:30 UTC*
+*Auto-updated on 2026-08-03 16:08:22 UTC*
