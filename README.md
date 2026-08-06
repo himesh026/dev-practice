@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-08-05-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-08-06-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,11 +12,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-08-06 | [`gfg/2026-08-06_minimum-increment-or-double-operations-t.java`](./gfg/2026-08-06_minimum-increment-or-double-operations-t.java) | Minimum Increment or Double Operations to Convert |
 | 2026-08-05 | [`gfg/2026-08-05_minimum-increment-or-double-operations-t.java`](./gfg/2026-08-05_minimum-increment-or-double-operations-t.java) | Minimum Increment or Double Operations to Convert |
 | 2026-08-04 | [`gfg/2026-08-04_subarrays-with-sum-in-range.js`](./gfg/2026-08-04_subarrays-with-sum-in-range.js) | Subarrays with Sum in Range |
 | 2026-08-03 | [`gfg/2026-08-03_max-sum-subarray-of-size-at-least-k.java`](./gfg/2026-08-03_max-sum-subarray-of-size-at-least-k.java) | Max Sum Subarray of Size at least K |
 | 2026-08-03 | [`gfg/2026-08-03_max-sum-subarray-of-size-at-least-k.py`](./gfg/2026-08-03_max-sum-subarray-of-size-at-least-k.py) | Max Sum Subarray of Size at least K |
-| 2026-08-02 | [`gfg/2026-08-02_max-sum-subarray-of-size-at-least-k.js`](./gfg/2026-08-02_max-sum-subarray-of-size-at-least-k.js) | Max Sum Subarray of Size at least K |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-05 21:20:52 UTC*
+*Auto-updated on 2026-08-06 10:56:48 UTC*
