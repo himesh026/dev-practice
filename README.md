@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-08-07 | [`gfg/2026-08-07_friends-pairing-problem.js`](./gfg/2026-08-07_friends-pairing-problem.js) | Friends Pairing Problem |
 | 2026-08-06 | [`gfg/2026-08-06_minimum-increment-or-double-operations-t.java`](./gfg/2026-08-06_minimum-increment-or-double-operations-t.java) | Minimum Increment or Double Operations to Convert |
 | 2026-08-05 | [`gfg/2026-08-05_minimum-increment-or-double-operations-t.java`](./gfg/2026-08-05_minimum-increment-or-double-operations-t.java) | Minimum Increment or Double Operations to Convert |
 | 2026-08-04 | [`gfg/2026-08-04_subarrays-with-sum-in-range.js`](./gfg/2026-08-04_subarrays-with-sum-in-range.js) | Subarrays with Sum in Range |
@@ -23,7 +24,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-08-07 | [`frontend/2026-08-07_component.jsx`](./frontend/2026-08-07_component.jsx) | React Component |
 | 2026-08-06 | [`frontend/2026-08-06_component.jsx`](./frontend/2026-08-06_component.jsx) | React Component |
 | 2026-08-05 | [`frontend/2026-08-05_component.jsx`](./frontend/2026-08-05_component.jsx) | React Component |
-| 2026-08-03 | [`frontend/2026-08-03_component.jsx`](./frontend/2026-08-03_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-07 09:17:38 UTC*
+*Auto-updated on 2026-08-07 14:40:48 UTC*
