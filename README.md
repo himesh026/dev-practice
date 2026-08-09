@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-08-09 | [`gfg/2026-08-09_largest-zigzag-sequence.java`](./gfg/2026-08-09_largest-zigzag-sequence.java) | Largest Zigzag Sequence |
 | 2026-08-08 | [`gfg/2026-08-08_largest-zigzag-sequence.java`](./gfg/2026-08-08_largest-zigzag-sequence.java) | Largest Zigzag Sequence |
 | 2026-08-07 | [`gfg/2026-08-07_friends-pairing-problem.js`](./gfg/2026-08-07_friends-pairing-problem.js) | Friends Pairing Problem |
 | 2026-08-07 | [`gfg/2026-08-07_min-edge-movements-to-connect-a-graph.py`](./gfg/2026-08-07_min-edge-movements-to-connect-a-graph.py) | Min Edge Movements to Connect a Graph |
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-08-07 | [`backend/2026-08-07_service.js`](./backend/2026-08-07_service.js) | Backend Utility |
-| 2026-08-05 | [`backend/2026-08-05_service.js`](./backend/2026-08-05_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-09 09:05:14 UTC*
+*Auto-updated on 2026-08-09 14:19:50 UTC*
