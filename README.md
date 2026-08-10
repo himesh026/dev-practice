@@ -12,11 +12,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-08-10 | [`gfg/2026-08-10_high-effort-vs-low-effort.java`](./gfg/2026-08-10_high-effort-vs-low-effort.java) | High Effort vs Low Effort |
 | 2026-08-09 | [`gfg/2026-08-09_high-effort-vs-low-effort.js`](./gfg/2026-08-09_high-effort-vs-low-effort.js) | High Effort vs Low Effort |
 | 2026-08-09 | [`gfg/2026-08-09_largest-zigzag-sequence.java`](./gfg/2026-08-09_largest-zigzag-sequence.java) | Largest Zigzag Sequence |
 | 2026-08-08 | [`gfg/2026-08-08_largest-zigzag-sequence.java`](./gfg/2026-08-08_largest-zigzag-sequence.java) | Largest Zigzag Sequence |
 | 2026-08-07 | [`gfg/2026-08-07_friends-pairing-problem.js`](./gfg/2026-08-07_friends-pairing-problem.js) | Friends Pairing Problem |
-| 2026-08-07 | [`gfg/2026-08-07_min-edge-movements-to-connect-a-graph.py`](./gfg/2026-08-07_min-edge-movements-to-connect-a-graph.py) | Min Edge Movements to Connect a Graph |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-10 09:51:38 UTC*
+*Auto-updated on 2026-08-10 14:44:25 UTC*
