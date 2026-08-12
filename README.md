@@ -13,10 +13,10 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-08-12 | [`gfg/2026-08-12_adventure-in-a-maze.py`](./gfg/2026-08-12_adventure-in-a-maze.py) | Adventure in a Maze |
+| 2026-08-12 | [`gfg/2026-08-12_longest-path-in-a-directed-acyclic-graph.js`](./gfg/2026-08-12_longest-path-in-a-directed-acyclic-graph.js) | Longest Path in a Directed Acyclic Graph |
 | 2026-08-10 | [`gfg/2026-08-10_high-effort-vs-low-effort.java`](./gfg/2026-08-10_high-effort-vs-low-effort.java) | High Effort vs Low Effort |
 | 2026-08-09 | [`gfg/2026-08-09_high-effort-vs-low-effort.js`](./gfg/2026-08-09_high-effort-vs-low-effort.js) | High Effort vs Low Effort |
 | 2026-08-09 | [`gfg/2026-08-09_largest-zigzag-sequence.java`](./gfg/2026-08-09_largest-zigzag-sequence.java) | Largest Zigzag Sequence |
-| 2026-08-08 | [`gfg/2026-08-08_largest-zigzag-sequence.java`](./gfg/2026-08-08_largest-zigzag-sequence.java) | Largest Zigzag Sequence |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-12 14:44:33 UTC*
+*Auto-updated on 2026-08-12 20:56:09 UTC*
