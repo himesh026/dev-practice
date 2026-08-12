@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-08-11-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-08-12-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-08-12 | [`gfg/2026-08-12_adventure-in-a-maze.py`](./gfg/2026-08-12_adventure-in-a-maze.py) | Adventure in a Maze |
 | 2026-08-10 | [`gfg/2026-08-10_high-effort-vs-low-effort.java`](./gfg/2026-08-10_high-effort-vs-low-effort.java) | High Effort vs Low Effort |
 | 2026-08-09 | [`gfg/2026-08-09_high-effort-vs-low-effort.js`](./gfg/2026-08-09_high-effort-vs-low-effort.js) | High Effort vs Low Effort |
 | 2026-08-09 | [`gfg/2026-08-09_largest-zigzag-sequence.java`](./gfg/2026-08-09_largest-zigzag-sequence.java) | Largest Zigzag Sequence |
@@ -23,7 +24,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-08-09 | [`frontend/2026-08-09_component.jsx`](./frontend/2026-08-09_component.jsx) | React Component |
 | 2026-08-08 | [`frontend/2026-08-08_component.jsx`](./frontend/2026-08-08_component.jsx) | React Component |
-| 2026-08-07 | [`frontend/2026-08-07_component.jsx`](./frontend/2026-08-07_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-11 09:16:19 UTC*
+*Auto-updated on 2026-08-12 09:33:28 UTC*
