@@ -12,11 +12,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-08-14 | [`gfg/2026-08-14_subset-sum-on-generated-sequence.java`](./gfg/2026-08-14_subset-sum-on-generated-sequence.java) | Subset Sum on Generated Sequence |
 | 2026-08-14 | [`gfg/2026-08-14_subset-sum-on-generated-sequence.py`](./gfg/2026-08-14_subset-sum-on-generated-sequence.py) | Subset Sum on Generated Sequence |
 | 2026-08-12 | [`gfg/2026-08-12_adventure-in-a-maze.py`](./gfg/2026-08-12_adventure-in-a-maze.py) | Adventure in a Maze |
 | 2026-08-12 | [`gfg/2026-08-12_longest-path-in-a-directed-acyclic-graph.js`](./gfg/2026-08-12_longest-path-in-a-directed-acyclic-graph.js) | Longest Path in a Directed Acyclic Graph |
 | 2026-08-10 | [`gfg/2026-08-10_high-effort-vs-low-effort.java`](./gfg/2026-08-10_high-effort-vs-low-effort.java) | High Effort vs Low Effort |
-| 2026-08-09 | [`gfg/2026-08-09_high-effort-vs-low-effort.js`](./gfg/2026-08-09_high-effort-vs-low-effort.js) | High Effort vs Low Effort |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-14 09:29:31 UTC*
+*Auto-updated on 2026-08-14 14:39:56 UTC*
