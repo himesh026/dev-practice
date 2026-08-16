@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-08-15-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-08-16-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,11 +12,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-08-16 | [`gfg/2026-08-16_min-product-subset.py`](./gfg/2026-08-16_min-product-subset.py) | Min Product Subset |
 | 2026-08-15 | [`gfg/2026-08-15_numbers-without-d-as-digit.java`](./gfg/2026-08-15_numbers-without-d-as-digit.java) | Numbers Without d as Digit |
 | 2026-08-14 | [`gfg/2026-08-14_subset-sum-on-generated-sequence.java`](./gfg/2026-08-14_subset-sum-on-generated-sequence.java) | Subset Sum on Generated Sequence |
 | 2026-08-14 | [`gfg/2026-08-14_subset-sum-on-generated-sequence.py`](./gfg/2026-08-14_subset-sum-on-generated-sequence.py) | Subset Sum on Generated Sequence |
 | 2026-08-12 | [`gfg/2026-08-12_adventure-in-a-maze.py`](./gfg/2026-08-12_adventure-in-a-maze.py) | Adventure in a Maze |
-| 2026-08-12 | [`gfg/2026-08-12_longest-path-in-a-directed-acyclic-graph.js`](./gfg/2026-08-12_longest-path-in-a-directed-acyclic-graph.js) | Longest Path in a Directed Acyclic Graph |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-15 20:32:44 UTC*
+*Auto-updated on 2026-08-16 08:49:46 UTC*
