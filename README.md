@@ -13,6 +13,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-08-16 | [`gfg/2026-08-16_min-product-subset.py`](./gfg/2026-08-16_min-product-subset.py) | Min Product Subset |
+| 2026-08-16 | [`gfg/2026-08-16_snake-and-ladder-problem.js`](./gfg/2026-08-16_snake-and-ladder-problem.js) | Snake and Ladder Problem |
 | 2026-08-15 | [`gfg/2026-08-15_numbers-without-d-as-digit.java`](./gfg/2026-08-15_numbers-without-d-as-digit.java) | Numbers Without d as Digit |
 | 2026-08-14 | [`gfg/2026-08-14_subset-sum-on-generated-sequence.java`](./gfg/2026-08-14_subset-sum-on-generated-sequence.java) | Subset Sum on Generated Sequence |
 | 2026-08-14 | [`gfg/2026-08-14_subset-sum-on-generated-sequence.py`](./gfg/2026-08-14_subset-sum-on-generated-sequence.py) | Subset Sum on Generated Sequence |
@@ -24,7 +25,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-08-15 | [`frontend/2026-08-15_component.jsx`](./frontend/2026-08-15_component.jsx) | React Component |
 | 2026-08-14 | [`frontend/2026-08-14_component.jsx`](./frontend/2026-08-14_component.jsx) | React Component |
 | 2026-08-13 | [`frontend/2026-08-13_component.jsx`](./frontend/2026-08-13_component.jsx) | React Component |
-| 2026-08-12 | [`frontend/2026-08-12_component.jsx`](./frontend/2026-08-12_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-16 14:00:31 UTC*
+*Auto-updated on 2026-08-16 20:32:21 UTC*
