@@ -12,10 +12,10 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-08-17 | [`gfg/2026-08-17_secret-cipher.js`](./gfg/2026-08-17_secret-cipher.js) | Secret Cipher |
 | 2026-08-16 | [`gfg/2026-08-16_min-product-subset.py`](./gfg/2026-08-16_min-product-subset.py) | Min Product Subset |
 | 2026-08-16 | [`gfg/2026-08-16_snake-and-ladder-problem.js`](./gfg/2026-08-16_snake-and-ladder-problem.js) | Snake and Ladder Problem |
 | 2026-08-15 | [`gfg/2026-08-15_numbers-without-d-as-digit.java`](./gfg/2026-08-15_numbers-without-d-as-digit.java) | Numbers Without d as Digit |
-| 2026-08-14 | [`gfg/2026-08-14_subset-sum-on-generated-sequence.java`](./gfg/2026-08-14_subset-sum-on-generated-sequence.java) | Subset Sum on Generated Sequence |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-17 14:05:27 UTC*
+*Auto-updated on 2026-08-17 20:35:56 UTC*
