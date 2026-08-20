@@ -13,8 +13,8 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-08-20 | [`gfg/2026-08-20_node-and-ancestor-max-diff.py`](./gfg/2026-08-20_node-and-ancestor-max-diff.py) | Node and Ancestor Max Diff |
+| 2026-08-20 | [`gfg/2026-08-20_transform-string.java`](./gfg/2026-08-20_transform-string.java) | Transform String |
 | 2026-08-19 | [`gfg/2026-08-19_triplets-with-sum-in-range.py`](./gfg/2026-08-19_triplets-with-sum-in-range.py) | Triplets with Sum in Range |
-| 2026-08-17 | [`gfg/2026-08-17_secret-cipher.js`](./gfg/2026-08-17_secret-cipher.js) | Secret Cipher |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-20 14:20:55 UTC*
+*Auto-updated on 2026-08-20 20:38:24 UTC*
