@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-08-19-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-08-20-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,9 +12,9 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-08-20 | [`gfg/2026-08-20_node-and-ancestor-max-diff.py`](./gfg/2026-08-20_node-and-ancestor-max-diff.py) | Node and Ancestor Max Diff |
 | 2026-08-19 | [`gfg/2026-08-19_triplets-with-sum-in-range.py`](./gfg/2026-08-19_triplets-with-sum-in-range.py) | Triplets with Sum in Range |
 | 2026-08-17 | [`gfg/2026-08-17_secret-cipher.js`](./gfg/2026-08-17_secret-cipher.js) | Secret Cipher |
-| 2026-08-16 | [`gfg/2026-08-16_min-product-subset.py`](./gfg/2026-08-16_min-product-subset.py) | Min Product Subset |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-19 20:37:42 UTC*
+*Auto-updated on 2026-08-20 08:59:01 UTC*
