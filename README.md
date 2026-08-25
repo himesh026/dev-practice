@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-08-24-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-08-25-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,10 +12,10 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-08-25 | [`gfg/2026-08-25_minimum-moves-to-sort-permutation.py`](./gfg/2026-08-25_minimum-moves-to-sort-permutation.py) | Minimum Moves to Sort Permutation |
 | 2026-08-22 | [`gfg/2026-08-22_number-of-turns-in-binary-tree.java`](./gfg/2026-08-22_number-of-turns-in-binary-tree.java) | Number of Turns in Binary Tree |
 | 2026-08-22 | [`gfg/2026-08-22_number-of-turns-in-binary-tree.js`](./gfg/2026-08-22_number-of-turns-in-binary-tree.js) | Number of Turns in Binary Tree |
 | 2026-08-20 | [`gfg/2026-08-20_node-and-ancestor-max-diff.py`](./gfg/2026-08-20_node-and-ancestor-max-diff.py) | Node and Ancestor Max Diff |
-| 2026-08-20 | [`gfg/2026-08-20_transform-string.java`](./gfg/2026-08-20_transform-string.java) | Transform String |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-24 14:26:17 UTC*
+*Auto-updated on 2026-08-25 09:02:43 UTC*
