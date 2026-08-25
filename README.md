@@ -12,10 +12,10 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-08-25 | [`gfg/2026-08-25_minimum-moves-to-sort-permutation.js`](./gfg/2026-08-25_minimum-moves-to-sort-permutation.js) | Minimum Moves to Sort Permutation |
 | 2026-08-25 | [`gfg/2026-08-25_minimum-moves-to-sort-permutation.py`](./gfg/2026-08-25_minimum-moves-to-sort-permutation.py) | Minimum Moves to Sort Permutation |
 | 2026-08-22 | [`gfg/2026-08-22_number-of-turns-in-binary-tree.java`](./gfg/2026-08-22_number-of-turns-in-binary-tree.java) | Number of Turns in Binary Tree |
 | 2026-08-22 | [`gfg/2026-08-22_number-of-turns-in-binary-tree.js`](./gfg/2026-08-22_number-of-turns-in-binary-tree.js) | Number of Turns in Binary Tree |
-| 2026-08-20 | [`gfg/2026-08-20_node-and-ancestor-max-diff.py`](./gfg/2026-08-20_node-and-ancestor-max-diff.py) | Node and Ancestor Max Diff |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-25 09:02:43 UTC*
+*Auto-updated on 2026-08-25 14:28:02 UTC*
