@@ -15,12 +15,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-08-26 | [`gfg/2026-08-26_negative-weight-cycle.py`](./gfg/2026-08-26_negative-weight-cycle.py) | Negative Weight Cycle |
 | 2026-08-25 | [`gfg/2026-08-25_minimum-moves-to-sort-permutation.js`](./gfg/2026-08-25_minimum-moves-to-sort-permutation.js) | Minimum Moves to Sort Permutation |
 | 2026-08-25 | [`gfg/2026-08-25_minimum-moves-to-sort-permutation.py`](./gfg/2026-08-25_minimum-moves-to-sort-permutation.py) | Minimum Moves to Sort Permutation |
-| 2026-08-22 | [`gfg/2026-08-22_number-of-turns-in-binary-tree.java`](./gfg/2026-08-22_number-of-turns-in-binary-tree.java) | Number of Turns in Binary Tree |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-08-26 | [`frontend/2026-08-26_component.jsx`](./frontend/2026-08-26_component.jsx) | React Component |
 | 2026-08-25 | [`frontend/2026-08-25_component.jsx`](./frontend/2026-08-25_component.jsx) | React Component |
 | 2026-08-24 | [`frontend/2026-08-24_component.jsx`](./frontend/2026-08-24_component.jsx) | React Component |
 | 2026-08-23 | [`frontend/2026-08-23_component.jsx`](./frontend/2026-08-23_component.jsx) | React Component |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-26 14:27:25 UTC*
+*Auto-updated on 2026-08-26 23:20:16 UTC*
