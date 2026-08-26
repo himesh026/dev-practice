@@ -16,7 +16,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-08-25 | [`gfg/2026-08-25_minimum-moves-to-sort-permutation.js`](./gfg/2026-08-25_minimum-moves-to-sort-permutation.js) | Minimum Moves to Sort Permutation |
 | 2026-08-25 | [`gfg/2026-08-25_minimum-moves-to-sort-permutation.py`](./gfg/2026-08-25_minimum-moves-to-sort-permutation.py) | Minimum Moves to Sort Permutation |
 | 2026-08-22 | [`gfg/2026-08-22_number-of-turns-in-binary-tree.java`](./gfg/2026-08-22_number-of-turns-in-binary-tree.java) | Number of Turns in Binary Tree |
-| 2026-08-22 | [`gfg/2026-08-22_number-of-turns-in-binary-tree.js`](./gfg/2026-08-22_number-of-turns-in-binary-tree.js) | Number of Turns in Binary Tree |
 
 ## 🎨 Frontend Components
 
@@ -30,6 +29,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-08-26 | [`backend/2026-08-26_service.js`](./backend/2026-08-26_service.js) | Backend Utility |
 | 2026-08-23 | [`backend/2026-08-23_service.js`](./backend/2026-08-23_service.js) | Backend Utility |
 | 2026-08-22 | [`backend/2026-08-22_service.js`](./backend/2026-08-22_service.js) | Backend Utility |
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-26 09:05:53 UTC*
+*Auto-updated on 2026-08-26 14:27:25 UTC*
