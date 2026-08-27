@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-08-26-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-08-27-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-08-27 | [`gfg/2026-08-27_minimum-cost-selection.java`](./gfg/2026-08-27_minimum-cost-selection.java) | Minimum Cost Selection |
 | 2026-08-26 | [`gfg/2026-08-26_negative-weight-cycle.py`](./gfg/2026-08-26_negative-weight-cycle.py) | Negative Weight Cycle |
 | 2026-08-25 | [`gfg/2026-08-25_minimum-moves-to-sort-permutation.js`](./gfg/2026-08-25_minimum-moves-to-sort-permutation.js) | Minimum Moves to Sort Permutation |
 | 2026-08-25 | [`gfg/2026-08-25_minimum-moves-to-sort-permutation.py`](./gfg/2026-08-25_minimum-moves-to-sort-permutation.py) | Minimum Moves to Sort Permutation |
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-08-26 | [`backend/2026-08-26_service.js`](./backend/2026-08-26_service.js) | Backend Utility |
 | 2026-08-23 | [`backend/2026-08-23_service.js`](./backend/2026-08-23_service.js) | Backend Utility |
-| 2026-08-22 | [`backend/2026-08-22_service.js`](./backend/2026-08-22_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-26 23:20:16 UTC*
+*Auto-updated on 2026-08-27 19:08:35 UTC*
