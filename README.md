@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-08-28 | [`gfg/2026-08-28_count-subsequences-divisible-by-n.py`](./gfg/2026-08-28_count-subsequences-divisible-by-n.py) | Count Subsequences Divisible by n |
 | 2026-08-27 | [`gfg/2026-08-27_minimum-cost-selection.java`](./gfg/2026-08-27_minimum-cost-selection.java) | Minimum Cost Selection |
 | 2026-08-27 | [`gfg/2026-08-27_minimum-cost-selection.js`](./gfg/2026-08-27_minimum-cost-selection.js) | Minimum Cost Selection |
 | 2026-08-26 | [`gfg/2026-08-26_negative-weight-cycle.py`](./gfg/2026-08-26_negative-weight-cycle.py) | Negative Weight Cycle |
@@ -25,7 +26,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-08-28 | [`frontend/2026-08-28_component.jsx`](./frontend/2026-08-28_component.jsx) | React Component |
 | 2026-08-26 | [`frontend/2026-08-26_component.jsx`](./frontend/2026-08-26_component.jsx) | React Component |
 | 2026-08-25 | [`frontend/2026-08-25_component.jsx`](./frontend/2026-08-25_component.jsx) | React Component |
-| 2026-08-24 | [`frontend/2026-08-24_component.jsx`](./frontend/2026-08-24_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-28 04:20:41 UTC*
+*Auto-updated on 2026-08-28 20:14:04 UTC*
