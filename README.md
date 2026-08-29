@@ -17,7 +17,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-08-27 | [`gfg/2026-08-27_minimum-cost-selection.java`](./gfg/2026-08-27_minimum-cost-selection.java) | Minimum Cost Selection |
 | 2026-08-27 | [`gfg/2026-08-27_minimum-cost-selection.js`](./gfg/2026-08-27_minimum-cost-selection.js) | Minimum Cost Selection |
 | 2026-08-26 | [`gfg/2026-08-26_negative-weight-cycle.py`](./gfg/2026-08-26_negative-weight-cycle.py) | Negative Weight Cycle |
-| 2026-08-25 | [`gfg/2026-08-25_minimum-moves-to-sort-permutation.js`](./gfg/2026-08-25_minimum-moves-to-sort-permutation.js) | Minimum Moves to Sort Permutation |
 
 ## 🎨 Frontend Components
 
@@ -31,6 +30,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-08-29 | [`backend/2026-08-29_service.js`](./backend/2026-08-29_service.js) | Backend Utility |
 | 2026-08-26 | [`backend/2026-08-26_service.js`](./backend/2026-08-26_service.js) | Backend Utility |
 
 ---
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-08-29 02:47:31 UTC*
+*Auto-updated on 2026-08-29 13:51:55 UTC*
