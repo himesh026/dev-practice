@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-09-01 | [`gfg/2026-09-01_unoccupied-computers.py`](./gfg/2026-09-01_unoccupied-computers.py) | Unoccupied Computers |
 | 2026-08-29 | [`gfg/2026-08-29_count-subsequences-divisible-by-n.js`](./gfg/2026-08-29_count-subsequences-divisible-by-n.js) | Count Subsequences Divisible by n |
 | 2026-08-29 | [`gfg/2026-08-29_marks-from-ranks.py`](./gfg/2026-08-29_marks-from-ranks.py) | Marks from Ranks |
 
@@ -22,7 +23,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-09-01 | [`frontend/2026-09-01_component.jsx`](./frontend/2026-09-01_component.jsx) | React Component |
 | 2026-08-31 | [`frontend/2026-08-31_component.jsx`](./frontend/2026-08-31_component.jsx) | React Component |
 | 2026-08-30 | [`frontend/2026-08-30_component.jsx`](./frontend/2026-08-30_component.jsx) | React Component |
-| 2026-08-28 | [`frontend/2026-08-28_component.jsx`](./frontend/2026-08-28_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-01 17:27:26 UTC*
+*Auto-updated on 2026-09-01 22:32:31 UTC*
