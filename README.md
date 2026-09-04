@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-09-04 | [`gfg/2026-09-04_bird-and-max-fruit-gathering.js`](./gfg/2026-09-04_bird-and-max-fruit-gathering.js) | Bird and Max Fruit Gathering |
 | 2026-09-01 | [`gfg/2026-09-01_unoccupied-computers.py`](./gfg/2026-09-01_unoccupied-computers.py) | Unoccupied Computers |
 
 ## 🎨 Frontend Components
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-09-02 | [`backend/2026-09-02_service.js`](./backend/2026-09-02_service.js) | Backend Utility |
 | 2026-09-01 | [`backend/2026-09-01_service.js`](./backend/2026-09-01_service.js) | Backend Utility |
 | 2026-08-31 | [`backend/2026-08-31_service.js`](./backend/2026-08-31_service.js) | Backend Utility |
-| 2026-08-30 | [`backend/2026-08-30_service.js`](./backend/2026-08-30_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-04 12:46:16 UTC*
+*Auto-updated on 2026-09-04 17:06:45 UTC*
