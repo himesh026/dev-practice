@@ -13,6 +13,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-09-04 | [`gfg/2026-09-04_bird-and-max-fruit-gathering.js`](./gfg/2026-09-04_bird-and-max-fruit-gathering.js) | Bird and Max Fruit Gathering |
+| 2026-09-04 | [`gfg/2026-09-04_longest-subsequence-with-adjacent-diff-a.js`](./gfg/2026-09-04_longest-subsequence-with-adjacent-diff-a.js) | Longest Subsequence with Adjacent Diff as 1 |
 | 2026-09-01 | [`gfg/2026-09-01_unoccupied-computers.py`](./gfg/2026-09-01_unoccupied-computers.py) | Unoccupied Computers |
 
 ## 🎨 Frontend Components
@@ -21,7 +22,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-09-02 | [`frontend/2026-09-02_component.jsx`](./frontend/2026-09-02_component.jsx) | React Component |
 | 2026-09-01 | [`frontend/2026-09-01_component.jsx`](./frontend/2026-09-01_component.jsx) | React Component |
-| 2026-08-31 | [`frontend/2026-08-31_component.jsx`](./frontend/2026-08-31_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-04 17:06:45 UTC*
+*Auto-updated on 2026-09-04 22:18:32 UTC*
