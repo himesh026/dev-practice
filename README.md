@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-09-05-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-09-06-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-09-06 | [`gfg/2026-09-06_sum-of-pairwise-ands.java`](./gfg/2026-09-06_sum-of-pairwise-ands.java) | Sum of Pairwise ANDs |
 | 2026-09-05 | [`gfg/2026-09-05_longest-subsequence-with-adjacent-diff-a.java`](./gfg/2026-09-05_longest-subsequence-with-adjacent-diff-a.java) | Longest Subsequence with Adjacent Diff as 1 |
 | 2026-09-04 | [`gfg/2026-09-04_bird-and-max-fruit-gathering.js`](./gfg/2026-09-04_bird-and-max-fruit-gathering.js) | Bird and Max Fruit Gathering |
 | 2026-09-04 | [`gfg/2026-09-04_longest-subsequence-with-adjacent-diff-a.js`](./gfg/2026-09-04_longest-subsequence-with-adjacent-diff-a.js) | Longest Subsequence with Adjacent Diff as 1 |
@@ -21,7 +22,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-09-02 | [`frontend/2026-09-02_component.jsx`](./frontend/2026-09-02_component.jsx) | React Component |
-| 2026-09-01 | [`frontend/2026-09-01_component.jsx`](./frontend/2026-09-01_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-05 16:17:07 UTC*
+*Auto-updated on 2026-09-06 12:10:52 UTC*
