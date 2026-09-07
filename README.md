@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-09-07 | [`gfg/2026-09-07_minimum-elements-outside-subsequences.js`](./gfg/2026-09-07_minimum-elements-outside-subsequences.js) | Minimum Elements Outside Subsequences |
 | 2026-09-06 | [`gfg/2026-09-06_sum-of-pairwise-ands.java`](./gfg/2026-09-06_sum-of-pairwise-ands.java) | Sum of Pairwise ANDs |
 | 2026-09-06 | [`gfg/2026-09-06_sum-of-pairwise-ands.py`](./gfg/2026-09-06_sum-of-pairwise-ands.py) | Sum of Pairwise ANDs |
 | 2026-09-05 | [`gfg/2026-09-05_longest-subsequence-with-adjacent-diff-a.java`](./gfg/2026-09-05_longest-subsequence-with-adjacent-diff-a.java) | Longest Subsequence with Adjacent Diff as 1 |
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-09-07 | [`backend/2026-09-07_service.js`](./backend/2026-09-07_service.js) | Backend Utility |
 | 2026-09-05 | [`backend/2026-09-05_service.js`](./backend/2026-09-05_service.js) | Backend Utility |
 | 2026-09-04 | [`backend/2026-09-04_service.js`](./backend/2026-09-04_service.js) | Backend Utility |
-| 2026-09-03 | [`backend/2026-09-03_service.js`](./backend/2026-09-03_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-07 14:17:57 UTC*
+*Auto-updated on 2026-09-07 18:24:58 UTC*
