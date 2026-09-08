@@ -17,12 +17,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-09-06 | [`gfg/2026-09-06_sum-of-pairwise-ands.java`](./gfg/2026-09-06_sum-of-pairwise-ands.java) | Sum of Pairwise ANDs |
 | 2026-09-06 | [`gfg/2026-09-06_sum-of-pairwise-ands.py`](./gfg/2026-09-06_sum-of-pairwise-ands.py) | Sum of Pairwise ANDs |
 | 2026-09-05 | [`gfg/2026-09-05_longest-subsequence-with-adjacent-diff-a.java`](./gfg/2026-09-05_longest-subsequence-with-adjacent-diff-a.java) | Longest Subsequence with Adjacent Diff as 1 |
-| 2026-09-04 | [`gfg/2026-09-04_bird-and-max-fruit-gathering.js`](./gfg/2026-09-04_bird-and-max-fruit-gathering.js) | Bird and Max Fruit Gathering |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-09-08 | [`frontend/2026-09-08_component.jsx`](./frontend/2026-09-08_component.jsx) | React Component |
 | 2026-09-06 | [`frontend/2026-09-06_component.jsx`](./frontend/2026-09-06_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-08 12:54:52 UTC*
+*Auto-updated on 2026-09-08 17:32:20 UTC*
