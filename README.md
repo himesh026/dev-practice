@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-09-07-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-09-08-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,12 +12,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-09-08 | [`gfg/2026-09-08_word-in-grid-all-occurrences.java`](./gfg/2026-09-08_word-in-grid-all-occurrences.java) | Word in Grid - All Occurrences |
 | 2026-09-07 | [`gfg/2026-09-07_minimum-elements-outside-subsequences.js`](./gfg/2026-09-07_minimum-elements-outside-subsequences.js) | Minimum Elements Outside Subsequences |
 | 2026-09-06 | [`gfg/2026-09-06_sum-of-pairwise-ands.java`](./gfg/2026-09-06_sum-of-pairwise-ands.java) | Sum of Pairwise ANDs |
 | 2026-09-06 | [`gfg/2026-09-06_sum-of-pairwise-ands.py`](./gfg/2026-09-06_sum-of-pairwise-ands.py) | Sum of Pairwise ANDs |
 | 2026-09-05 | [`gfg/2026-09-05_longest-subsequence-with-adjacent-diff-a.java`](./gfg/2026-09-05_longest-subsequence-with-adjacent-diff-a.java) | Longest Subsequence with Adjacent Diff as 1 |
 | 2026-09-04 | [`gfg/2026-09-04_bird-and-max-fruit-gathering.js`](./gfg/2026-09-04_bird-and-max-fruit-gathering.js) | Bird and Max Fruit Gathering |
-| 2026-09-04 | [`gfg/2026-09-04_longest-subsequence-with-adjacent-diff-a.js`](./gfg/2026-09-04_longest-subsequence-with-adjacent-diff-a.js) | Longest Subsequence with Adjacent Diff as 1 |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-07 18:24:58 UTC*
+*Auto-updated on 2026-09-08 12:54:52 UTC*
