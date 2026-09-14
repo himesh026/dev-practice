@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-09-13-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-09-14-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,8 +12,8 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-09-14 | [`gfg/2026-09-14_shortest-safe-route-in-grid.js`](./gfg/2026-09-14_shortest-safe-route-in-grid.js) | Shortest Safe Route in Grid |
 | 2026-09-13 | [`gfg/2026-09-13_shortest-safe-route-in-grid.java`](./gfg/2026-09-13_shortest-safe-route-in-grid.java) | Shortest Safe Route in Grid |
-| 2026-09-10 | [`gfg/2026-09-10_values-with-equal-array-remainders.js`](./gfg/2026-09-10_values-with-equal-array-remainders.js) | Values with Equal Array Remainders |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-13 22:20:31 UTC*
+*Auto-updated on 2026-09-14 15:04:08 UTC*
