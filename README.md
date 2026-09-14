@@ -13,6 +13,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-09-14 | [`gfg/2026-09-14_shortest-safe-route-in-grid.js`](./gfg/2026-09-14_shortest-safe-route-in-grid.js) | Shortest Safe Route in Grid |
+| 2026-09-14 | [`gfg/2026-09-14_visit-leaves-with-budget.js`](./gfg/2026-09-14_visit-leaves-with-budget.js) | Visit Leaves with Budget |
 | 2026-09-13 | [`gfg/2026-09-13_shortest-safe-route-in-grid.java`](./gfg/2026-09-13_shortest-safe-route-in-grid.java) | Shortest Safe Route in Grid |
 
 ## 🎨 Frontend Components
@@ -22,7 +23,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-09-13 | [`frontend/2026-09-13_component.jsx`](./frontend/2026-09-13_component.jsx) | React Component |
 | 2026-09-12 | [`frontend/2026-09-12_component.jsx`](./frontend/2026-09-12_component.jsx) | React Component |
 | 2026-09-11 | [`frontend/2026-09-11_component.jsx`](./frontend/2026-09-11_component.jsx) | React Component |
-| 2026-09-10 | [`frontend/2026-09-10_component.jsx`](./frontend/2026-09-10_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-14 15:04:08 UTC*
+*Auto-updated on 2026-09-14 18:53:03 UTC*
