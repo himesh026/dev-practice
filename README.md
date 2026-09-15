@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-09-15 | [`gfg/2026-09-15_visit-leaves-with-budget.js`](./gfg/2026-09-15_visit-leaves-with-budget.js) | Visit Leaves with Budget |
 | 2026-09-15 | [`gfg/2026-09-15_visit-leaves-with-budget.py`](./gfg/2026-09-15_visit-leaves-with-budget.py) | Visit Leaves with Budget |
 | 2026-09-14 | [`gfg/2026-09-14_shortest-safe-route-in-grid.js`](./gfg/2026-09-14_shortest-safe-route-in-grid.js) | Shortest Safe Route in Grid |
 | 2026-09-14 | [`gfg/2026-09-14_visit-leaves-with-budget.js`](./gfg/2026-09-14_visit-leaves-with-budget.js) | Visit Leaves with Budget |
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-09-13 | [`backend/2026-09-13_service.js`](./backend/2026-09-13_service.js) | Backend Utility |
 | 2026-09-12 | [`backend/2026-09-12_service.js`](./backend/2026-09-12_service.js) | Backend Utility |
-| 2026-09-11 | [`backend/2026-09-11_service.js`](./backend/2026-09-11_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-15 13:39:08 UTC*
+*Auto-updated on 2026-09-15 17:46:36 UTC*
