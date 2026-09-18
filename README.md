@@ -16,7 +16,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-09-17 | [`gfg/2026-09-17_min-edge-reversals-for-path.py`](./gfg/2026-09-17_min-edge-reversals-for-path.py) | Min Edge Reversals for Path |
 | 2026-09-17 | [`gfg/2026-09-17_minimum-absolute-difference-in-bst.py`](./gfg/2026-09-17_minimum-absolute-difference-in-bst.py) | Minimum Absolute Difference In BST |
 | 2026-09-15 | [`gfg/2026-09-15_visit-leaves-with-budget.js`](./gfg/2026-09-15_visit-leaves-with-budget.js) | Visit Leaves with Budget |
-| 2026-09-15 | [`gfg/2026-09-15_visit-leaves-with-budget.py`](./gfg/2026-09-15_visit-leaves-with-budget.py) | Visit Leaves with Budget |
 
 ## 🎨 Frontend Components
 
@@ -29,6 +28,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-09-18 | [`backend/2026-09-18_service.js`](./backend/2026-09-18_service.js) | Backend Utility |
 | 2026-09-17 | [`backend/2026-09-17_service.js`](./backend/2026-09-17_service.js) | Backend Utility |
 | 2026-09-16 | [`backend/2026-09-16_service.js`](./backend/2026-09-16_service.js) | Backend Utility |
 | 2026-09-15 | [`backend/2026-09-15_service.js`](./backend/2026-09-15_service.js) | Backend Utility |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-18 17:14:34 UTC*
+*Auto-updated on 2026-09-18 22:29:12 UTC*
