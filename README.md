@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-09-17-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-09-18-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -16,12 +16,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-09-17 | [`gfg/2026-09-17_minimum-absolute-difference-in-bst.py`](./gfg/2026-09-17_minimum-absolute-difference-in-bst.py) | Minimum Absolute Difference In BST |
 | 2026-09-15 | [`gfg/2026-09-15_visit-leaves-with-budget.js`](./gfg/2026-09-15_visit-leaves-with-budget.js) | Visit Leaves with Budget |
 | 2026-09-15 | [`gfg/2026-09-15_visit-leaves-with-budget.py`](./gfg/2026-09-15_visit-leaves-with-budget.py) | Visit Leaves with Budget |
-| 2026-09-14 | [`gfg/2026-09-14_shortest-safe-route-in-grid.js`](./gfg/2026-09-14_shortest-safe-route-in-grid.js) | Shortest Safe Route in Grid |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-09-18 | [`frontend/2026-09-18_component.jsx`](./frontend/2026-09-18_component.jsx) | React Component |
 | 2026-09-16 | [`frontend/2026-09-16_component.jsx`](./frontend/2026-09-16_component.jsx) | React Component |
 | 2026-09-14 | [`frontend/2026-09-14_component.jsx`](./frontend/2026-09-14_component.jsx) | React Component |
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-17 22:48:53 UTC*
+*Auto-updated on 2026-09-18 13:01:18 UTC*
