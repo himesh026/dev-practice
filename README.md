@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-09-18 | [`gfg/2026-09-18_minimum-absolute-difference-in-bst.java`](./gfg/2026-09-18_minimum-absolute-difference-in-bst.java) | Minimum Absolute Difference In BST |
 | 2026-09-17 | [`gfg/2026-09-17_min-edge-reversals-for-path.py`](./gfg/2026-09-17_min-edge-reversals-for-path.py) | Min Edge Reversals for Path |
 | 2026-09-17 | [`gfg/2026-09-17_minimum-absolute-difference-in-bst.py`](./gfg/2026-09-17_minimum-absolute-difference-in-bst.py) | Minimum Absolute Difference In BST |
 | 2026-09-15 | [`gfg/2026-09-15_visit-leaves-with-budget.js`](./gfg/2026-09-15_visit-leaves-with-budget.js) | Visit Leaves with Budget |
@@ -23,7 +24,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-09-18 | [`frontend/2026-09-18_component.jsx`](./frontend/2026-09-18_component.jsx) | React Component |
 | 2026-09-16 | [`frontend/2026-09-16_component.jsx`](./frontend/2026-09-16_component.jsx) | React Component |
-| 2026-09-14 | [`frontend/2026-09-14_component.jsx`](./frontend/2026-09-14_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-18 13:01:18 UTC*
+*Auto-updated on 2026-09-18 17:14:34 UTC*
