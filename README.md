@@ -13,9 +13,9 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-09-21 | [`gfg/2026-09-21_check-level-anagrams-in-binary-trees.js`](./gfg/2026-09-21_check-level-anagrams-in-binary-trees.js) | Check Level Anagrams in Binary Trees |
+| 2026-09-21 | [`gfg/2026-09-21_longest-matching-in-dictionary-with-remo.js`](./gfg/2026-09-21_longest-matching-in-dictionary-with-remo.js) | Longest Matching in Dictionary with Removals |
 | 2026-09-18 | [`gfg/2026-09-18_minimum-absolute-difference-in-bst.java`](./gfg/2026-09-18_minimum-absolute-difference-in-bst.java) | Minimum Absolute Difference In BST |
 | 2026-09-17 | [`gfg/2026-09-17_min-edge-reversals-for-path.py`](./gfg/2026-09-17_min-edge-reversals-for-path.py) | Min Edge Reversals for Path |
-| 2026-09-17 | [`gfg/2026-09-17_minimum-absolute-difference-in-bst.py`](./gfg/2026-09-17_minimum-absolute-difference-in-bst.py) | Minimum Absolute Difference In BST |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-21 15:09:32 UTC*
+*Auto-updated on 2026-09-21 18:54:53 UTC*
