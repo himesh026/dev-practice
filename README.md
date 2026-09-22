@@ -15,7 +15,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-09-22 | [`gfg/2026-09-22_longest-matching-in-dictionary-with-remo.py`](./gfg/2026-09-22_longest-matching-in-dictionary-with-remo.py) | Longest Matching in Dictionary with Removals |
 | 2026-09-21 | [`gfg/2026-09-21_check-level-anagrams-in-binary-trees.js`](./gfg/2026-09-21_check-level-anagrams-in-binary-trees.js) | Check Level Anagrams in Binary Trees |
 | 2026-09-21 | [`gfg/2026-09-21_longest-matching-in-dictionary-with-remo.js`](./gfg/2026-09-21_longest-matching-in-dictionary-with-remo.js) | Longest Matching in Dictionary with Removals |
-| 2026-09-18 | [`gfg/2026-09-18_minimum-absolute-difference-in-bst.java`](./gfg/2026-09-18_minimum-absolute-difference-in-bst.java) | Minimum Absolute Difference In BST |
 
 ## 🎨 Frontend Components
 
@@ -29,6 +28,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-09-22 | [`backend/2026-09-22_service.js`](./backend/2026-09-22_service.js) | Backend Utility |
 | 2026-09-20 | [`backend/2026-09-20_service.js`](./backend/2026-09-20_service.js) | Backend Utility |
 | 2026-09-19 | [`backend/2026-09-19_service.js`](./backend/2026-09-19_service.js) | Backend Utility |
 | 2026-09-18 | [`backend/2026-09-18_service.js`](./backend/2026-09-18_service.js) | Backend Utility |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-22 17:46:11 UTC*
+*Auto-updated on 2026-09-22 22:52:58 UTC*
