@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-09-23 | [`gfg/2026-09-23_maximum-height-disc-stack.py`](./gfg/2026-09-23_maximum-height-disc-stack.py) | Maximum Height Disc Stack |
 | 2026-09-22 | [`gfg/2026-09-22_longest-matching-in-dictionary-with-remo.py`](./gfg/2026-09-22_longest-matching-in-dictionary-with-remo.py) | Longest Matching in Dictionary with Removals |
 | 2026-09-21 | [`gfg/2026-09-21_check-level-anagrams-in-binary-trees.js`](./gfg/2026-09-21_check-level-anagrams-in-binary-trees.js) | Check Level Anagrams in Binary Trees |
 | 2026-09-21 | [`gfg/2026-09-21_longest-matching-in-dictionary-with-remo.js`](./gfg/2026-09-21_longest-matching-in-dictionary-with-remo.js) | Longest Matching in Dictionary with Removals |
@@ -22,7 +23,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-09-23 | [`frontend/2026-09-23_component.jsx`](./frontend/2026-09-23_component.jsx) | React Component |
 | 2026-09-21 | [`frontend/2026-09-21_component.jsx`](./frontend/2026-09-21_component.jsx) | React Component |
-| 2026-09-19 | [`frontend/2026-09-19_component.jsx`](./frontend/2026-09-19_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-23 17:58:59 UTC*
+*Auto-updated on 2026-09-23 22:53:21 UTC*
