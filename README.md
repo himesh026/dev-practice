@@ -12,11 +12,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-09-25 | [`gfg/2026-09-25_box-stacking.java`](./gfg/2026-09-25_box-stacking.java) | Box Stacking |
 | 2026-09-24 | [`gfg/2026-09-24_maximum-height-disc-stack.py`](./gfg/2026-09-24_maximum-height-disc-stack.py) | Maximum Height Disc Stack |
 | 2026-09-23 | [`gfg/2026-09-23_maximum-height-disc-stack.py`](./gfg/2026-09-23_maximum-height-disc-stack.py) | Maximum Height Disc Stack |
 | 2026-09-22 | [`gfg/2026-09-22_longest-matching-in-dictionary-with-remo.py`](./gfg/2026-09-22_longest-matching-in-dictionary-with-remo.py) | Longest Matching in Dictionary with Removals |
 | 2026-09-21 | [`gfg/2026-09-21_check-level-anagrams-in-binary-trees.js`](./gfg/2026-09-21_check-level-anagrams-in-binary-trees.js) | Check Level Anagrams in Binary Trees |
-| 2026-09-21 | [`gfg/2026-09-21_longest-matching-in-dictionary-with-remo.js`](./gfg/2026-09-21_longest-matching-in-dictionary-with-remo.js) | Longest Matching in Dictionary with Removals |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-25 13:54:57 UTC*
+*Auto-updated on 2026-09-25 18:06:16 UTC*
