@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-09-25-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-09-26-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-09-26 | [`gfg/2026-09-26_minimum-cost-pizza-selection.js`](./gfg/2026-09-26_minimum-cost-pizza-selection.js) | Minimum Cost Pizza Selection |
 | 2026-09-25 | [`gfg/2026-09-25_box-stacking.java`](./gfg/2026-09-25_box-stacking.java) | Box Stacking |
 | 2026-09-25 | [`gfg/2026-09-25_minimum-cost-pizza-selection.js`](./gfg/2026-09-25_minimum-cost-pizza-selection.js) | Minimum Cost Pizza Selection |
 | 2026-09-24 | [`gfg/2026-09-24_maximum-height-disc-stack.py`](./gfg/2026-09-24_maximum-height-disc-stack.py) | Maximum Height Disc Stack |
@@ -23,7 +24,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-09-23 | [`frontend/2026-09-23_component.jsx`](./frontend/2026-09-23_component.jsx) | React Component |
-| 2026-09-21 | [`frontend/2026-09-21_component.jsx`](./frontend/2026-09-21_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-25 23:14:15 UTC*
+*Auto-updated on 2026-09-26 13:12:13 UTC*
