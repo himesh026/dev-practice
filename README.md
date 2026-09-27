@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-09-26-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-09-27-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,11 +12,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-09-27 | [`gfg/2026-09-27_longest-colored-path.js`](./gfg/2026-09-27_longest-colored-path.js) | Longest Colored Path |
 | 2026-09-26 | [`gfg/2026-09-26_minimum-cost-pizza-selection.js`](./gfg/2026-09-26_minimum-cost-pizza-selection.js) | Minimum Cost Pizza Selection |
 | 2026-09-25 | [`gfg/2026-09-25_box-stacking.java`](./gfg/2026-09-25_box-stacking.java) | Box Stacking |
 | 2026-09-25 | [`gfg/2026-09-25_minimum-cost-pizza-selection.js`](./gfg/2026-09-25_minimum-cost-pizza-selection.js) | Minimum Cost Pizza Selection |
 | 2026-09-24 | [`gfg/2026-09-24_maximum-height-disc-stack.py`](./gfg/2026-09-24_maximum-height-disc-stack.py) | Maximum Height Disc Stack |
-| 2026-09-23 | [`gfg/2026-09-23_maximum-height-disc-stack.py`](./gfg/2026-09-23_maximum-height-disc-stack.py) | Maximum Height Disc Stack |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-26 22:39:40 UTC*
+*Auto-updated on 2026-09-27 17:57:13 UTC*
