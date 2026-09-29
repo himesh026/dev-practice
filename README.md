@@ -17,12 +17,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-09-28 | [`gfg/2026-09-28_range-gcd-queries.js`](./gfg/2026-09-28_range-gcd-queries.js) | Range GCD Queries |
 | 2026-09-27 | [`gfg/2026-09-27_longest-colored-path.js`](./gfg/2026-09-27_longest-colored-path.js) | Longest Colored Path |
 | 2026-09-26 | [`gfg/2026-09-26_minimum-cost-pizza-selection.js`](./gfg/2026-09-26_minimum-cost-pizza-selection.js) | Minimum Cost Pizza Selection |
-| 2026-09-25 | [`gfg/2026-09-25_box-stacking.java`](./gfg/2026-09-25_box-stacking.java) | Box Stacking |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-09-29 | [`frontend/2026-09-29_component.jsx`](./frontend/2026-09-29_component.jsx) | React Component |
 | 2026-09-27 | [`frontend/2026-09-27_component.jsx`](./frontend/2026-09-27_component.jsx) | React Component |
 | 2026-09-26 | [`frontend/2026-09-26_component.jsx`](./frontend/2026-09-26_component.jsx) | React Component |
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-29 00:19:52 UTC*
+*Auto-updated on 2026-09-29 14:53:15 UTC*
