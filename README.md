@@ -13,11 +13,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-09-29 | [`gfg/2026-09-29_min-steps-by-knight.py`](./gfg/2026-09-29_min-steps-by-knight.py) | Min Steps by Knight |
+| 2026-09-29 | [`gfg/2026-09-29_ways-to-reach-origin.java`](./gfg/2026-09-29_ways-to-reach-origin.java) | Ways to Reach Origin |
 | 2026-09-29 | [`gfg/2026-09-29_ways-to-reach-origin.js`](./gfg/2026-09-29_ways-to-reach-origin.js) | Ways to Reach Origin |
 | 2026-09-28 | [`gfg/2026-09-28_min-steps-by-knight.js`](./gfg/2026-09-28_min-steps-by-knight.js) | Min Steps by Knight |
 | 2026-09-28 | [`gfg/2026-09-28_range-gcd-queries.js`](./gfg/2026-09-28_range-gcd-queries.js) | Range GCD Queries |
 | 2026-09-27 | [`gfg/2026-09-27_longest-colored-path.js`](./gfg/2026-09-27_longest-colored-path.js) | Longest Colored Path |
-| 2026-09-26 | [`gfg/2026-09-26_minimum-cost-pizza-selection.js`](./gfg/2026-09-26_minimum-cost-pizza-selection.js) | Minimum Cost Pizza Selection |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-29 18:52:58 UTC*
+*Auto-updated on 2026-09-29 23:37:59 UTC*
