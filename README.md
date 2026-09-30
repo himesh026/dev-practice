@@ -19,7 +19,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-09-29 | [`gfg/2026-09-29_ways-to-reach-origin.js`](./gfg/2026-09-29_ways-to-reach-origin.js) | Ways to Reach Origin |
 | 2026-09-28 | [`gfg/2026-09-28_min-steps-by-knight.js`](./gfg/2026-09-28_min-steps-by-knight.js) | Min Steps by Knight |
 | 2026-09-28 | [`gfg/2026-09-28_range-gcd-queries.js`](./gfg/2026-09-28_range-gcd-queries.js) | Range GCD Queries |
-| 2026-09-27 | [`gfg/2026-09-27_longest-colored-path.js`](./gfg/2026-09-27_longest-colored-path.js) | Longest Colored Path |
 
 ## 🎨 Frontend Components
 
@@ -30,7 +29,9 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 ## ⚙️ Backend Utilities
 
-_Nothing yet._
+| Date | File | Description |
+|------|------|-------------|
+| 2026-09-30 | [`backend/2026-09-30_service.js`](./backend/2026-09-30_service.js) | Backend Utility |
 
 ---
 
@@ -51,4 +52,4 @@ _Nothing yet._
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-09-30 18:35:17 UTC*
+*Auto-updated on 2026-09-30 23:40:01 UTC*
