@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-10-02-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-10-03-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -15,12 +15,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-10-01 | [`gfg/2026-10-01_lexicographically-smallest-rotation.js`](./gfg/2026-10-01_lexicographically-smallest-rotation.js) | Lexicographically Smallest Rotation |
 | 2026-09-30 | [`gfg/2026-09-30_minimum-time-to-finish-project.js`](./gfg/2026-09-30_minimum-time-to-finish-project.js) | Minimum Time to Finish Project |
 | 2026-09-30 | [`gfg/2026-09-30_ways-to-reach-origin.java`](./gfg/2026-09-30_ways-to-reach-origin.java) | Ways to Reach Origin |
-| 2026-09-29 | [`gfg/2026-09-29_min-steps-by-knight.py`](./gfg/2026-09-29_min-steps-by-knight.py) | Min Steps by Knight |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-10-03 | [`frontend/2026-10-03_component.jsx`](./frontend/2026-10-03_component.jsx) | React Component |
 | 2026-10-02 | [`frontend/2026-10-02_component.jsx`](./frontend/2026-10-02_component.jsx) | React Component |
 | 2026-10-01 | [`frontend/2026-10-01_component.jsx`](./frontend/2026-10-01_component.jsx) | React Component |
 | 2026-09-29 | [`frontend/2026-09-29_component.jsx`](./frontend/2026-09-29_component.jsx) | React Component |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-10-02 23:42:12 UTC*
+*Auto-updated on 2026-10-03 13:29:03 UTC*
