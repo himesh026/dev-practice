@@ -3,14 +3,16 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-10-07-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-10-08-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
 
 ## 🧩 GFG Problems (DSA Practice)
 
-_Nothing yet._
+| Date | File | Description |
+|------|------|-------------|
+| 2026-10-08 | [`gfg/2026-10-08_maximum-frequency-with-k-increments.py`](./gfg/2026-10-08_maximum-frequency-with-k-increments.py) | Maximum Frequency with K Increments |
 
 ## 🎨 Frontend Components
 
@@ -30,7 +32,6 @@ _Nothing yet._
 | 2026-10-05 | [`backend/2026-10-05_service.js`](./backend/2026-10-05_service.js) | Backend Utility |
 | 2026-10-04 | [`backend/2026-10-04_service.js`](./backend/2026-10-04_service.js) | Backend Utility |
 | 2026-10-03 | [`backend/2026-10-03_service.js`](./backend/2026-10-03_service.js) | Backend Utility |
-| 2026-10-02 | [`backend/2026-10-02_service.js`](./backend/2026-10-02_service.js) | Backend Utility |
 
 ---
 
@@ -51,4 +52,4 @@ _Nothing yet._
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-10-07 15:38:34 UTC*
+*Auto-updated on 2026-10-08 00:07:35 UTC*
