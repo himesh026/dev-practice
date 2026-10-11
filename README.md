@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-10-11 | [`gfg/2026-10-11_sort-two-parts-sorted.py`](./gfg/2026-10-11_sort-two-parts-sorted.py) | Sort Two Parts Sorted |
 | 2026-10-08 | [`gfg/2026-10-08_maximum-frequency-with-k-increments.py`](./gfg/2026-10-08_maximum-frequency-with-k-increments.py) | Maximum Frequency with K Increments |
 
 ## 🎨 Frontend Components
@@ -20,7 +21,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-10-11 | [`frontend/2026-10-11_component.jsx`](./frontend/2026-10-11_component.jsx) | React Component |
 | 2026-10-06 | [`frontend/2026-10-06_component.jsx`](./frontend/2026-10-06_component.jsx) | React Component |
-| 2026-10-05 | [`frontend/2026-10-05_component.jsx`](./frontend/2026-10-05_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-10-11 14:57:24 UTC*
+*Auto-updated on 2026-10-11 18:28:39 UTC*
