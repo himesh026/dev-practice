@@ -13,8 +13,8 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-10-13 | [`gfg/2026-10-13_adding-ones.js`](./gfg/2026-10-13_adding-ones.js) | Adding Ones |
+| 2026-10-13 | [`gfg/2026-10-13_roll-characters-of-string.java`](./gfg/2026-10-13_roll-characters-of-string.java) | Roll Characters of String |
 | 2026-10-11 | [`gfg/2026-10-11_sort-two-parts-sorted.py`](./gfg/2026-10-11_sort-two-parts-sorted.py) | Sort Two Parts Sorted |
-| 2026-10-08 | [`gfg/2026-10-08_maximum-frequency-with-k-increments.py`](./gfg/2026-10-08_maximum-frequency-with-k-increments.py) | Maximum Frequency with K Increments |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-10-13 16:05:32 UTC*
+*Auto-updated on 2026-10-13 19:57:52 UTC*
