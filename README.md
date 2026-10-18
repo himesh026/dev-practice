@@ -12,9 +12,9 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-10-18 | [`gfg/2026-10-18_shortest-path-from-1-to-n.java`](./gfg/2026-10-18_shortest-path-from-1-to-n.java) | Shortest Path From 1 To n |
 | 2026-10-15 | [`gfg/2026-10-15_successful-binary-searches-irrespective.py`](./gfg/2026-10-15_successful-binary-searches-irrespective.py) | Successful Binary Searches Irrespective of Pivot |
 | 2026-10-14 | [`gfg/2026-10-14_maximum-without-3-consecutive-set-bits.java`](./gfg/2026-10-14_maximum-without-3-consecutive-set-bits.java) | Maximum Without 3 Consecutive Set Bits |
-| 2026-10-14 | [`gfg/2026-10-14_roll-characters-of-string.js`](./gfg/2026-10-14_roll-characters-of-string.js) | Roll Characters of String |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-10-18 12:39:00 UTC*
+*Auto-updated on 2026-10-18 16:57:03 UTC*
