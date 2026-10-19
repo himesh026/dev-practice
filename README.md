@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-10-19 | [`gfg/2026-10-19_largest-with-same-parity-adjacent-swaps.js`](./gfg/2026-10-19_largest-with-same-parity-adjacent-swaps.js) | Largest with Same Parity Adjacent Swaps |
 | 2026-10-18 | [`gfg/2026-10-18_shortest-path-from-1-to-n.java`](./gfg/2026-10-18_shortest-path-from-1-to-n.java) | Shortest Path From 1 To n |
 
 ## 🎨 Frontend Components
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-10-18 | [`backend/2026-10-18_service.js`](./backend/2026-10-18_service.js) | Backend Utility |
 | 2026-10-17 | [`backend/2026-10-17_service.js`](./backend/2026-10-17_service.js) | Backend Utility |
 | 2026-10-16 | [`backend/2026-10-16_service.js`](./backend/2026-10-16_service.js) | Backend Utility |
-| 2026-10-15 | [`backend/2026-10-15_service.js`](./backend/2026-10-15_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-10-19 19:29:39 UTC*
+*Auto-updated on 2026-10-19 23:32:15 UTC*
