@@ -16,7 +16,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-10-20 | [`gfg/2026-10-20_largest-with-same-parity-adjacent-swaps.py`](./gfg/2026-10-20_largest-with-same-parity-adjacent-swaps.py) | Largest with Same Parity Adjacent Swaps |
 | 2026-10-20 | [`gfg/2026-10-20_minimum-sum-subarray.py`](./gfg/2026-10-20_minimum-sum-subarray.py) | Minimum Sum Subarray |
 | 2026-10-19 | [`gfg/2026-10-19_largest-with-same-parity-adjacent-swaps.js`](./gfg/2026-10-19_largest-with-same-parity-adjacent-swaps.js) | Largest with Same Parity Adjacent Swaps |
-| 2026-10-18 | [`gfg/2026-10-18_shortest-path-from-1-to-n.java`](./gfg/2026-10-18_shortest-path-from-1-to-n.java) | Shortest Path From 1 To n |
 
 ## 🎨 Frontend Components
 
@@ -30,6 +29,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-10-21 | [`backend/2026-10-21_service.js`](./backend/2026-10-21_service.js) | Backend Utility |
 | 2026-10-19 | [`backend/2026-10-19_service.js`](./backend/2026-10-19_service.js) | Backend Utility |
 | 2026-10-18 | [`backend/2026-10-18_service.js`](./backend/2026-10-18_service.js) | Backend Utility |
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-10-21 13:54:36 UTC*
+*Auto-updated on 2026-10-21 18:15:55 UTC*
