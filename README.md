@@ -16,12 +16,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-10-23 | [`gfg/2026-10-23_trace-path.py`](./gfg/2026-10-23_trace-path.py) | Trace Path |
 | 2026-10-22 | [`gfg/2026-10-22_palindrome-with-replacement.js`](./gfg/2026-10-22_palindrome-with-replacement.js) | Palindrome with Replacement |
 | 2026-10-20 | [`gfg/2026-10-20_largest-with-same-parity-adjacent-swaps.java`](./gfg/2026-10-20_largest-with-same-parity-adjacent-swaps.java) | Largest with Same Parity Adjacent Swaps |
-| 2026-10-20 | [`gfg/2026-10-20_largest-with-same-parity-adjacent-swaps.py`](./gfg/2026-10-20_largest-with-same-parity-adjacent-swaps.py) | Largest with Same Parity Adjacent Swaps |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-10-24 | [`frontend/2026-10-24_component.jsx`](./frontend/2026-10-24_component.jsx) | React Component |
 | 2026-10-22 | [`frontend/2026-10-22_component.jsx`](./frontend/2026-10-22_component.jsx) | React Component |
 | 2026-10-21 | [`frontend/2026-10-21_component.jsx`](./frontend/2026-10-21_component.jsx) | React Component |
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-10-24 12:45:30 UTC*
+*Auto-updated on 2026-10-24 17:00:21 UTC*
