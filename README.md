@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-10-23-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-10-24-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,11 +12,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-10-24 | [`gfg/2026-10-24_trace-path.java`](./gfg/2026-10-24_trace-path.java) | Trace Path |
 | 2026-10-23 | [`gfg/2026-10-23_trace-path.py`](./gfg/2026-10-23_trace-path.py) | Trace Path |
 | 2026-10-22 | [`gfg/2026-10-22_palindrome-with-replacement.js`](./gfg/2026-10-22_palindrome-with-replacement.js) | Palindrome with Replacement |
 | 2026-10-20 | [`gfg/2026-10-20_largest-with-same-parity-adjacent-swaps.java`](./gfg/2026-10-20_largest-with-same-parity-adjacent-swaps.java) | Largest with Same Parity Adjacent Swaps |
 | 2026-10-20 | [`gfg/2026-10-20_largest-with-same-parity-adjacent-swaps.py`](./gfg/2026-10-20_largest-with-same-parity-adjacent-swaps.py) | Largest with Same Parity Adjacent Swaps |
-| 2026-10-20 | [`gfg/2026-10-20_minimum-sum-subarray.py`](./gfg/2026-10-20_minimum-sum-subarray.py) | Minimum Sum Subarray |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-10-23 23:02:56 UTC*
+*Auto-updated on 2026-10-24 12:45:30 UTC*
