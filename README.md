@@ -13,6 +13,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-10-27 | [`gfg/2026-10-27_maximum-weight-transformation-of-string.js`](./gfg/2026-10-27_maximum-weight-transformation-of-string.js) | Maximum Weight Transformation of String |
+| 2026-10-27 | [`gfg/2026-10-27_nth-in-concatenated-decimal-string.js`](./gfg/2026-10-27_nth-in-concatenated-decimal-string.js) | Nth in Concatenated Decimal String |
 | 2026-10-26 | [`gfg/2026-10-26_maximum-weight-transformation-of-string.py`](./gfg/2026-10-26_maximum-weight-transformation-of-string.py) | Maximum Weight Transformation of String |
 | 2026-10-25 | [`gfg/2026-10-25_sum-of-beauty-of-all-substrings.java`](./gfg/2026-10-25_sum-of-beauty-of-all-substrings.java) | Sum of Beauty of All Substrings |
 | 2026-10-24 | [`gfg/2026-10-24_sum-of-beauty-of-all-substrings.java`](./gfg/2026-10-24_sum-of-beauty-of-all-substrings.java) | Sum of Beauty of All Substrings |
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-10-25 | [`backend/2026-10-25_service.js`](./backend/2026-10-25_service.js) | Backend Utility |
-| 2026-10-23 | [`backend/2026-10-23_service.js`](./backend/2026-10-23_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-10-27 14:37:34 UTC*
+*Auto-updated on 2026-10-27 18:59:58 UTC*
