@@ -17,12 +17,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-10-27 | [`gfg/2026-10-27_nth-in-concatenated-decimal-string.js`](./gfg/2026-10-27_nth-in-concatenated-decimal-string.js) | Nth in Concatenated Decimal String |
 | 2026-10-26 | [`gfg/2026-10-26_maximum-weight-transformation-of-string.py`](./gfg/2026-10-26_maximum-weight-transformation-of-string.py) | Maximum Weight Transformation of String |
 | 2026-10-25 | [`gfg/2026-10-25_sum-of-beauty-of-all-substrings.java`](./gfg/2026-10-25_sum-of-beauty-of-all-substrings.java) | Sum of Beauty of All Substrings |
-| 2026-10-24 | [`gfg/2026-10-24_sum-of-beauty-of-all-substrings.java`](./gfg/2026-10-24_sum-of-beauty-of-all-substrings.java) | Sum of Beauty of All Substrings |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-10-28 | [`frontend/2026-10-28_component.jsx`](./frontend/2026-10-28_component.jsx) | React Component |
 | 2026-10-26 | [`frontend/2026-10-26_component.jsx`](./frontend/2026-10-26_component.jsx) | React Component |
 | 2026-10-25 | [`frontend/2026-10-25_component.jsx`](./frontend/2026-10-25_component.jsx) | React Component |
 | 2026-10-24 | [`frontend/2026-10-24_component.jsx`](./frontend/2026-10-24_component.jsx) | React Component |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-10-28 15:11:03 UTC*
+*Auto-updated on 2026-10-28 19:07:37 UTC*
