@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-10-28-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-10-29-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-10-29 | [`gfg/2026-10-29_optimal-file-merge.js`](./gfg/2026-10-29_optimal-file-merge.js) | Optimal File Merge |
 | 2026-10-28 | [`gfg/2026-10-28_nth-in-concatenated-decimal-string.java`](./gfg/2026-10-28_nth-in-concatenated-decimal-string.java) | Nth in Concatenated Decimal String |
 | 2026-10-27 | [`gfg/2026-10-27_maximum-weight-transformation-of-string.js`](./gfg/2026-10-27_maximum-weight-transformation-of-string.js) | Maximum Weight Transformation of String |
 | 2026-10-27 | [`gfg/2026-10-27_nth-in-concatenated-decimal-string.js`](./gfg/2026-10-27_nth-in-concatenated-decimal-string.js) | Nth in Concatenated Decimal String |
@@ -25,7 +26,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-10-28 | [`frontend/2026-10-28_component.jsx`](./frontend/2026-10-28_component.jsx) | React Component |
 | 2026-10-26 | [`frontend/2026-10-26_component.jsx`](./frontend/2026-10-26_component.jsx) | React Component |
 | 2026-10-25 | [`frontend/2026-10-25_component.jsx`](./frontend/2026-10-25_component.jsx) | React Component |
-| 2026-10-24 | [`frontend/2026-10-24_component.jsx`](./frontend/2026-10-24_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-10-28 19:07:37 UTC*
+*Auto-updated on 2026-10-29 15:16:39 UTC*
