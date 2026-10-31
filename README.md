@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-10-30-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-10-31-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,12 +12,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-10-31 | [`gfg/2026-10-31_maximum-packages-within-time.js`](./gfg/2026-10-31_maximum-packages-within-time.js) | Maximum Packages within Time |
 | 2026-10-30 | [`gfg/2026-10-30_subsets-with-mex-in-range.js`](./gfg/2026-10-30_subsets-with-mex-in-range.js) | Subsets with MEX in Range |
 | 2026-10-29 | [`gfg/2026-10-29_optimal-file-merge.js`](./gfg/2026-10-29_optimal-file-merge.js) | Optimal File Merge |
 | 2026-10-28 | [`gfg/2026-10-28_nth-in-concatenated-decimal-string.java`](./gfg/2026-10-28_nth-in-concatenated-decimal-string.java) | Nth in Concatenated Decimal String |
 | 2026-10-27 | [`gfg/2026-10-27_maximum-weight-transformation-of-string.js`](./gfg/2026-10-27_maximum-weight-transformation-of-string.js) | Maximum Weight Transformation of String |
 | 2026-10-27 | [`gfg/2026-10-27_nth-in-concatenated-decimal-string.js`](./gfg/2026-10-27_nth-in-concatenated-decimal-string.js) | Nth in Concatenated Decimal String |
-| 2026-10-26 | [`gfg/2026-10-26_maximum-weight-transformation-of-string.py`](./gfg/2026-10-26_maximum-weight-transformation-of-string.py) | Maximum Weight Transformation of String |
 
 ## 🎨 Frontend Components
 
@@ -51,4 +51,4 @@ _Nothing yet._
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-10-30 18:53:22 UTC*
+*Auto-updated on 2026-10-31 14:35:08 UTC*
