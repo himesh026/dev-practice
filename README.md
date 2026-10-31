@@ -13,11 +13,11 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-10-31 | [`gfg/2026-10-31_maximum-packages-within-time.js`](./gfg/2026-10-31_maximum-packages-within-time.js) | Maximum Packages within Time |
+| 2026-10-31 | [`gfg/2026-10-31_maximum-subarray-sum-with-one-square-all.py`](./gfg/2026-10-31_maximum-subarray-sum-with-one-square-all.py) | Maximum Subarray Sum with One Square Allowed |
 | 2026-10-30 | [`gfg/2026-10-30_subsets-with-mex-in-range.js`](./gfg/2026-10-30_subsets-with-mex-in-range.js) | Subsets with MEX in Range |
 | 2026-10-29 | [`gfg/2026-10-29_optimal-file-merge.js`](./gfg/2026-10-29_optimal-file-merge.js) | Optimal File Merge |
 | 2026-10-28 | [`gfg/2026-10-28_nth-in-concatenated-decimal-string.java`](./gfg/2026-10-28_nth-in-concatenated-decimal-string.java) | Nth in Concatenated Decimal String |
 | 2026-10-27 | [`gfg/2026-10-27_maximum-weight-transformation-of-string.js`](./gfg/2026-10-27_maximum-weight-transformation-of-string.js) | Maximum Weight Transformation of String |
-| 2026-10-27 | [`gfg/2026-10-27_nth-in-concatenated-decimal-string.js`](./gfg/2026-10-27_nth-in-concatenated-decimal-string.js) | Nth in Concatenated Decimal String |
 
 ## 🎨 Frontend Components
 
@@ -51,4 +51,4 @@ _Nothing yet._
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-10-31 17:56:52 UTC*
+*Auto-updated on 2026-10-31 23:17:08 UTC*
