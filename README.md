@@ -16,7 +16,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-10-31 | [`gfg/2026-10-31_maximum-subarray-sum-with-one-square-all.py`](./gfg/2026-10-31_maximum-subarray-sum-with-one-square-all.py) | Maximum Subarray Sum with One Square Allowed |
 | 2026-10-30 | [`gfg/2026-10-30_subsets-with-mex-in-range.js`](./gfg/2026-10-30_subsets-with-mex-in-range.js) | Subsets with MEX in Range |
 | 2026-10-29 | [`gfg/2026-10-29_optimal-file-merge.js`](./gfg/2026-10-29_optimal-file-merge.js) | Optimal File Merge |
-| 2026-10-28 | [`gfg/2026-10-28_nth-in-concatenated-decimal-string.java`](./gfg/2026-10-28_nth-in-concatenated-decimal-string.java) | Nth in Concatenated Decimal String |
 
 ## 🎨 Frontend Components
 
@@ -30,7 +29,9 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 ## ⚙️ Backend Utilities
 
-_Nothing yet._
+| Date | File | Description |
+|------|------|-------------|
+| 2026-11-01 | [`backend/2026-11-01_service.js`](./backend/2026-11-01_service.js) | Backend Utility |
 
 ---
 
@@ -51,4 +52,4 @@ _Nothing yet._
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-11-01 15:16:25 UTC*
+*Auto-updated on 2026-11-01 18:35:56 UTC*
