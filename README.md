@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-11-01 | [`gfg/2026-11-01_largest-sum-cycle.py`](./gfg/2026-11-01_largest-sum-cycle.py) | Largest Sum Cycle |
 | 2026-10-31 | [`gfg/2026-10-31_maximum-packages-within-time.js`](./gfg/2026-10-31_maximum-packages-within-time.js) | Maximum Packages within Time |
 | 2026-10-31 | [`gfg/2026-10-31_maximum-subarray-sum-with-one-square-all.py`](./gfg/2026-10-31_maximum-subarray-sum-with-one-square-all.py) | Maximum Subarray Sum with One Square Allowed |
 | 2026-10-30 | [`gfg/2026-10-30_subsets-with-mex-in-range.js`](./gfg/2026-10-30_subsets-with-mex-in-range.js) | Subsets with MEX in Range |
@@ -25,7 +26,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-10-31 | [`frontend/2026-10-31_component.jsx`](./frontend/2026-10-31_component.jsx) | React Component |
 | 2026-10-30 | [`frontend/2026-10-30_component.jsx`](./frontend/2026-10-30_component.jsx) | React Component |
 | 2026-10-29 | [`frontend/2026-10-29_component.jsx`](./frontend/2026-10-29_component.jsx) | React Component |
-| 2026-10-28 | [`frontend/2026-10-28_component.jsx`](./frontend/2026-10-28_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-11-01 18:35:56 UTC*
+*Auto-updated on 2026-11-01 23:29:31 UTC*
