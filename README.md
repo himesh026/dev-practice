@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-11-01-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-11-02-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -16,12 +16,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-10-31 | [`gfg/2026-10-31_maximum-packages-within-time.js`](./gfg/2026-10-31_maximum-packages-within-time.js) | Maximum Packages within Time |
 | 2026-10-31 | [`gfg/2026-10-31_maximum-subarray-sum-with-one-square-all.py`](./gfg/2026-10-31_maximum-subarray-sum-with-one-square-all.py) | Maximum Subarray Sum with One Square Allowed |
 | 2026-10-30 | [`gfg/2026-10-30_subsets-with-mex-in-range.js`](./gfg/2026-10-30_subsets-with-mex-in-range.js) | Subsets with MEX in Range |
-| 2026-10-29 | [`gfg/2026-10-29_optimal-file-merge.js`](./gfg/2026-10-29_optimal-file-merge.js) | Optimal File Merge |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-11-02 | [`frontend/2026-11-02_component.jsx`](./frontend/2026-11-02_component.jsx) | React Component |
 | 2026-11-01 | [`frontend/2026-11-01_component.jsx`](./frontend/2026-11-01_component.jsx) | React Component |
 | 2026-10-31 | [`frontend/2026-10-31_component.jsx`](./frontend/2026-10-31_component.jsx) | React Component |
 | 2026-10-30 | [`frontend/2026-10-30_component.jsx`](./frontend/2026-10-30_component.jsx) | React Component |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-11-01 23:29:31 UTC*
+*Auto-updated on 2026-11-02 18:30:16 UTC*
