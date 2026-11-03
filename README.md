@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-11-02-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-11-03-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,10 +12,10 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-11-03 | [`gfg/2026-11-03_count-tree-paths-with-limited-max-edge-w.java`](./gfg/2026-11-03_count-tree-paths-with-limited-max-edge-w.java) | Count Tree Paths With Limited Max Edge Weight |
 | 2026-11-01 | [`gfg/2026-11-01_largest-sum-cycle.py`](./gfg/2026-11-01_largest-sum-cycle.py) | Largest Sum Cycle |
 | 2026-10-31 | [`gfg/2026-10-31_maximum-packages-within-time.js`](./gfg/2026-10-31_maximum-packages-within-time.js) | Maximum Packages within Time |
 | 2026-10-31 | [`gfg/2026-10-31_maximum-subarray-sum-with-one-square-all.py`](./gfg/2026-10-31_maximum-subarray-sum-with-one-square-all.py) | Maximum Subarray Sum with One Square Allowed |
-| 2026-10-30 | [`gfg/2026-10-30_subsets-with-mex-in-range.js`](./gfg/2026-10-30_subsets-with-mex-in-range.js) | Subsets with MEX in Range |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-11-02 22:28:50 UTC*
+*Auto-updated on 2026-11-03 02:10:46 UTC*
