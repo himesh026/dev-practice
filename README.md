@@ -13,9 +13,9 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Date | File | Description |
 |------|------|-------------|
 | 2026-11-03 | [`gfg/2026-11-03_count-tree-paths-with-limited-max-edge-w.java`](./gfg/2026-11-03_count-tree-paths-with-limited-max-edge-w.java) | Count Tree Paths With Limited Max Edge Weight |
+| 2026-11-03 | [`gfg/2026-11-03_xor-of-all-subarray-xors.java`](./gfg/2026-11-03_xor-of-all-subarray-xors.java) | XOR of All Subarray XORs |
 | 2026-11-01 | [`gfg/2026-11-01_largest-sum-cycle.py`](./gfg/2026-11-01_largest-sum-cycle.py) | Largest Sum Cycle |
 | 2026-10-31 | [`gfg/2026-10-31_maximum-packages-within-time.js`](./gfg/2026-10-31_maximum-packages-within-time.js) | Maximum Packages within Time |
-| 2026-10-31 | [`gfg/2026-10-31_maximum-subarray-sum-with-one-square-all.py`](./gfg/2026-10-31_maximum-subarray-sum-with-one-square-all.py) | Maximum Subarray Sum with One Square Allowed |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-11-03 16:19:48 UTC*
+*Auto-updated on 2026-11-03 20:17:51 UTC*
