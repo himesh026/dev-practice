@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-11-05 | [`gfg/2026-11-05_balanced-binary-tree-counter.js`](./gfg/2026-11-05_balanced-binary-tree-counter.js) | Balanced Binary Tree Counter |
 | 2026-11-04 | [`gfg/2026-11-04_minimum-days.py`](./gfg/2026-11-04_minimum-days.py) | Minimum Days |
 | 2026-11-04 | [`gfg/2026-11-04_xor-of-all-subarray-xors.java`](./gfg/2026-11-04_xor-of-all-subarray-xors.java) | XOR of All Subarray XORs |
 | 2026-11-03 | [`gfg/2026-11-03_count-tree-paths-with-limited-max-edge-w.java`](./gfg/2026-11-03_count-tree-paths-with-limited-max-edge-w.java) | Count Tree Paths With Limited Max Edge Weight |
@@ -23,7 +24,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-11-05 | [`frontend/2026-11-05_component.jsx`](./frontend/2026-11-05_component.jsx) | React Component |
 | 2026-11-03 | [`frontend/2026-11-03_component.jsx`](./frontend/2026-11-03_component.jsx) | React Component |
-| 2026-11-02 | [`frontend/2026-11-02_component.jsx`](./frontend/2026-11-02_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-11-05 16:31:41 UTC*
+*Auto-updated on 2026-11-05 20:50:00 UTC*
