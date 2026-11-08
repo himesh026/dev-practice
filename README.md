@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-11-07-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-11-08-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,9 +12,9 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-11-08 | [`gfg/2026-11-08_minimum-time-with-2-scanners.py`](./gfg/2026-11-08_minimum-time-with-2-scanners.py) | Minimum Time with 2 Scanners |
 | 2026-11-07 | [`gfg/2026-11-07_minimum-time-with-2-scanners.js`](./gfg/2026-11-07_minimum-time-with-2-scanners.js) | Minimum Time with 2 Scanners |
 | 2026-11-05 | [`gfg/2026-11-05_balanced-binary-tree-counter.js`](./gfg/2026-11-05_balanced-binary-tree-counter.js) | Balanced Binary Tree Counter |
-| 2026-11-04 | [`gfg/2026-11-04_minimum-days.py`](./gfg/2026-11-04_minimum-days.py) | Minimum Days |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-11-07 23:35:25 UTC*
+*Auto-updated on 2026-11-08 15:20:36 UTC*
