@@ -12,10 +12,10 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-11-11 | [`gfg/2026-11-11_any-duplicate-within-k-distance.java`](./gfg/2026-11-11_any-duplicate-within-k-distance.java) | Any Duplicate Within K Distance |
 | 2026-11-11 | [`gfg/2026-11-11_any-duplicate-within-k-distance.py`](./gfg/2026-11-11_any-duplicate-within-k-distance.py) | Any Duplicate Within K Distance |
 | 2026-11-09 | [`gfg/2026-11-09_at-least-k-occurrences.py`](./gfg/2026-11-09_at-least-k-occurrences.py) | At Least K Occurrences |
 | 2026-11-08 | [`gfg/2026-11-08_minimum-time-with-2-scanners.py`](./gfg/2026-11-08_minimum-time-with-2-scanners.py) | Minimum Time with 2 Scanners |
-| 2026-11-07 | [`gfg/2026-11-07_minimum-time-with-2-scanners.js`](./gfg/2026-11-07_minimum-time-with-2-scanners.js) | Minimum Time with 2 Scanners |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-11-11 00:33:28 UTC*
+*Auto-updated on 2026-11-11 16:17:40 UTC*
