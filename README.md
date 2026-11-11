@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-11-10-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-11-11-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-11-11 | [`gfg/2026-11-11_any-duplicate-within-k-distance.py`](./gfg/2026-11-11_any-duplicate-within-k-distance.py) | Any Duplicate Within K Distance |
 | 2026-11-09 | [`gfg/2026-11-09_at-least-k-occurrences.py`](./gfg/2026-11-09_at-least-k-occurrences.py) | At Least K Occurrences |
 | 2026-11-08 | [`gfg/2026-11-08_minimum-time-with-2-scanners.py`](./gfg/2026-11-08_minimum-time-with-2-scanners.py) | Minimum Time with 2 Scanners |
 | 2026-11-07 | [`gfg/2026-11-07_minimum-time-with-2-scanners.js`](./gfg/2026-11-07_minimum-time-with-2-scanners.js) | Minimum Time with 2 Scanners |
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-11-10 | [`backend/2026-11-10_service.js`](./backend/2026-11-10_service.js) | Backend Utility |
 | 2026-11-08 | [`backend/2026-11-08_service.js`](./backend/2026-11-08_service.js) | Backend Utility |
 | 2026-11-07 | [`backend/2026-11-07_service.js`](./backend/2026-11-07_service.js) | Backend Utility |
-| 2026-11-06 | [`backend/2026-11-06_service.js`](./backend/2026-11-06_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-11-10 16:27:43 UTC*
+*Auto-updated on 2026-11-11 00:33:28 UTC*
