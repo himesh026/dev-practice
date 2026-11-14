@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-11-13-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-11-14-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -15,12 +15,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-11-12 | [`gfg/2026-11-12_common-nodes-in-two-bsts.js`](./gfg/2026-11-12_common-nodes-in-two-bsts.js) | Common Nodes in Two BSTs |
 | 2026-11-11 | [`gfg/2026-11-11_any-duplicate-within-k-distance.java`](./gfg/2026-11-11_any-duplicate-within-k-distance.java) | Any Duplicate Within K Distance |
 | 2026-11-11 | [`gfg/2026-11-11_any-duplicate-within-k-distance.py`](./gfg/2026-11-11_any-duplicate-within-k-distance.py) | Any Duplicate Within K Distance |
-| 2026-11-09 | [`gfg/2026-11-09_at-least-k-occurrences.py`](./gfg/2026-11-09_at-least-k-occurrences.py) | At Least K Occurrences |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-11-14 | [`frontend/2026-11-14_component.jsx`](./frontend/2026-11-14_component.jsx) | React Component |
 | 2026-11-12 | [`frontend/2026-11-12_component.jsx`](./frontend/2026-11-12_component.jsx) | React Component |
 | 2026-11-10 | [`frontend/2026-11-10_component.jsx`](./frontend/2026-11-10_component.jsx) | React Component |
 | 2026-11-09 | [`frontend/2026-11-09_component.jsx`](./frontend/2026-11-09_component.jsx) | React Component |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-11-13 00:59:36 UTC*
+*Auto-updated on 2026-11-14 00:50:49 UTC*
