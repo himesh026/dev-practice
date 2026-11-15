@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-11-15 | [`gfg/2026-11-15_k-th-missing-in-natural-numbers.java`](./gfg/2026-11-15_k-th-missing-in-natural-numbers.java) | K-th Missing in Natural Numbers |
 | 2026-11-14 | [`gfg/2026-11-14_max-equal-sum-in-3-stacks.py`](./gfg/2026-11-14_max-equal-sum-in-3-stacks.py) | Max Equal Sum in 3 Stacks |
 | 2026-11-12 | [`gfg/2026-11-12_common-nodes-in-two-bsts.js`](./gfg/2026-11-12_common-nodes-in-two-bsts.js) | Common Nodes in Two BSTs |
 | 2026-11-11 | [`gfg/2026-11-11_any-duplicate-within-k-distance.java`](./gfg/2026-11-11_any-duplicate-within-k-distance.java) | Any Duplicate Within K Distance |
@@ -31,7 +32,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-11-13 | [`backend/2026-11-13_service.js`](./backend/2026-11-13_service.js) | Backend Utility |
 | 2026-11-12 | [`backend/2026-11-12_service.js`](./backend/2026-11-12_service.js) | Backend Utility |
-| 2026-11-10 | [`backend/2026-11-10_service.js`](./backend/2026-11-10_service.js) | Backend Utility |
 
 ---
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-11-15 15:42:33 UTC*
+*Auto-updated on 2026-11-15 19:28:14 UTC*
