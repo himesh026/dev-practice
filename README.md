@@ -12,10 +12,10 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-11-16 | [`gfg/2026-11-16_repeated-pattern-check.java`](./gfg/2026-11-16_repeated-pattern-check.java) | Repeated Pattern Check |
 | 2026-11-16 | [`gfg/2026-11-16_repeated-pattern-check.js`](./gfg/2026-11-16_repeated-pattern-check.js) | Repeated Pattern Check |
 | 2026-11-15 | [`gfg/2026-11-15_k-th-missing-in-natural-numbers.java`](./gfg/2026-11-15_k-th-missing-in-natural-numbers.java) | K-th Missing in Natural Numbers |
 | 2026-11-14 | [`gfg/2026-11-14_max-equal-sum-in-3-stacks.py`](./gfg/2026-11-14_max-equal-sum-in-3-stacks.py) | Max Equal Sum in 3 Stacks |
-| 2026-11-12 | [`gfg/2026-11-12_common-nodes-in-two-bsts.js`](./gfg/2026-11-12_common-nodes-in-two-bsts.js) | Common Nodes in Two BSTs |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-11-16 18:39:29 UTC*
+*Auto-updated on 2026-11-16 23:02:00 UTC*
