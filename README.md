@@ -3,7 +3,7 @@
 A portfolio of daily coding practice: DSA problem-solving, React component development, and backend utility engineering.
 
 ![Activity](https://img.shields.io/badge/status-active-brightgreen)
-![Last Commit](https://img.shields.io/badge/last%20commit-2026-11-16-blue)
+![Last Commit](https://img.shields.io/badge/last%20commit-2026-11-17-blue)
 ![Total Files](https://img.shields.io/badge/files-10-orange)
 
 ---
@@ -12,6 +12,7 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-11-17 | [`gfg/2026-11-17_repeated-pattern-check.java`](./gfg/2026-11-17_repeated-pattern-check.java) | Repeated Pattern Check |
 | 2026-11-16 | [`gfg/2026-11-16_repeated-pattern-check.java`](./gfg/2026-11-16_repeated-pattern-check.java) | Repeated Pattern Check |
 | 2026-11-16 | [`gfg/2026-11-16_repeated-pattern-check.js`](./gfg/2026-11-16_repeated-pattern-check.js) | Repeated Pattern Check |
 | 2026-11-15 | [`gfg/2026-11-15_k-th-missing-in-natural-numbers.java`](./gfg/2026-11-15_k-th-missing-in-natural-numbers.java) | K-th Missing in Natural Numbers |
@@ -23,7 +24,6 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 |------|------|-------------|
 | 2026-11-15 | [`frontend/2026-11-15_component.jsx`](./frontend/2026-11-15_component.jsx) | React Component |
 | 2026-11-14 | [`frontend/2026-11-14_component.jsx`](./frontend/2026-11-14_component.jsx) | React Component |
-| 2026-11-12 | [`frontend/2026-11-12_component.jsx`](./frontend/2026-11-12_component.jsx) | React Component |
 
 ## ⚙️ Backend Utilities
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-11-16 23:02:00 UTC*
+*Auto-updated on 2026-11-17 02:52:33 UTC*
