@@ -12,9 +12,9 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-11-22 | [`gfg/2026-11-22_character-at-position-in-infinite-string.js`](./gfg/2026-11-22_character-at-position-in-infinite-string.js) | Character at Position in Infinite String |
 | 2026-11-20 | [`gfg/2026-11-20_min-flips-for-alternate.js`](./gfg/2026-11-20_min-flips-for-alternate.js) | Min Flips for Alternate |
 | 2026-11-19 | [`gfg/2026-11-19_sort-in-specific-order.js`](./gfg/2026-11-19_sort-in-specific-order.js) | Sort in Specific Order |
-| 2026-11-18 | [`gfg/2026-11-18_xor-of-number-range.js`](./gfg/2026-11-18_xor-of-number-range.js) | XOR of Number Range |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-11-22 16:22:48 UTC*
+*Auto-updated on 2026-11-22 20:29:15 UTC*
