@@ -15,12 +15,12 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | 2026-11-23 | [`gfg/2026-11-23_character-at-position-in-infinite-string.py`](./gfg/2026-11-23_character-at-position-in-infinite-string.py) | Character at Position in Infinite String |
 | 2026-11-22 | [`gfg/2026-11-22_character-at-position-in-infinite-string.js`](./gfg/2026-11-22_character-at-position-in-infinite-string.js) | Character at Position in Infinite String |
 | 2026-11-20 | [`gfg/2026-11-20_min-flips-for-alternate.js`](./gfg/2026-11-20_min-flips-for-alternate.js) | Min Flips for Alternate |
-| 2026-11-19 | [`gfg/2026-11-19_sort-in-specific-order.js`](./gfg/2026-11-19_sort-in-specific-order.js) | Sort in Specific Order |
 
 ## 🎨 Frontend Components
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-11-23 | [`frontend/2026-11-23_component.jsx`](./frontend/2026-11-23_component.jsx) | React Component |
 | 2026-11-22 | [`frontend/2026-11-22_component.jsx`](./frontend/2026-11-22_component.jsx) | React Component |
 | 2026-11-21 | [`frontend/2026-11-21_component.jsx`](./frontend/2026-11-21_component.jsx) | React Component |
 | 2026-11-20 | [`frontend/2026-11-20_component.jsx`](./frontend/2026-11-20_component.jsx) | React Component |
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-11-23 00:44:16 UTC*
+*Auto-updated on 2026-11-23 20:18:42 UTC*
