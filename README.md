@@ -12,9 +12,9 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 
 | Date | File | Description |
 |------|------|-------------|
+| 2026-11-27 | [`gfg/2026-11-27_path-exists-between-two-vertices.js`](./gfg/2026-11-27_path-exists-between-two-vertices.js) | Path Exists Between Two Vertices |
 | 2026-11-26 | [`gfg/2026-11-26_count-edges-in-graph.java`](./gfg/2026-11-26_count-edges-in-graph.java) | Count Edges in Graph |
 | 2026-11-24 | [`gfg/2026-11-24_two-pairs-with-same-sum.js`](./gfg/2026-11-24_two-pairs-with-same-sum.js) | Two Pairs with Same Sum |
-| 2026-11-23 | [`gfg/2026-11-23_character-at-position-in-infinite-string.py`](./gfg/2026-11-23_character-at-position-in-infinite-string.py) | Character at Position in Infinite String |
 
 ## 🎨 Frontend Components
 
@@ -52,4 +52,4 @@ A portfolio of daily coding practice: DSA problem-solving, React component devel
 | Backend | Node.js · Express · ES2022+ |
 
 ---
-*Auto-updated on 2026-11-27 02:45:21 UTC*
+*Auto-updated on 2026-11-27 22:21:02 UTC*
